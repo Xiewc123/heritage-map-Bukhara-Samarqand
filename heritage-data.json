@@ -541,23 +541,43 @@
         ]
       },
       "properties": {
-        "NAME": "Mausoleum of Buyan-Quli Khan",
-        "NOTE": "不颜忽里汗陵，建于1358/59年",
+        "NAME": "Buyan-Quli Khan Mausoleum",
+        "NOTE": "不颜忽里汗陵",
         "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Piece%20of%20Buyan%20Kuli%20Khan%20Frieze%2C%20MKG1908.472%2B4.jpg?width=1200",
-        "ERA": "1358–1359年（察合台汗国）",
-        "STYLE": "察合台汗国陵墓 / 蒙古-伊斯兰融合",
-        "DESC": "布哈拉东部郊区的察合台汗国时期皇家陵墓，安葬着察合台汗国统治者不颜忽里汗（Buyan-Quli Khan）。陵墓以烧制砖块和彩色釉面砖建造，是蒙古统治时期中亚伊斯兰化过程中的代表性建筑。建筑内部装饰精美，体现了察合台汗国在吸收伊斯兰文化后形成的独特建筑语汇——蒙古式的空间感与波斯-伊斯兰装饰传统的融合。",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804134711070.png",
+        "ERA": "1358年（察合台汗国）",
+        "STYLE": "察合台汗国皇家陵墓 / 蒙古-伊斯兰融合建筑",
+        "DESC": "不颜忽里汗陵位于布哈拉东部法塔巴德（Fathabad）地区，与赛义夫丁·巴哈尔兹陵墓共同构成重要的宗教纪念建筑群。该陵墓建于1358年，为察合台汗国统治者不颜忽里汗（Buyan-Quli Khan，1348–1358年在位）的安葬之所。不颜忽里汗为成吉思汗次子察合台后裔，名义上担任察合台汗国汗王，但实际权力掌握在蒙古贵族阿米尔·卡扎甘（Amir Qazagan）手中。1358年卡扎甘遇刺后，不颜忽里汗势力重新获得空间，其追随者可能因此修建陵墓，以纪念其统治与王室身份。尽管建筑面积仅约7.5×8.5米，不颜忽里汗陵却拥有中亚14世纪最精美的釉面砖装饰之一，被学者称为帖木儿时期撒马尔罕沙赫静达（Shah-i-Zinda）陵墓群发展的建筑先声。陵墓入口壁龛（pishtaq）装饰极为华丽，拱券外缘饰有阿拉伯书法带，两侧三角墙布满流动的阿拉伯藤蔓纹样（arabesque）。蓝绿色至青蓝色釉砖构成丰富的色彩层次，其中部分靛蓝色装饰可能采用蒙古伊朗陶艺传统中的钴釉技术。原有入口立面还环绕连续的书法铭文带，与呼罗珊地区早期伊斯兰陵墓装饰传统相呼应。内部空间延续外部蓝色装饰体系，穹顶底部原饰有由六边形、星形和矩形组成的几何拼花纹样；穹顶过渡区域采用穆卡纳斯（muqarnas）和多边形釉砖装饰，并配以引用波斯诗人萨迪（Sa'di）诗句的书法带，表达生命短暂与死亡永恒的纪念主题。不颜忽里汗陵不仅体现了蒙古贵族在伊斯兰化过程中的文化融合，也标志着中亚陵墓建筑从蒙古时期向帖木儿时期华丽装饰风格发展的重要阶段。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piece%20of%20Buyan%20Kuli%20Khan%20Frieze%2C%20MKG1908.472%2B4.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804134736710.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804134755527.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804134810257.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804134831665.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804134849376.png"
           }
         ],
         "LINKS": [
           {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1382/uzbekistan/bukhara/saif-ed-din-bokharzi-&-bayan-quli-khan-tombs"
+          },
+          {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Mausoleum%20of%20Buyan-Quli%20Khan"
+            "url": "https://en.wikipedia.org/wiki/Saif_ed-Din_Bokharzi_%26_Bayan-Quli_Khan_Mausoleums"
           }
         ]
       }
