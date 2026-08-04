@@ -495,23 +495,38 @@
       },
       "properties": {
         "NAME": "Namazgah Mosque",
-        "NOTE": "纳马兹加清真寺，建于1119年。郊外礼拜场所",
+        "NOTE": "纳马兹加清真寺",
         "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Namazgah.jpg?width=1200",
-        "ERA": "1119年（喀喇汗王朝）",
-        "STYLE": "喀喇汗王朝郊外聚礼清真寺",
-        "DESC": "布哈拉古城南郊的开放型聚礼清真寺，专为开斋节和古尔邦节等重大节日的集体礼拜而建。与传统围合式清真寺不同，纳马兹加清真寺的核心是一座巨大的独立祈祷墙（qibla wall），前方为开阔的露天广场，可容纳数千人同时礼拜。中央壁龛（mihrab）以砖雕装饰，两侧各有一座小型穹顶亭。1119年由喀喇汗王朝统治者下令建造，是中亚罕见的郊外节日清真寺实例。",
-        "AUDIT_HIDDEN": "1",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133010959.png",
+        "ERA": "1119–1120年（喀喇汗王朝），16世纪改建",
+        "STYLE": "喀喇汗王朝郊外节日聚礼清真寺",
+        "DESC": "纳马兹加清真寺位于布哈拉古城南侧，距同名纳马兹加城门约1公里，是中亚现存少数早于蒙古时期的伊斯兰建筑之一。该建筑始建于1119–1120年喀喇汗王朝时期，最初为一座开放式郊外聚礼清真寺（Namazgah意为“礼拜之地”），主要用于开斋节（Eid al-Fitr）、古尔邦节（Eid al-Adha）等重要节日期间的大规模集体礼拜。建筑主体由一条长约38米的低矮朝拜墙（qibla wall）构成，中央设有指向麦加方向的壁龛（mihrab），前方为可容纳大量信众的开放空间。蒙古时期，朝拜墙区域增加了釉面砖和彩饰；16世纪布哈拉汗国时期又增建拱廊结构，但与原有建筑结合较为生硬。如今建筑已部分残损，仅保留部分墙体、米哈拉布及装饰遗存。纳马兹加清真寺远离城市中心，因此较少受到后世改建影响，成为研究喀喇汗时期布哈拉宗教建筑的重要实例。其中央米哈拉布鼓座保存有精美的高浮雕方形库法体砖饰，部分蓝绿色釉面铭文砖可能属于蒙古时期，是布哈拉地区早期釉砖装饰的重要遗存。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Namazgah.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133057488.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133113629.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133126481.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133139897.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133201122.png"
           }
         ],
         "LINKS": [
           {
-            "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Namazgah%20Mosque"
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1316/uzbekistan/bukhara/namazgah-mosque"
           }
         ]
       }
