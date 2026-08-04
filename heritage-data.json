@@ -114,21 +114,45 @@
       "properties": {
         "NAME": "Gur-e-Amir Mausoleum",
         "NOTE": "帖木儿陵墓",
-        "NOTE2": "最具代表性的帖木儿王朝建筑之一，始建于15世纪初。1405年帖木儿远征途中去世后安葬于此。",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Timurid%20minaret%20Gur-e-Emir%20%28%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9%20%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80%2C%20Go%CA%BBri%20Amir%29%2C%20Samarkand.jpg?width=1200",
-        "ERA": "1403–1405年（帖木儿帝国）",
-        "STYLE": "帖木儿王朝建筑 / 波斯-伊斯兰融合",
-        "DESC": "中亚最具标志性的建筑之一，也是帖木儿王朝建筑美学的巅峰之作。陵墓最初为帖木儿的爱孙穆罕默德·苏丹而建，1405年帖木儿在远征明朝途中病逝于讹答剌（今哈萨克斯坦），遗体运回撒马尔罕安葬于此。其标志性的深蓝色凹槽穹顶（肋拱穹顶）高达32米，覆盖着华丽的釉面砖几何纹饰。内部墙面装饰着金箔壁画、缟玛瑙和精美瓷砖。陵墓建筑铭文“我若在世，世人将颤抖”为这座圣殿增添了无尽的神秘色彩。1941年苏联考古学家格拉西莫夫曾开棺研究帖木儿遗骸，验证了其跛足的历史记载。",
+        "NOTE2": "帖木儿王朝皇家陵寝，始建于1403年，1405年帖木儿葬于此，后成为帖木儿家族陵墓",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804214541178.png",
+        "ERA": "1403–1404年（帖木儿帝国，后续扩建于乌鲁伯时期）",
+        "STYLE": "帖木儿王朝陵墓建筑 / 波斯化伊斯兰建筑 / 双层穹顶技术",
+        "DESC": "古尔·埃米尔陵墓（Gur-e-Amir Mausoleum，意为“君主之墓”）是撒马尔罕最具代表性的帖木儿王朝建筑之一，也是中亚伊斯兰陵墓建筑发展史上的重要里程碑。建筑最初并非为帖木儿本人建造，而是帖木儿为其爱孙、继承人穆罕默德·苏丹（Muhammad Sultan）修建的皇家宗教建筑群的一部分。该建筑群原包含经学院（madrasa）和苏菲修道院（khanqah），两者以qosh布局（相对式布局）围绕庭院布置，这一城市规划模式后来广泛影响了撒马尔罕、布哈拉等中亚城市。1403年穆罕默德·苏丹突然去世后，帖木儿下令修建宏伟陵墓。1405年帖木儿在远征中国途中病逝，由于前往其故乡沙赫里萨布兹（Shahrisabz）的道路因冬季积雪无法通行，最终葬于此处。此后，在乌鲁伯时期，古尔·埃米尔成为帖木儿王朝的皇家家族陵寝，安葬了帖木儿、穆罕默德·苏丹、沙哈鲁（Shah Rukh）、米兰沙（Miran Shah）、乌鲁伯以及帖木儿精神导师赛义德·巴拉卡（Sayyid Baraka）等重要人物。陵墓外观以高耸的入口皮什塔克（pishtaq）和蓝色肋拱穹顶为核心特征，穹顶建立于高大的圆柱形鼓座之上，通过双层穹顶结构和内部支撑技术解决巨大穹顶的受力问题。建筑外部采用蓝色、浅蓝色和白色釉面砖组成几何与书法纹样，内部则以金箔浮雕（kundal）、彩绘灰泥、纸塑木卡纳斯（papier-mâché muqarnas）以及缟玛瑙装饰展现帖木儿时期宫廷艺术的最高水平。1941年苏联考古学家米哈伊尔·格拉西莫夫（Mikhail Gerasimov）开启帖木儿墓葬进行研究，并依据遗骸复原其面貌，同时确认历史记载中的跛足特征。20世纪中叶以后，苏联及乌兹别克斯坦进行了多次修复，使这一建筑成为今日研究帖木儿建筑、双层穹顶技术和中亚皇家陵墓体系的重要遗产。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Timurid%20minaret%20Gur-e-Emir%20%28%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9%20%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80%2C%20Go%CA%BBri%20Amir%29%2C%20Samarkand.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804214623307.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804214648624.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804214717421.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804214755468.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804214806789.png"
+          },
+          {
+            "name": "6",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804214833013.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Gur-e-Amir%20Mausoleum"
+            "url": "https://en.wikipedia.org/wiki/Gur-e-Amir"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1380/uzbekistan/samarkand/gur-e-amir-mausoleum"
           }
         ]
       }
@@ -274,21 +298,37 @@
       "properties": {
         "NAME": "Tilya-Kori Madrasa",
         "NOTE": "金色经学院",
-        "NOTE2": "兼具经学院与聚礼清真寺双重功能",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Tilya-Kori%20Madrasa%2002.jpg?width=1200",
-        "ERA": "1646–1660年（布哈拉汗国）",
-        "STYLE": "布哈拉汗国经学院+清真寺复合体",
-        "DESC": "雷吉斯坦广场三座建筑中最后建成、也最华丽的一座。“Tilya-Kori”意为“镶金者”，得名于其内部清真寺大厅极其奢华的金箔装饰——天花板和壁龛（mihrab）上覆盖着大片金叶（kundal技法），在烛光下熠熠生辉。建筑兼具经学院与城市主聚礼清真寺的双重功能，主祈祷大厅的穹顶内部以丰富的植物纹和几何图案装饰，是布哈拉汗国装饰艺术的巅峰之作。",
+        "NOTE2": "雷吉斯坦广场三大建筑之一，兼具经学院与聚礼清真寺双重功能",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804203631857.png",
+        "ERA": "1646–1660年（阿什塔尔汗王朝 / 布哈拉汗国时期）",
+        "STYLE": "帖木儿传统复兴风格 / 布哈拉汗国经学院与清真寺复合体",
+        "DESC": "金色经学院（Tilya-Kori Madrasa）是撒马尔罕雷吉斯坦广场三座主要建筑中最晚建成的一座，于1646年至1660年间修建，距兀鲁伯经学院约230年，距狮子经学院约一代之久。建筑由撒马尔罕统治者、布哈拉汗国军事总督亚兰图什·巴哈杜尔（Yalangtush Bakhodur）主持修建，但他在建筑完成前的1655–1656年去世，工程后续由后人继续推进。其名称“Tilya-Kori”（波斯语：镀金之作）源自内部礼拜大厅大量采用的kundal（金箔浮雕彩绘）装饰技法，穹顶、墙面和壁龛覆盖着丰富的金色植物纹样与几何纹饰，是中亚伊斯兰装饰艺术的杰出代表。与传统经学院不同，金色经学院同时承担城市主清真寺的功能，是经学院与聚礼清真寺相结合的复合建筑。建筑西侧设有大型祈祷大厅及附属空间，而非典型中央亚细亚经学院常见的角部讲堂（darskhana）。庭院四周布置学生宿舍（hujra），但仅建造了一层，没有采用雷吉斯坦其他经学院常见的双层宿舍布局。建筑所在地在1646年前原为商旅客栈（caravanserai），后因城市商业格局变化而被改建。金色经学院继承了帖木儿时期的建筑传统，其宏伟的门廊（pishtaq）、釉面砖装饰、木卡纳斯（muqarnas）和金色室内装饰体现了波斯化帖木儿建筑艺术在17世纪中亚地区的延续与发展。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tilya-Kori%20Madrasa%2002.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804203709762.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804203727584.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804203804516.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/Antiquities_of_Samarkand._Madrasah_of_Tillia_Kari._Plan%2C_Elevation%2C_and_Sections_WDL3584.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Tilya-Kori%20Madrasa"
+            "url": "https://en.wikipedia.org/wiki/Tilakari_Madrasa"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1349/uzbekistan/samarkand/tilya-kori-madrasa"
           }
         ]
       }
@@ -303,23 +343,47 @@
         ]
       },
       "properties": {
-        "NAME": "Bibi Khanum Complex",
+        "NAME": "Bibi Khanum Mosque",
         "NOTE": "比比哈内姆清真寺",
-        "NOTE2": "帖木儿创建，1399–1404，20世纪修复",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibi%20Khonym%20complex.jpg?width=1200",
-        "ERA": "1399–1404年（帖木儿帝国）",
-        "STYLE": "帖木儿帝国巨型聚礼清真寺",
-        "DESC": "帖木儿帝国时期规模最宏大的清真寺建筑，据传为帖木儿的中国妻子比比·哈内姆（Saray Mulk Khanum）下令建造。建筑原本的穹顶高达41米，门廊高达38米，可容纳上万名信徒同时礼拜。然而由于工程技术过于激进，穹顶在建成后不久即出现结构问题并部分坍塌。1897年大地震使建筑进一步损毁，20世纪苏联时期进行了大规模修复。庭院中央的巨大大理石《古兰经》经台（lauh）是著名的朝圣之物——相传妇女从下方穿过可祈求生育。",
+        "NOTE2": "帖木儿帝国时期撒马尔罕最大的聚礼清真寺，1399–1405年建造，后经历多次修复",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804204327513.png",
+        "ERA": "1399–1405年（帖木儿帝国）",
+        "STYLE": "帖木儿帝国大型四伊万式聚礼清真寺 / 波斯化帖木儿建筑传统",
+        "DESC": "比比哈内姆清真寺（Bibi Khanum Mosque）是帖木儿帝国时期撒马尔罕最宏伟的宗教建筑之一，也是中亚规模最大的清真寺之一。建筑始建于1399年，源于帖木儿印度远征胜利后重塑帝国首都撒马尔罕的宏大计划，并于1405年前后基本完成。其名称源自帖木儿主要妻子萨莱·穆尔克·哈努姆（Saray Mulk Khanum），但其与王后的实际建造关系在历史记载中仍存在争议。建筑占地约109×167米，可容纳近万名信徒礼拜，是帖木儿作为世界性帝国统治者展示权力与信仰的重要象征。清真寺采用典型的四伊万（four-iwan）庭院式布局，由巨大的入口皮什塔克（pishtaq）、中央庭院、主礼拜大厅以及两侧附属建筑组成。主穹顶高度约40米，入口拱门和立面均达到极高尺度，体现了帖木儿时期追求宏伟比例的建筑理念。建筑设计可能受到伊尔汗国苏丹乌来都（Öljaitü）在苏丹尼耶建造的聚礼清真寺影响，并吸收了波斯地区成熟的清真寺空间模式。由于工程规模远超当时技术承载能力，加之施工进度极为仓促，建筑完成后不久便出现结构问题，穹顶开裂、砖石脱落。17世纪后建筑逐渐衰败，1897年撒马尔罕地震进一步导致主入口拱门坍塌。20世纪苏联时期开始进行保护与修复，20世纪末乌兹别克斯坦时期又进行了大规模重建，包括恢复主穹顶、入口拱门和部分装饰。庭院中央保存有著名的大理石《古兰经》经台（lauh），相传由兀鲁伯时期制作。比比哈内姆清真寺体现了帖木儿建筑追求巨大尺度、双层穹顶结构、釉砖装饰和纪念性空间塑造的特点，对后世中亚、伊朗及阿富汗建筑产生了深远影响。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibi%20Khonym%20complex.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804204351376.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804204403163.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804204419714.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804204437393.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804204454454.png"
+          },
+          {
+            "name": "6",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804204536414.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Bibi%20Khanum%20Complex"
+            "url": "https://en.wikipedia.org/wiki/Bibi-Khanym_Mosque"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1403/uzbekistan/samarkand/bibi-khanym-mosque"
           }
         ]
       }
@@ -334,23 +398,27 @@
         ]
       },
       "properties": {
-        "NAME": "Shah-i-Zinda complex",
-        "NOTE": "夏伊·辛达陵墓群，以14–15世纪帖木儿时期为主",
-        "NOTE2": "11–19世纪持续形成",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Shah-i-Zinda%2005.jpg?width=1200",
-        "ERA": "11–19世纪（帖木儿时期为核心）",
-        "STYLE": "帖木儿王朝陵墓群 / 圣陵大道",
-        "DESC": "中亚最神圣的伊斯兰朝圣遗址之一，位于撒马尔罕阿夫拉西亚卜古城遗址南坡的狭长山脊上。“Shah-i-Zinda”意为“活着的君王”，传说先知穆罕默德的堂弟库萨姆·伊本·阿巴斯在此传教时遇害，但其头颅仍活着并在此长眠。陵墓群沿一条狭窄的阶梯式甬道两侧排列，形成“圣陵大道”的空间序列。最精美的建筑集中在14–15世纪帖木儿时期，包括帖木儿家族女性成员的陵墓，以极其精致的釉面砖（瓷砖马赛克、雕刻陶砖）和蓝色穹顶著称。每一座陵墓都是一件独立的建筑艺术品。",
+        "NAME": "Shah-i-Zinda Complex",
+        "NOTE": "夏伊·辛达陵墓群",
+        "NOTE2": "11–19世纪持续形成，以14–15世纪帖木儿时期建筑为核心",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804213906130.png",
+        "ERA": "11–19世纪（主要形成于14–15世纪帖木儿帝国时期）",
+        "STYLE": "帖木儿王朝陵墓群 / 伊斯兰圣陵大道 / 波斯化帖木儿墓葬建筑",
+        "DESC": "夏伊·辛达陵墓群（Shah-i-Zinda）是撒马尔罕最重要的伊斯兰圣地之一，位于阿夫拉西亚卜古城遗址南缘的狭长山脊上。其名称源自波斯语“Shah-i-Zinda”（意为“活着的君王”），与伊斯兰传统中先知穆罕默德的堂弟库萨姆·伊本·阿巴斯（Qutham ibn Abbas）的传说相关。据传库萨姆·伊本·阿巴斯于7世纪阿拉伯征服时期来到撒马尔罕传播伊斯兰教，在祈祷时遭杀害，但拾起自己的头颅进入“天堂之井”，继续存在于此，因此形成了关于“活着的君王”的传说。陵墓群从11世纪持续发展至19世纪，现存建筑超过20座，主要由11–12世纪早期遗存、14–15世纪帖木儿时期陵墓以及后世修缮建筑组成。整体空间沿一条狭窄坡道展开，由下、中、上三个建筑群组成，并通过带穹顶的四拱通道（chartak）连接，形成具有强烈仪式感的“圣陵大道”。其中14–15世纪帖木儿时期建筑最具艺术价值，包括帖木儿家族成员、贵族、军事将领及宗教学者的陵墓。中部建筑群中的图尔坎·阿卡陵墓（Turkan Aga）、希琳·比卡·阿卡陵墓（Shirin Bika Aga）以及八角形墓室（Octahedron）体现了帖木儿时期墓葬建筑的精湛工艺。乌鲁伯时期还修建了入口门楼（Darvazakhana）以及科学家卡齐扎德·鲁米（Qazi Zade Rumi）的双穹顶陵墓（1434–1435），进一步完善了建筑群的空间序列。夏伊·辛达以高度精细的釉面砖、雕刻陶砖、蓝色琉璃装饰和彩色马赛克闻名，是帖木儿建筑装饰艺术的重要代表，也是研究中亚伊斯兰陵墓空间、朝圣文化与王朝纪念建筑的重要遗址。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shah-i-Zinda%2005.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804214019039.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804214357408.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Shah-i-Zinda%20complex"
+            "url": "https://en.wikipedia.org/wiki/Shah-i-Zinda"
           }
         ]
       }
@@ -941,23 +1009,51 @@
         ]
       },
       "properties": {
-        "NAME": "Afrasiab遗址",
-        "NOTE": "撒马尔罕粟特文明时期城市遗址",
-        "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Samarkand%20Afrasiab%20%28Marakanda%29%20Citadel%20Hellenistic.jpg?width=1200",
-        "ERA": "公元前7世纪–13世纪（粟特至蒙古时期）",
-        "STYLE": "粟特城市遗址 / 考古遗址",
-        "DESC": "撒马尔罕古城遗址，位于现代城市北部的巨大土丘之上，是前伊斯兰时期粟特文明最重要的考古遗址之一。遗址占地约220公顷，文化层深度达10米以上，包含了从公元前7世纪到13世纪蒙古入侵前的连续城市堆积。最著名的发现是1965年出土的“大使厅”壁画（约公元660年），描绘了粟特国王瓦尔胡曼接见来自中国、朝鲜、突厥和波斯等各国使节的盛大场景，是丝绸之路上跨文化交流的珍贵视觉证据。遗址现为露天考古博物馆。",
+        "NAME": "Afrasiab Archaeological Site",
+        "NOTE": "阿弗拉西亚布古城遗址 / 撒马尔罕古城遗址",
+        "NOTE2": "古代粟特文明中心，公元前6世纪至13世纪蒙古入侵前持续发展",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804215315623.png",
+        "ERA": "公元前6世纪–1220年（阿契美尼德、希腊化、粟特及伊斯兰时期）",
+        "STYLE": "粟特城市遗址 / 丝绸之路古代都城遗址 / 考古遗址",
+        "DESC": "阿弗拉西亚布（Afrasiab）古城遗址是撒马尔罕最早的城市核心，也是中亚粟特文明最重要的考古遗址之一。遗址位于现代撒马尔罕市东北部、比比哈内姆清真寺附近的高地之上，占地约220公顷，文化层厚度达8–12米。古城依托天然高地建立，具有重要的防御优势，其平面大致呈三角形，外围设有多重城墙和防御体系。阿弗拉西亚布的城市发展始于公元前6–7世纪，是古代粟特地区政治、经济和文化中心。希腊人称其为马拉坎达（Marakanda），中国史籍中亦以康居、康国、飒秣建等名称记载，唐代高僧玄奘曾到访此地。遗址经历阿契美尼德时期、希腊化时期、粟特时期以及伊斯兰化时期的发展，出土了大量陶器、玻璃器、钱币、金属器、建筑遗迹以及宗教和世俗艺术品。其中最著名的是1965年发现的粟特宫殿“大使厅”壁画（约7世纪），描绘了粟特国王瓦尔胡曼接见来自中国、朝鲜、突厥、波斯等地区使节的场景，是研究丝绸之路国际交流的重要视觉资料。粟特时期的阿弗拉西亚布拥有宫殿、寺庙、市场、住宅、供水设施和手工业作坊，显示出高度发展的城市文明。伊斯兰时期，城市继续作为河中地区的重要中心存在，并修建了清真寺、宫殿和其他公共建筑。1220年蒙古军队攻占并破坏城市，此后新的撒马尔罕城市中心逐渐向南迁移。今天的阿弗拉西亚布遗址作为露天考古博物馆保存，是研究粟特文明、丝绸之路城市网络以及中亚古代城市演变的重要遗产。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samarkand%20Afrasiab%20%28Marakanda%29%20Citadel%20Hellenistic.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804215353904.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804215431145.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804215456634.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804215603740.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804215621484.png"
+          },
+          {
+            "name": "6",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804215636434.png"
+          },
+          {
+            "name": "7",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804215647933.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Afrasiab%E9%81%97%E5%9D%80"
+            "url": "https://en.wikipedia.org/wiki/Afrasiyab_(Samarkand)"
+          },
+          {
+            "name": "丝绸之路数据库",
+            "url": "https://www.silkroads.org.cn/portal.php?aid=38700&mod=view"
           }
         ]
       }
@@ -972,23 +1068,30 @@
         ]
       },
       "properties": {
-        "NAME": "Bibi Khanim mausoleum",
-        "NOTE": "比比·哈内姆陵墓",
-        "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/20230613%20Samarkand158.jpg?width=1200",
+        "NAME": "Saray Mulk Khanum Mausoleum",
+        "NOTE": "萨莱·穆尔克·哈内姆陵墓（比比·哈内姆陵墓）",
+        "NOTE2": "1399–1404年，为帖木儿正妻萨莱·穆尔克·哈内姆建造",
         "ERA": "1399–1404年（帖木儿帝国）",
-        "STYLE": "帖木儿王朝陵墓",
-        "DESC": "位于比比哈内姆清真寺对面的独立陵墓建筑，安葬着帖木儿王朝的女性成员——据传包括帖木儿的中国妻子萨莱·穆尔克·哈内姆（即比比·哈内姆）及其母亲和姐妹。建筑以八角形基座上的高耸穹顶为核心，内部装饰着精美的灰泥雕刻和釉面砖。与相邻的清真寺一样，陵墓也经过了20世纪的修复。穹顶的轮廓与清真寺大门形成轴线呼应，体现了帖木儿时期建筑群的空间规划意识。",
+        "STYLE": "帖木儿王朝陵墓 / 波斯-伊斯兰建筑传统",
+        "DESC": "萨莱·穆尔克·哈内姆陵墓（Saray Mulk Khanum Mausoleum）位于撒马尔罕比比哈内姆清真寺对面，是帖木儿帝国时期为帖木儿（Amir Timur）正妻萨莱·穆尔克·哈内姆（Saray Mulk Khanum，又称Bibi Khanum）修建的陵墓，建于1399–1404年。萨莱·穆尔克·哈内姆出身察合台汗后裔，是帖木儿合法统治身份的重要象征，其与帖木儿的联姻使帖木儿获得“古尔干（Gurgan，成吉思汗女婿）”称号，从而强化了其继承蒙古汗统传统的政治合法性。陵墓原本被一座经学院环绕，形成类似古尔·埃米尔陵墓的宗教建筑群布局。建筑采用典型的晚期帖木儿陵墓形式，高耸的蓝色釉砖穹顶建立于高鼓座之上，外部设有宏大的门廊（pishtaq），内部则以石膏灰泥（ganch）雕刻、钟乳石（muqarnas）以及彩绘装饰展现帖木儿时期精致的室内艺术。19世纪拍摄时，陵墓已严重残损，外部釉砖几乎完全脱落，穹顶也部分坍塌。20世纪末乌兹别克斯坦时期进行了大规模修复，使其重新成为撒马尔罕帖木儿建筑遗产的重要组成部分。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20230613%20Samarkand158.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804220509116.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804221234142.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804221309003.png"
           }
         ],
         "LINKS": [
           {
-            "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Bibi%20Khanim%20mausoleum"
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1402/uzbekistan/samarkand/saray-mulk-khanum-mausoleum"
           }
         ]
       }
@@ -1355,7 +1458,7 @@
       },
       "properties": {
         "NAME": "Baland Mosque",
-        "NOTE": "高处清真寺，16世纪初，社区清真寺",
+        "NOTE": "高处清真寺",
         "NOTE2": "方形主祈祷厅，外接夏季礼拜空间（iwan），木柱支撑",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A3%D0%B7%D0%BE%D1%80%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BA%D0%B5%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D0%B8%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D0%B4%206.jpg?width=1200",
         "ERA": "16世纪初（昔班尼王朝）",
@@ -1386,7 +1489,7 @@
       },
       "properties": {
         "NAME": "Khoja Muhammad Porso Madrasa",
-        "NOTE": "霍贾·穆罕默德·波尔索经学院，18世纪末",
+        "NOTE": "霍贾·穆罕默德·波尔索经学院",
         "NOTE2": "西侧是麻扎/墓葬",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail%20of%20Reception%20and%20Coronation%20Court%20-%20The%20Ark%20%28Original%20Settlement%29%20-%20Old%20City%20-%20Bukhara%20-%20Uzbekistan%20%287515808320%29%20%282%29.jpg?width=1200",
         "ERA": "18世纪末（布哈拉汗国）",
