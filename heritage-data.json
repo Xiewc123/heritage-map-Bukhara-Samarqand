@@ -637,22 +637,42 @@
       },
       "properties": {
         "NAME": "Mir-i Arab Madrasa",
-        "NOTE": "布哈拉最著名经学院，建于1535/36年",
+        "NOTE": "米尔·阿拉伯经学院",
         "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Mir-i-Arab%20madrasa.jpg?width=1200",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804113457787.png",
         "ERA": "1535–1536年（昔班尼王朝）",
         "STYLE": "昔班尼王朝经学院 / 中亚经典经学院",
-        "DESC": "布哈拉最负盛名的伊斯兰经学院，也是中亚少数在苏联时期仍获准运营的宗教教育机构。由昔班尼王朝统治者乌拜杜拉汗和著名的也门苏菲导师谢赫·阿卜杜拉·亚曼尼（Mir-i Arab）共同创建。建筑坐落在卡兰建筑群的核心位置，正对着卡兰清真寺，中央庭院被两层学生宿舍（hujra）环绕，教室和祈祷大厅装饰着精致的釉面砖和雕刻灰泥。蓝色穹顶与相邻的卡兰宣礼塔形成经典的布哈拉城市天际线。",
+        "DESC": "米尔·伊·阿拉布经学院（Mir-i-Arab Madrasa，1535–36年）与12世纪的卡良宣礼塔、16世纪的卡良清真寺共同构成布哈拉城心的波伊卡良建筑群，由首位以布哈拉为都城的昔班尼统治者乌拜杜拉汗（1534–39年在位）营建。其名意为\"阿拉伯人之王\"，纪念穆罕默德·昔班尼（短命的昔班尼王朝创立者）在位期间担任布哈拉穆斯林社团领袖的也门人谢赫阿卜杜拉·亚玛尼——他历任数位可汗的精神导师（pir），最终安葬于这座以他命名的经学院内。16世纪的河中地区经学院已相当普遍，充当伊斯兰\"学院\"：多为长方形平面，设纪念性门楼（伊万）、大中央庭院与四座内向伊万，这套设计原则源自伊朗。米尔·伊·阿拉布的营造者当熟悉中亚诸多当代范例，如15世纪初帖木儿时代撒马尔罕的兀鲁伯经学院。该院外廓73×55米，内院37×33米，两层立面几乎通体覆以釉面马赛克砖——这是帖木儿时代首倡的费时耗资的装饰工艺；但与兀鲁伯经学院的四角宣礼塔不同，其四角矮壮敦实、略带收分，使整座建筑呈现出堡垒般的观感。\n\n院内密布数十间胡吉拉（僧房），当年与今日皆用作学生宿舍；其余房间包括讲堂，以及西北角一座大型穹顶厅——内奉谢赫·亚玛尼的衣冠冢与众多信徒、家族成员的墓葬；南侧对称位置是一座同样覆穹顶的清真寺。两座穹顶皆高踞鼓座、饰以眩目的绿松石釉砖与穆卡纳斯式穹窿，自外部清晰可辨。从城市规划看，经学院与广场另一侧的卡良清真寺（中亚最大者之一）相对而峙，共同围合波伊卡良广场，完成\"科什\"（kosh）式对置布局——这是中亚城市的常见手法，布哈拉其他实例尚有兀鲁伯经学院与其南侧的阿卜杜勒·阿齐兹汗经学院；两者之间的卡良宣礼塔则是13世纪被成吉思汗摧毁的11–12世纪主麻清真寺仅存的遗迹。值得一提的是，这座经学院的建造并非得益于丝绸之路贸易税，而是由乌拜杜拉汗在呼罗珊战争中俘虏的3000名奴隶变卖所得资助——这些征战虽未带来长久领土收益，可汗却乐于出售俘获的什叶派\"异教徒\"（其信仰与昔班尼人的逊尼派正教针锋相对）。苏联时期，米尔·伊·阿拉布是举国唯一获准办学的经学院；如今它仍在正常使用，内院仅偶向游客开放。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Mir-i-Arab%20madrasa.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804113457787.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804113536119.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804113558352.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804113617368.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804113638217.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Mir-i%20Arab%20Madrasa"
+            "url": "https://en.wikipedia.org/wiki/Magok-i-Attari_Mosque"
+          },
+          {
+            "name": "ArchNet / Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1322/uzbekistan/bukhara/mir-i-arab-madrasa"
           }
         ]
       }
