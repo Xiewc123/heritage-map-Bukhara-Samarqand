@@ -381,23 +381,39 @@
         ]
       },
       "properties": {
-        "NAME": "Mq./Mz. Khoja Turk-i Jandi",
-        "NOTE": "霍贾·图尔克·金迪清真寺/麻扎，萨曼时期或稍晚",
+        "NAME": "Mq./Mz. Khoja Turk-i Jandi/Turki Jandi Mausoleum",
+        "NOTE": "霍贾·图尔克·金迪清真寺",
         "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Chor%20Minor%20mosque%2C%20Bukhara%20%28%D0%A7%D0%BE%D1%80-%D0%9C%D0%B8%D0%BD%D0%BE%D1%80%2C%20%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B0%29.jpg?width=1200",
-        "ERA": "萨曼时期或稍晚",
-        "STYLE": "早期伊斯兰宗教建筑",
-        "DESC": "布哈拉古城中较为隐秘的早期伊斯兰圣地，纪念一位名为霍贾·图尔克·金迪的苏菲圣人。建筑群包含清真寺与麻扎（圣墓），年代可追溯至萨曼王朝时期或喀喇汗王朝初期，体现了中亚伊斯兰化初期的宗教建筑风貌。规模虽不宏大，但因其古老历史而在布哈拉的苏菲信仰体系中占有特殊地位。",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804142339987.png",
+        "ERA": "11世纪相关圣墓，现存建筑可能重建于16世纪中叶",
+        "STYLE": "帖木儿—中亚伊斯兰陵墓建筑",
+        "DESC": "图尔克·金迪陵墓（Turki Jandi Mausoleum）位于乌兹别克斯坦布哈拉老城南部的纳莫兹戈赫街（Namozgoh Street）东侧，是布哈拉重要的历史墓葬与宗教遗址之一。该建筑与中世纪布哈拉著名宗教学者阿布·纳斯尔·艾哈迈德·伊本·法兹尔·伊本·穆萨·穆扎基尔·金迪（Abu Nasr Ahmad ibn Fazl ibn Muso al-Muzakkir al-Jandi）相关。金迪于11世纪初去世，其墓地逐渐发展为宗教纪念场所，周边形成了规模较大的图尔克·金迪墓园，长期安葬布哈拉地区的学者、神职人员及社会名流。根据研究，该区域后来亦成为部分布哈拉统治者和重要人物的埋葬地点，16—17世纪时期在城市宗教空间体系中具有重要地位。\n\n现存陵墓建筑的确切年代尚存争议。部分研究认为其基础可追溯至更早时期，但1971—1972年的考古调查资料显示，现存主体建筑可能建造于16世纪中叶，并经历了多个历史阶段的修建与改造。建筑形式体现出帖木儿时期以来中亚陵墓建筑传统的延续，其高耸穹顶、圆形鼓座以及庄严的入口门楼（pishtaq）与撒马尔罕古尔埃米尔陵墓（Gur-e Amir Mausoleum）以及布哈拉米尔阿拉伯经学院（Mir-i Arab Madrasa）等建筑具有形式上的关联。\n\n陵墓内部尺寸约为4.2×4.25米，墙体厚达1.5米，由砖砌筑而成。建筑采用中央穹顶覆盖形式，穹顶置于较高鼓座之上，设有三个入口。内部墙面保留砖雕装饰痕迹，地面铺设黏土。陵墓前方原有图尔克·金迪清真寺（Turki Jandi Mosque），清真寺西南侧设有高约1.8米的米哈拉布（mihrab）。陵墓入口为矩形高大门楼，高约12米、宽约6.7米，局部仍保存蓝白色植物纹样装饰以及方形库法体铭文残迹。\n\n该建筑曾计划覆盖绿松石釉砖，但目前相关装饰大多已不存，仅入口部分保留少量彩砖遗迹。由于长期缺乏修缮，陵墓主体结构存在损坏，穹顶出现裂缝，内部目前限制游客进入。2020年建筑曾进行修复，并对部分砖雕和装饰进行了维护。作为布哈拉少数保持较少现代修复痕迹的历史陵墓之一，图尔克·金迪陵墓不仅反映了中亚伊斯兰墓葬建筑的发展过程，也保存了布哈拉传统宗教空间、墓园文化与城市历史格局的重要信息。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chor%20Minor%20mosque%2C%20Bukhara%20%28%D0%A7%D0%BE%D1%80-%D0%9C%D0%B8%D0%BD%D0%BE%D1%80%2C%20%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B0%29.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804142406659.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804142418700.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804142428648.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804142441596.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Mq.%2FMz.%20Khoja%20Turk-i%20Jandi"
+            "url": "https://en.wikipedia.org/wiki/Turki_Jandi_Mausoleum"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1385/uzbekistan/bukhara/turki-jandi-mausoleum"
           }
         ]
       }
@@ -1649,8 +1665,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7174426.42,
-          4832157.56
+          7171048.883,
+          4832945.899
         ]
       },
       "properties": {
