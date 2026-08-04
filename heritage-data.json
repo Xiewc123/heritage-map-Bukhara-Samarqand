@@ -175,22 +175,42 @@
       },
       "properties": {
         "NAME": "Ulugh Beg Madrasa",
-        "NOTE": "兀鲁伯经学院，1417–1420，帖木儿帝国时期",
-        "NOTE2": "帖木儿孙 Ulugh Beg 创建，天文学中心",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulugh%20Beg%20Madrasa.jpg?width=1200",
+        "NOTE": "兀鲁伯经学院",
+        "NOTE2": "帖木儿孙兀鲁伯创建，兼具宗教教育与科学知识传播功能",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804143035751.png",
         "ERA": "1417–1420年（帖木儿帝国）",
         "STYLE": "帖木儿王朝经学院",
-        "DESC": "雷吉斯坦广场上最早建成的经学院，由帖木儿的孙子——著名的天文学家-君主兀鲁伯（Ulugh Beg）亲自创建。建筑正面以巨大的门廊（pishtaq）为主导，两侧各有一座高耸的宣礼塔，外墙装饰着精美的几何纹和库法体铭文瓷砖。此处不仅是伊斯兰神学教育中心，更是当时世界上最先进的天文研究机构之一。兀鲁伯本人常在此讲学，教授数学与天文学。入口上方镌刻着先知圣训“追求知识是每个穆斯林男女的义务”。",
+        "DESC": "兀鲁伯经学院（Ulugh Beg Madrasa）建于1417—1420年，是布哈拉地区少数保存至今的帖木儿时期建筑之一，由帖木儿帝国统治者、著名天文学家兀鲁伯（Ulugh Beg）在其担任王子时期主持修建。该建筑标志着蒙古征服后长期衰落的布哈拉逐渐恢复文化与学术地位，作为宗教教育与知识传播中心，吸引了来自伊斯兰世界各地的学者，在神学、数学和天文学研究方面发挥重要作用。\n\n经学院由建筑师伊斯梅尔·伊本·塔希尔·伊本·马哈茂德·伊斯法哈尼（Ismail b. Tahir b. Mahmad Isfahani）设计，其建筑风格与兀鲁伯在撒马尔罕和吉日杜万修建的另外两座经学院具有相似性。建筑采用中亚传统经学院布局，由矩形平面、中央庭院、学生宿舍（hujra）、讲堂（darskhana）、清真寺以及高大的入口门楼（pishtaq）组成，同时在空间设计上具有创新性，如入口前厅连接庭院与两侧功能空间、二层设置连续回廊以及后部深出的拱廊空间，为教学活动提供遮蔽区域。\n\n建筑整体南北向布置，并略向西南偏转以适应朝向麦加的礼拜方向。主立面面向城市街道，以巨大的门楼和精美的釉面砖装饰为特色，保存有库法体铭文和植物、几何纹样马赛克装饰，其中关于“追求知识是每个穆斯林男女的义务”的铭文体现了兀鲁伯对于教育与知识的重视。建筑原有四角塔楼（guldasta），现部分已损毁。\n\n兀鲁伯经学院平面约为56×81米，中央庭院约30×40米，四周环绕两层学生房间，共设约50间hujra。西侧设有狭长清真寺，庭院角部设有穹顶覆盖的讲堂空间。约130年后，阿卜杜勒·阿齐兹汗经学院在其南侧沿同一轴线修建，两者共同形成布哈拉城市规划中典型的“双经学院”（kosh）布局。作为帖木儿时期教育、科学与建筑成就的重要代表，兀鲁伯经学院体现了中亚伊斯兰教育体系、城市空间组织以及帖木儿建筑艺术发展的高度成就。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulugh%20Beg%20Madrasa.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804143052863.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804143108144.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804143242706.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804143254642.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804143315907.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Ulugh%20Beg%20Madrasa"
+            "url": "https://en.wikipedia.org/wiki/Ulugh_Beg_Madrasa"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1342/uzbekistan/bukhara/ulugh-beg-madrasa"
           }
         ]
       }
