@@ -1643,6 +1643,57 @@
           }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.41865145486119,
+          39.772543317395105
+        ]
+      },
+      "properties": {
+        "NAME": "Taq-i Sarrafan Trading Dome",
+        "NOTE": "塔基·萨拉凡贸易圆顶",
+        "NOTE2": "建于1534年至1535年间，由沙伊班王朝统治者乌拜都拉汗下令建造，是布哈拉16世纪四大贸易穹顶之一，主要用于货币兑换和商业交易。",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804135819505.png",
+        "ERA": "16世纪，1534年至1535年间（沙伊班王朝）",
+        "STYLE": "布哈拉贸易穹顶建筑 / 沙伊班王朝商业建筑",
+        "DESC": "塔基·萨拉凡贸易圆顶（Taq-i Sarrafan，意为“货币兑换者之穹顶”）是布哈拉历史城市商业体系中的重要组成部分，也是沙伊班王朝时期城市经济繁荣的代表性建筑。该建筑位于布哈拉沙赫鲁德（Shah Rud）运河附近的重要街道交汇处，由沙伊班王朝统治者乌拜都拉汗（Ubaydullah Khan）于1534年至1535年间下令建造。作为布哈拉16世纪四大贸易穹顶之一，塔基·萨拉凡主要服务于货币兑换行业，商人在穹顶下的店铺中进行外币兑换、金融交易及商业活动，因此成为连接中亚商路贸易网络的重要节点。建筑采用布哈拉传统贸易穹顶形式，由四个交叉拱券支撑中央穹顶，形成覆盖街道的“toq”空间。建筑主体由烧制砖、木材、石材和石膏构成，平面呈八角形，中央穹顶直径约12米，外部高度约16.55米。16世纪后期，建筑内部又增设清真寺、萨拉凡浴室以及商铺，使其成为集商业、宗教与公共活动于一体的城市空间。塔基·萨拉凡原有装饰大多已不存，但入口及清真寺区域仍保存部分装饰和铭文遗迹，其中门上铭文记录了乌拜都拉汗时期建筑完成的信息。19世纪后，由于中亚商路衰落及维护不足，贸易穹顶曾遭受损毁，后经过修复得以保存。如今，塔基·萨拉凡仍延续传统功能，内部设有手工艺品商店和商业摊位，是布哈拉历史商业街区的重要遗存。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-Toki_Sarrafon1.jpg"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804140016745.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804140033224.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804140054281.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804140111097.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Toqi_Sarrofon"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1341/uzbekistan/bukhara/taq-i-sarrafan-dome"
+          }
+        ]
+      }
     }
   ]
 }
