@@ -783,23 +783,43 @@
         ]
       },
       "properties": {
-        "NAME": "Nodir Devonbegi Madrasah",
-        "NOTE": "宗教学校，1622–1623年建造",
+        "NAME": "Nadir Devanbegi Madrasah",
+        "NOTE": "纳迪尔·迪万贝吉经学院",
         "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadir%20Divan-Beghi%20Madrassah.JPG?width=1200",
+        "IMAGE": "@url:`https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804131147752.png`",
         "ERA": "1622–1623年（布哈拉汗国）",
         "STYLE": "布哈拉汗国经学院",
-        "DESC": "利亚比-豪兹建筑群中最引人注目的建筑，位于古老水池的东侧。由布哈拉汗国权臣纳迪尔·迪万贝吉（Nodir Devonbegi）建造。建筑正立面门廊上方的马赛克壁画描绘了两只凤凰（或神话鸟）朝向中央太阳的图案——在伊斯兰宗教建筑中描绘生物形象极为罕见，这一设计被视为前伊斯兰中亚艺术传统（尤其是祆教和粟特艺术）在伊斯兰时期的延续。建筑原计划作为商队客栈，后在开幕仪式上被汗王宣布改为经学院。",
+        "DESC": "纳迪尔·迪万贝吉经学院（Nadir Divan-begi Madrasa）位于布哈拉老城利亚比-豪兹水池东侧，与西岸同名的汗卡及北侧的库克尔达什经学院（1568—1569年）共同构成围合水池的三座纪念性建筑。建筑由阿斯特拉罕王朝（Ashtarkhanid）布哈拉汗国维齐尔纳迪尔·迪万贝吉（Nadir Mirza Togay ibn Sultan，伊玛目库利汗之舅父，汗在位1611—1641年）于1622—1623年间营建，平面约52×49米，庭院四面环绕两层小型居室。其布局颇为反常：缺少经学院通常必备的伊万（iwan）门廊、清真寺与大教室，主入口直通庭院而无影壁遮挡，形制更像供商队食宿的客栈（caravanserai）。对此存在两种解释：一说汗王在落成典礼上误将客栈宣布为经学院，维齐尔只得仓促增建角塔（guldasta）与纪念性大门以符其名；另一说认为17世纪初商路衰退使新建客栈失去意义，遂将半成品改作经学院——19世纪希瓦、乔尔米纳及埃米尔·阿里姆汗经学院的兴建热潮亦可佐证当时经学院的需求旺盛。装饰方面，门廊拱肩饰有神话之鸟（一说为波斯神鸟西摩格，simurgh）朝向带人面日盘的图案，釉砖上绘植物纹样、求偶的胡马（huma）鸟与食草鹿，边缘绕阿拉伯文铭文；山花两侧的双层深拱门廊饰满纹样，转角两处穆卡纳斯（muqarnas）与拱上图案相融，门头以上装有镂空雕花格栅，庭院砖墁地、前临水池。此类具象装饰得益于17世纪初伊斯兰正统对造型艺术约束的松动——撒马尔罕希尔达尔经学院（1616—1636年）的狮逐鹿、人面日纹与之同类，布莱尔与布鲁姆更指出其与同时期伊斯法罕市集门楼装饰相近，可见此风尚之普遍。据留存的两份瓦克夫文书（分别订立于1642年与1810年），经学院原有71间居室，由穆拉·沙姆西丁主持，经师年薪500坦加与100曼谷物，教授教法分支学与原理学；建筑历经多次修缮，穹顶、拱门、墙体防潮及受损居室均获修复，门头由撒马尔罕与布哈拉匠师重新打磨。该经学院现已被列入乌兹别克斯坦国家物质文化遗产（不可移动文物）名录，庭院内常为游客举行民族音乐与民俗歌舞表演，并设有手工艺作坊。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadir%20Divan-Beghi%20Madrassah.JPG?width=1200"
+            "url": "@url:`https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804131147752.png`"
+          },
+          {
+            "name": "2",
+            "url": "@url:`https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804131220576.png`"
+          },
+          {
+            "name": "3",
+            "url": "@url:`https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804131411707.png`"
+          },
+          {
+            "name": "4",
+            "url": "@url:`https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804131440619.png`"
+          },
+          {
+            "name": "5",
+            "url": "@url:`https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804131452659.png`"
           }
         ],
         "LINKS": [
           {
+            "name": "Oriental Architecture",
+            "url": "@url:`https://www.orientalarchitecture.com/sid/1351/uzbekistan/bukhara/nadir-divan-begi-madrasa`"
+          },
+          {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Nodir%20Devonbegi%20Madrasah"
+            "url": "@url:`https://en.wikipedia.org/wiki/Nadir_Devanbegi_Madrasah_(Bukhara)`"
           }
         ]
       }
@@ -1551,6 +1571,10 @@
           {
             "name": "5",
             "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804121638305.png"
+          },
+          {
+            "name": "6",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804130956974.png"
           }
         ],
         "LINKS": [
