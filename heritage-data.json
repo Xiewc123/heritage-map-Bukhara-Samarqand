@@ -227,21 +227,37 @@
       "properties": {
         "NAME": "Sher-Dor Madrasa",
         "NOTE": "狮子经学院",
-        "NOTE2": "",
-        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-The_Sher_Dor_(9330856335)-cropped.jpg",
-        "ERA": "1619–1636年（布哈拉汗国）",
+        "NOTE2": "Registan广场三座经学院之一，与兀鲁伯经学院、蒂拉卡里经学院共同构成撒马尔罕雷吉斯坦建筑群",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804181702181.png",
+        "ERA": "1619–1636年（阿什塔尔汗王朝 / 昔班尼后继的布哈拉汗国时期）",
         "STYLE": "布哈拉汗国经学院 / 帖木儿复兴风格",
-        "DESC": "雷吉斯坦广场上最具争议也最引人注目的经学院，由撒马尔罕统治者亚兰图什·巴哈杜尔下令建造。建筑正面门廊上方的马赛克壁画描绘了两只猎狮的虎（或狮），以及人面太阳——在伊斯兰教禁止描绘活物的传统下，这一设计极为罕见且大胆。经学院采用与对面的兀鲁伯经学院基本对称的布局，但在装饰上更富巴洛克式的繁复感。其名称“Sher-Dor”即意为“拥有狮子”，正是得名于那幅著名的虎猎羚羊壁画。",
+        "DESC": "狮子经学院（Sher-Dor Madrasa）位于撒马尔罕雷吉斯坦广场，与兀鲁伯经学院相对而立，是17世纪阿什塔尔汗王朝时期的重要伊斯兰建筑。建筑由撒马尔罕统治者、布哈拉汗国军事总督亚兰图什·巴哈杜尔（Yalangtush Bakhodur）主持建造，始建于1619年，1636年完成。其所在地原为帖木儿时期兀鲁伯汗卡（khanqah），亚兰图什拆除旧建筑后，以兀鲁伯经学院为范本重新设计了这座经学院。建筑平面与兀鲁伯经学院高度相似，但取消了清真寺空间，学生可能使用附近已不存在的库尔凯什清真寺进行礼拜。建筑最著名的特征是正立面上的彩釉马赛克装饰，其中描绘了两只狮虎追逐羚羊以及人面太阳图案。这类具象动物和人物表现形式在传统伊斯兰建筑装饰中十分罕见，因此具有强烈的象征意义。该图案也成为建筑名称“Sher-Dor”（波斯语意为“拥有狮子”）的来源。相比兀鲁伯经学院较为克制的几何装饰，狮子经学院采用更加繁复的植物纹样和彩色釉砖装饰，体现了17世纪帖木儿建筑传统的复兴与发展。建筑西侧立面顶部设有两个带凹槽的角楼穹顶，其设计可能暗示兀鲁伯经学院原本也可能存在类似穹顶，但目前尚无确凿证据。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-The_Sher_Dor_(9330856335)-cropped.jpg"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804181702181.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804181853523.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804181913500.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804181924115.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
             "url": "https://en.wikipedia.org/wiki/Sherdar_Madrasa"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1348/uzbekistan/samarkand/sher-dor-madrasa"
           }
         ]
       }
@@ -288,8 +304,8 @@
       },
       "properties": {
         "NAME": "Bibi Khanum Complex",
-        "NOTE": "比比哈内姆清真寺，帖木儿创建，1399–1404，20世纪修复",
-        "NOTE2": "",
+        "NOTE": "比比哈内姆清真寺",
+        "NOTE2": "帖木儿创建，1399–1404，20世纪修复",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibi%20Khonym%20complex.jpg?width=1200",
         "ERA": "1399–1404年（帖木儿帝国）",
         "STYLE": "帖木儿帝国巨型聚礼清真寺",
@@ -1739,6 +1755,57 @@
           {
             "name": "Oriental Architecture",
             "url": "https://www.orientalarchitecture.com/sid/1410/uzbekistan/samarkand/ak-saray-mausoleum"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7457385.586499999,
+          4814184.190499999
+        ]
+      },
+      "properties": {
+        "NAME": "Ishratkhana Mausoleum",
+        "NOTE": "伊什拉特哈纳陵墓（Ishratkhana Mausoleum）",
+        "NOTE2": "帖木儿王朝时期王室女性成员陵墓，建于1460年代，代表15世纪中亚穹顶与拱券技术的重要发展",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804180941894.png",
+        "ERA": "1460年代（帖木儿帝国时期，阿布·赛义德·米尔扎统治时期）",
+        "STYLE": "帖木儿王朝陵墓建筑",
+        "DESC": "伊什拉特哈纳陵墓（Ishratkhana Mausoleum，乌兹别克语：Ishratxona maqbarasi）是撒马尔罕现存帖木儿时期的重要陵墓建筑之一，建于1460年代阿布·赛义德·米尔扎（Abu Sa'id Mirza，1451–1469年在位）统治时期。阿布·赛义德是帖木儿曾孙，通过米兰沙（Miran Shah）一系继承帖木儿王朝血统。他在短暂统一本已分裂的帝国核心区域后，使撒马尔罕经历了一次短暂的文化复兴，但随着其45岁时去世，这一复兴也迅速结束。\n\n“Ishratkhana”意为“欢乐之屋”或“享乐之屋”，这一名称来源尚存在争议。19世纪以来，该名称逐渐固定于学术文献之中。一些早期考古学家曾认为该建筑可能是帖木儿郊外宫殿，但目前尚无考古证据支持这一观点。现有研究普遍认为该建筑是一座王室家族陵墓，主要用于安葬帖木儿王朝女性成员。\n\n根据1464年的waqf（宗教基金）文书，该建筑由阿布·赛义德的妻子哈比巴·苏丹（Habiba Sultan-begim）主持修建，用于纪念其早逝的女儿苏丹·霍万德·比基（Sultan Khavand Biki）。建筑完成后逐渐成为帖木儿王室女性成员的家族墓地。20世纪考古发掘显示，地下墓室内发现约23具女性及儿童遗骸。与之对应，男性王室成员主要安葬于古尔埃米尔陵墓（Gur-e Amir）以及附近的阿克-萨拉伊陵墓（Ak-Saray Mausoleum）。\n\n伊什拉特哈纳陵墓是帖木儿晚期建筑技术发展的重要代表。建筑平面由中央大厅、南北侧厅以及地下墓室组成，中央空间采用高度创新的穹顶结构。主厅平面接近嵌入希腊十字形的方形布局，通过三角形和菱形帆拱（squinch）以及类似“盾形网”（shield-like nets）的复杂拱顶体系，将穹顶荷载传递至八个角柱，从而减少厚重承重墙的需求，创造出宽阔连续的内部空间。\n\n这一穹顶技术继承并发展了此前赫拉特高哈尔沙德陵墓（Gawhar Shad Mausoleum）、塔伊巴德谢赫·扎因·丁陵墓（Sheikh Zayn al-Din Mausoleum）以及霍贾·艾哈迈德·亚萨维陵墓（Khoja Ahmed Yasawi Mausoleum）中的相关技术，并成为后来16世纪中亚建筑复杂星形拱顶体系发展的重要基础。普加琴科娃（Pugachenkova）认为，伊什拉特哈纳的建筑技术达到了帖木儿时期拱顶设计的重要高峰，在一座建筑中发展出了十余种不同形式的屋顶和穹顶结构。\n\n建筑原本具有极为华丽的装饰，包括釉面砖、彩色陶饰、石材镶嵌以及内部精美的壁面装饰。中央大厅顶部覆盖高耸的圆柱形鼓座穹顶，外覆绿松石色釉砖。然而，由于16世纪以后昔班尼王朝取代帖木儿王朝，陵墓逐渐失去政治意义，并遭受长期拆取。大量砖石、石材和大理石装饰被用于其他建筑，其中部分材料甚至被用于雷吉斯坦广场（Registan）的建筑工程。\n\n1903年的撒马尔罕地震最终导致建筑主体穹顶坍塌。虽然19世纪末的历史照片仍记录了完整穹顶形态，但今日建筑已成为遗址状态。20世纪以来，伊什拉特哈纳经历了一些保护与修复工作，但整体仍保持遗址特征，是研究帖木儿晚期陵墓空间、王室葬制以及中亚穹顶技术发展的重要案例。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804181011048.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804181030638.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-thumbnail.jpg"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804181114565.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-Ishratxona_10.jpg"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ishratkhana_Mausoleum"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1409/uzbekistan/samarkand/ishrat-khana-mausoleum"
           }
         ]
       }
