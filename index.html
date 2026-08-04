@@ -1,0 +1,953 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>布哈拉与撒马尔罕文化遗产地图</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="anonymous">
+  <style>
+    :root{--ink:#1d2528;--muted:#657077;--paper:#f5f1ea;--panel:#ffffffee;--line:#d8cfbf;--accent:#0f766e;--accent2:#1f5f9b;--shadow:0 14px 34px rgba(31,37,40,.12);--gold:#b8860b;--danger:#b91c1c;--radius:8px;}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;overflow-x:hidden}
+    body{font-family:system-ui,-apple-system,"Segoe UI","Noto Sans SC",sans-serif;color:var(--ink);background:var(--paper);line-height:1.7}
+    header{min-height:34vh;display:grid;align-items:end;color:#fff;background:linear-gradient(180deg,rgba(9,18,22,.08),rgba(9,18,22,.76)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Registan%2C%20main%20square%20in%20Samarkand.JPG?width=1800');background-size:cover;background-position:center}
+    .hero{width:min(1440px,calc(100% - 32px));margin:0 auto;padding:62px 0 40px}
+    .eyebrow{margin:0 0 10px;color:rgba(255,255,255,.82);text-transform:uppercase;letter-spacing:.08em;font-size:.82rem}
+    h1{margin:0 0 14px;max-width:980px;font-size:clamp(2.2rem,5.4vw,5.2rem);line-height:1.02;letter-spacing:0}
+    .lead{margin:0;max-width:840px;color:rgba(255,255,255,.92);font-size:clamp(1rem,1.7vw,1.2rem)}
+    main{width:min(1440px,calc(100% - 32px));margin:-24px auto 56px;position:relative}
+    .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:14px;border:1px solid var(--line);background:var(--panel);border-radius:8px 8px 0 0;box-shadow:var(--shadow)}
+    .toolbar .spacer{flex:1 1 auto}
+    button,input,textarea,select{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:6px;font:inherit}
+    button,input,select{height:40px}
+    button{padding:0 14px;cursor:pointer;transition:all .2s}
+    button:hover{background:#f0f4f8}
+    button.active{color:#fff;background:var(--accent);border-color:var(--accent)}
+    input,select,textarea{min-width:0;padding:0 12px}
+    input{flex:1 1 240px}
+    textarea{width:100%;min-height:92px;padding:10px 12px;resize:vertical;line-height:1.55}
+    .status{padding:10px 14px 0;color:var(--muted);font-size:.94rem;cursor:pointer}
+    .workspace{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,430px);gap:14px;align-items:start}
+    .map-shell{border:1px solid var(--line);border-top:0;background:#fff;box-shadow:var(--shadow);min-width:0}
+    #map{width:100%;height:calc(100vh - 170px);min-height:620px;position:relative}
+    .map-error{display:grid;place-items:center;height:100%;padding:24px;text-align:center;color:#6b3f09;background:#fff7ed}
+    .user-location-marker{width:18px;height:18px;border:3px solid #fff;border-radius:50%;background:#0ea5e9;box-shadow:0 0 0 6px rgba(14,165,233,.22),0 5px 16px rgba(15,23,42,.24)}
+    .map-note{padding:12px 14px 14px;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem;background:#fffdfa}
+    .legend{display:flex;flex-wrap:wrap;gap:8px;padding:14px 0 6px;align-items:center}
+    .legend-item{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:#fff;font-size:.9rem;white-space:nowrap;transition:all .2s;cursor:pointer}
+    .legend-item.active{background:var(--accent);border-color:var(--accent);color:#fff}
+    .swatch{width:11px;height:11px;border-radius:50%;border:1px solid rgba(0,0,0,.12);flex:0 0 auto}
+    .summary-bar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0 0}
+    .stat{padding:16px;border:1px solid var(--line);border-radius:var(--radius);background:#fff;box-shadow:0 8px 20px rgba(31,37,40,.06)}
+    .stat strong{display:block;font-size:1.8rem;line-height:1;margin-bottom:4px;color:var(--accent2)}
+    .sources{margin-top:18px;padding:18px;border:1px solid var(--line);border-radius:var(--radius);background:#fff}
+    .sources a{color:var(--accent2)}
+
+    /* ===== Detail Panel ===== */
+    .detail-panel{position:sticky;top:12px;max-height:calc(100vh - 24px);background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden}
+    .detail-empty{padding:26px;color:var(--muted);font-size:.95rem}
+    .detail-tools{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line);background:#fbfaf7}
+    .detail-tools button{flex:1}
+    .detail-hero{position:relative;flex:0 0 auto;width:100%;aspect-ratio:16/10;overflow:hidden;background:var(--line)}
+    .detail-hero img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+    .detail-panel.open .detail-hero img{transform:scale(1.03)}
+    .detail-hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:60%;background:linear-gradient(to top,rgba(0,0,0,.45),transparent);pointer-events:none}
+    .detail-body{flex:1 1 auto;overflow-y:auto;padding:22px 24px 26px}
+    .detail-body h2{margin:0 0 6px;font-size:1.5rem;line-height:1.3;color:var(--ink)}
+    .detail-sub{margin:0 0 16px;color:var(--muted);font-size:.95rem;line-height:1.5}
+    .detail-chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px}
+    .detail-chip{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:999px;font-size:.8rem;font-weight:500;white-space:nowrap}
+    .chip-city{background:#eef5f4;color:var(--accent)}
+    .chip-era{background:#fef3c7;color:#92400e}
+    .chip-style{background:#e0e7ff;color:#3730a3}
+    .chip-century{background:#fce7f3;color:#9d174d}
+    .detail-section{margin:0 0 16px}
+    .detail-section h4{margin:0 0 6px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gold)}
+    .detail-section p{margin:0;font-size:.94rem;line-height:1.75;color:#374144;white-space:pre-line}
+    .detail-links{display:flex;flex-wrap:wrap;gap:10px;padding-top:14px;border-top:1px solid var(--line);margin-top:8px}
+    .detail-links a,.detail-links button{display:inline-flex;align-items:center;justify-content:center;gap:5px;height:auto;padding:8px 14px;border-radius:var(--radius);font-size:.88rem;text-decoration:none;transition:all .2s}
+    .link-wiki{background:var(--accent);color:#fff}
+    .link-wiki:hover{background:#0d9488}
+    .link-commons{background:#f0f4f8;color:var(--accent2);border:1px solid var(--line)}
+    .link-commons:hover{background:#e2e8f0}
+    .detail-hero.no-img{display:flex;align-items:center;justify-content:center}
+    .detail-hero.no-img::after{content:attr(data-text);position:static;height:auto;background:none;color:var(--muted);font-size:1rem;text-align:center;padding:0 20px}
+    .edit-panel{border-top:1px solid var(--line);background:#fbfaf7;padding:14px 16px 18px;display:none;overflow-y:auto}
+    .edit-panel.open{display:block}
+    .edit-grid{display:grid;gap:10px}
+    .edit-row{display:grid;gap:5px}
+    .edit-row label{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+    .edit-actions{display:flex;gap:8px;margin-top:12px}
+    .edit-actions button{flex:1}
+    .mini-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .mini-actions button{height:34px;padding:0 10px;font-size:.86rem}
+    .modal-backdrop{position:fixed;inset:0;z-index:5000;display:grid;place-items:center;padding:18px;background:rgba(15,23,42,.52)}
+    .modal-backdrop[hidden]{display:none}
+    .modal-dialog{width:min(760px,100%);max-height:min(86vh,760px);display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 22px 70px rgba(15,23,42,.28);overflow:hidden}
+    .modal-header{display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line);background:#fbfaf7}
+    .modal-header h3{margin:0;flex:1;font-size:1.05rem;line-height:1.35}
+    .modal-close{width:34px;height:34px;padding:0;border-radius:50%;font-size:20px;line-height:1}
+    .modal-body{overflow:auto;padding:16px}
+    .modal-list{display:grid;gap:12px}
+    .gallery-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .gallery-card{display:grid;gap:8px}
+    .gallery-card a{display:block;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#f8fafc}
+    .gallery-card img{display:block;width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;background:#e5e7eb}
+    .gallery-card strong{font-size:.95rem;color:var(--ink)}
+    .reference-list{display:grid;gap:10px}
+    .reference-list a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius);color:var(--accent2);background:#fffdfa;text-decoration:none;word-break:break-all}
+    .reference-list a:hover{background:#f0f4f8}
+    .empty-state{padding:18px;border:1px dashed var(--line);border-radius:var(--radius);color:var(--muted);text-align:center;background:#fffdfa}
+    .collection-row{display:grid;grid-template-columns:76px minmax(120px,.55fr) minmax(180px,1fr) auto;gap:10px;align-items:start;padding:12px;border:1px solid var(--line);border-radius:var(--radius);background:#fffdfa}
+    .collection-row img{width:76px;height:58px;object-fit:cover;border-radius:6px;background:#e5e7eb}
+    .collection-row .thumb-empty{display:grid;place-items:center;width:76px;height:58px;border-radius:6px;background:#e5e7eb;color:var(--muted);font-size:.8rem;text-align:center}
+    .collection-row label{display:grid;gap:4px;font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+    .collection-row input{width:100%;height:36px;flex:none}
+    .row-remove{width:36px;height:36px;padding:0;color:var(--danger)}
+    .modal-actions{display:flex;gap:10px;justify-content:flex-end;padding:14px 16px;border-top:1px solid var(--line);background:#fbfaf7}
+    .modal-actions .add-row{margin-right:auto}
+
+    @media (max-width:1100px){.workspace{grid-template-columns:1fr}.detail-panel{position:relative;top:auto;max-height:none}#map{height:66vh;min-height:520px}.summary-bar{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media (max-width:760px){.gallery-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media (max-width:620px){
+      .hero,main{width:min(100% - 20px,1200px)}.summary-bar{grid-template-columns:1fr}.toolbar{padding:12px}
+      .detail-hero{aspect-ratio:16/9}#map{min-height:440px}
+      .gallery-list{grid-template-columns:1fr}
+      .collection-row{grid-template-columns:1fr}.collection-row img,.collection-row .thumb-empty{width:100%;height:150px}.row-remove{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <p class="eyebrow">Map View</p>
+      <h1>布哈拉与撒马尔罕文化遗产地图</h1>
+      <p class="lead">涵盖42处历史建筑与遗址，按世纪颜色编码。点击点位查看封面图与图文详情。</p>
+    </div>
+  </header>
+  <main>
+    <div class="toolbar">
+      <button class="filter active" data-city="all">全部</button>
+      <button class="filter" data-city="bukhara">布哈拉</button>
+      <button class="filter" data-city="samarkand">撒马尔罕</button>
+      <select id="eraFilter" aria-label="按年代筛选">
+        <option value="all">全部年代</option>
+      </select>
+      <input id="search" type="search" placeholder="搜索名称、简介、世纪…">
+      <div class="spacer"></div>
+      <button id="locateUser" type="button" style="display:none">显示我的位置</button>
+      <span id="countLabel" class="status" role="button" tabindex="0" title="打开当前筛选结果的第一个点位">加载中…</span>
+    </div>
+    <div class="workspace">
+      <section class="map-shell">
+        <div id="map"></div>
+        <div class="map-note">滚轮缩放地图，点击点位在右侧查看详情。颜色代表从属性文本推断的主要建造世纪。</div>
+      </section>
+      <aside class="detail-panel" id="detailPanel">
+        <div class="detail-empty" id="detailEmpty">选择地图点位后，这里会显示简介、图片和资料。</div>
+        <div class="detail-hero" id="detailHero" style="display:none">
+          <img id="detailImg" src="" alt="">
+        </div>
+        <div class="detail-body" id="detailBody" style="display:none">
+          <h2 id="detailTitle"></h2>
+          <p class="detail-sub" id="detailSub"></p>
+          <div class="detail-chips" id="detailChips"></div>
+          <div class="detail-section">
+            <h4>建筑简介</h4>
+            <p id="detailDesc"></p>
+          </div>
+          <div class="detail-section" id="detailNote2Section" style="display:none">
+            <h4>补充信息</h4>
+            <p id="detailNote2"></p>
+          </div>
+          <div class="detail-links" id="detailLinks"></div>
+        </div>
+        <div class="detail-tools" id="detailTools" style="display:none">
+          <button id="editToggle" type="button" hidden>编辑资料</button>
+          <button id="focusPoint" type="button">定位点位</button>
+        </div>
+        <form class="edit-panel" id="editPanel" hidden>
+          <div class="edit-grid">
+            <div class="edit-row"><label for="editNote">中文名称 / 简称</label><input id="editNote" name="NOTE"></div>
+            <div class="edit-row"><label for="editName">英文名称 / 原始名称</label><input id="editName" name="NAME"></div>
+            <div class="edit-row"><label for="editEra">年代</label><input id="editEra" name="ERA"></div>
+            <div class="edit-row"><label for="editCentury">年代归属</label><select id="editCentury" name="CENTURY"></select></div>
+            <div class="edit-row"><label for="editStyle">类型 / 风格</label><input id="editStyle" name="STYLE"></div>
+            <div class="edit-row"><label for="editNote2">补充信息</label><textarea id="editNote2" name="NOTE2"></textarea></div>
+            <div class="edit-row"><label for="editDesc">简介</label><textarea id="editDesc" name="DESC"></textarea></div>
+            <div class="edit-row"><label for="editImage">图片 URL</label><input id="editImage" name="IMAGE"></div>
+            <div class="edit-row"><label for="imageUpload">上传本地图片</label><input id="imageUpload" type="file" accept="image/*"></div>
+          </div>
+          <div class="edit-actions">
+            <button type="submit">保存修改</button>
+            <button id="cancelEdit" type="button">取消</button>
+          </div>
+        </form>
+      </aside>
+    </div>
+    <div id="legend" class="legend" aria-label="世纪图例"></div>
+    <section class="summary-bar" aria-label="概览">
+      <div class="stat"><strong id="totalCount">0</strong>总点位</div>
+      <div class="stat"><strong>2</strong>核心城市</div>
+      <div class="stat"><strong>42</strong>历史建筑</div>
+      <div class="stat"><strong>图解</strong>图文详情页</div>
+    </section>
+    <section class="sources">
+      <h2>图片来源与参考资料</h2>
+      <p>封面图来自 Wikimedia Commons，文字资料综合 UNESCO 世界遗产名录与建筑史学文献。</p>
+      <p>
+        <a href="https://whc.unesco.org/en/list/602/" target="_blank" rel="noreferrer">UNESCO: 布哈拉历史中心</a> ·
+        <a href="https://whc.unesco.org/en/list/603/" target="_blank" rel="noreferrer">UNESCO: 撒马尔罕 — 文化交汇之地</a> ·
+        <a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">Wikimedia Commons</a>
+      </p>
+    </section>
+  </main>
+  <div class="modal-backdrop" id="imageModal" hidden>
+    <form class="modal-dialog" id="imageCollectionForm">
+      <div class="modal-header">
+        <h3 id="imageModalTitle">更多图片</h3>
+        <button class="modal-close" type="button" data-close-modal aria-label="关闭">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-list" id="imageRows"></div>
+      </div>
+      <div class="modal-actions">
+        <button class="add-row" id="editImageCollection" type="button" hidden>修改</button>
+        <button class="add-row" id="addImageRow" type="button" hidden>新增图片</button>
+        <button type="submit" hidden>保存图片集</button>
+        <button type="button" data-close-modal>关闭</button>
+      </div>
+    </form>
+  </div>
+  <div class="modal-backdrop" id="referenceModal" hidden>
+    <form class="modal-dialog" id="referenceForm">
+      <div class="modal-header">
+        <h3 id="referenceModalTitle">参考链接</h3>
+        <button class="modal-close" type="button" data-close-modal aria-label="关闭">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-list" id="referenceRows"></div>
+      </div>
+      <div class="modal-actions">
+        <button class="add-row" id="editReferenceLinks" type="button" hidden>修改</button>
+        <button class="add-row" id="addReferenceRow" type="button" hidden>新增链接</button>
+        <button type="submit" hidden>保存参考链接</button>
+        <button type="button" data-close-modal>关闭</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- ===== GeoJSON data is loaded from heritage-data.json ===== -->
+  
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="anonymous"></script>
+  <script type="module">
+    async function loadGeoData() {
+      const dataUrl = new URL('heritage-data.json', import.meta.url);
+      dataUrl.searchParams.set('v', Date.now());
+      const response = await fetch(dataUrl);
+      if (!response.ok) throw new Error('数据加载失败: ' + response.status);
+      return response.json();
+    }
+    const geoData = await loadGeoData().catch(error => {
+      document.getElementById('map').innerHTML = '<div class="map-error">点位数据 heritage-data.json 加载失败。请确认它与本页面放在同一目录，并通过网页服务器访问。</div>';
+      document.getElementById('countLabel').textContent = '数据加载失败';
+      throw error;
+    });
+    const searchInput = document.getElementById('search');
+    const countLabel = document.getElementById('countLabel');
+    const filters = Array.from(document.querySelectorAll('.filter'));
+    const eraFilter = document.getElementById('eraFilter');
+    const legend = document.getElementById('legend');
+    const totalCount = document.getElementById('totalCount');
+    const locateUser = document.getElementById('locateUser');
+    const detailEmpty = document.getElementById('detailEmpty');
+    const detailBody = document.getElementById('detailBody');
+    const detailTools = document.getElementById('detailTools');
+    const detailImg = document.getElementById('detailImg');
+    const detailTitle = document.getElementById('detailTitle');
+    const detailSub = document.getElementById('detailSub');
+    const detailChips = document.getElementById('detailChips');
+    const detailDesc = document.getElementById('detailDesc');
+    const detailNote2 = document.getElementById('detailNote2');
+    const detailNote2Section = document.getElementById('detailNote2Section');
+    const detailLinks = document.getElementById('detailLinks');
+    const detailHero = document.getElementById('detailHero');
+    const editToggle = document.getElementById('editToggle');
+    const focusPoint = document.getElementById('focusPoint');
+    const editPanel = document.getElementById('editPanel');
+    const imageUpload = document.getElementById('imageUpload');
+    const imageModal = document.getElementById('imageModal');
+    const imageCollectionForm = document.getElementById('imageCollectionForm');
+    const imageRows = document.getElementById('imageRows');
+    const imageModalTitle = document.getElementById('imageModalTitle');
+    const editImageCollection = document.getElementById('editImageCollection');
+    const addImageRow = document.getElementById('addImageRow');
+    const referenceModal = document.getElementById('referenceModal');
+    const referenceForm = document.getElementById('referenceForm');
+    const referenceRows = document.getElementById('referenceRows');
+    const referenceModalTitle = document.getElementById('referenceModalTitle');
+    const editReferenceLinks = document.getElementById('editReferenceLinks');
+    const addReferenceRow = document.getElementById('addReferenceRow');
+
+    const centuryColors = { pre1:'#475569', '9':'#0f766e', '10':'#2563eb', '11':'#7c3aed', '12':'#db2777', '13':'#ea580c', '14':'#d97706', '15':'#16a34a', '16':'#0ea5e9', '17':'#dc2626', '18':'#64748b', '19':'#4f46e5', '20':'#111827', unknown:'#6b7280' };
+    const centuryOptions = ['pre1','9','10','11','12','13','14','15','16','17','18','19','20','unknown'];
+    const leafletReady = typeof L !== 'undefined';
+    const markerLayer = leafletReady ? L.layerGroup() : null;
+    const map = leafletReady ? L.map('map', { scrollWheelZoom:true, preferCanvas:true, zoomControl:false }) : null;
+    let activeCity = 'all';
+    let activeCentury = 'all';
+    let activeFeature = null;
+    let userLocationMarker = null;
+    let userAccuracyCircle = null;
+    let userWatchId = null;
+    let lastUserLatLng = null;
+    let lastUserAccuracy = null;
+    let pendingUserZoom = false;
+    let imageEditMode = false;
+    let referenceEditMode = false;
+    let imageModalSnapshot = '';
+    let referenceModalSnapshot = '';
+    let editPanelSnapshot = '';
+
+    const cityLabel = city => city === 'samarkand' ? '撒马尔罕' : '布哈拉';
+    const cityOf = latlng => latlng[1] > 65.6 ? 'samarkand' : 'bukhara';
+    const centuryLabel = code => code === 'pre1' ? '公元前' : code === 'unknown' ? '未知' : code + ' 世纪';
+    const escapeHTML = value => String(value || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+    const mercatorToLatLng = ([x, y]) => {
+      const R = 6378137;
+      const lng = x / R * 180 / Math.PI;
+      const lat = (2 * Math.atan(Math.exp(y / R)) - Math.PI / 2) * 180 / Math.PI;
+      return [lat, lng];
+    };
+    const defaultImageName = index => String(index + 1);
+    const makeWikiUrl = name => 'https://en.wikipedia.org/w/index.php?search=' + encodeURIComponent(name || '');
+
+    function normalizeImages(properties) {
+      const list = Array.isArray(properties.IMAGES) ? properties.IMAGES : [];
+      const images = list
+        .map((item, index) => ({
+          name: String(item?.name || item?.NAME || defaultImageName(index)).trim() || defaultImageName(index),
+          url: String(item?.url || item?.URL || '').trim()
+        }))
+        .filter(item => item.url);
+      if (properties.IMAGE && !images.some(item => item.url === properties.IMAGE)) {
+        images.unshift({ name: defaultImageName(0), url: properties.IMAGE });
+      }
+      return images.map((item, index) => ({
+        name: item.name || defaultImageName(index),
+        url: item.url
+      }));
+    }
+
+    function normalizeLinks(properties) {
+      const hasSavedLinks = Array.isArray(properties.LINKS);
+      const list = hasSavedLinks ? properties.LINKS : [];
+      const links = list
+        .map((item, index) => ({
+          name: String(item?.name || item?.NAME || ('参考链接 ' + (index + 1))).trim() || ('参考链接 ' + (index + 1)),
+          url: String(item?.url || item?.URL || '').trim()
+        }))
+        .filter(item => item.url);
+      if (!hasSavedLinks && !links.length && properties.NAME) {
+        links.push({ name:'Wikipedia', url:makeWikiUrl(properties.NAME) });
+      }
+      return links;
+    }
+
+    function syncCollections(properties) {
+      const images = normalizeImages(properties);
+      properties.IMAGES = images;
+      properties.IMAGE = images[0]?.url || properties.IMAGE || '';
+      properties.LINKS = normalizeLinks(properties);
+    }
+
+    function inferCenturyFromText(text) {
+      const value = String(text || '').toLowerCase();
+      if (/公元前|bce|(?<![a-z])bc(?![a-z])/.test(value)) return 'pre1';
+      const slashYear = value.match(/\b(1[0-9]{3}|20[0-9]{2})\s*\/\s*\d{1,2}\b/);
+      if (slashYear) return String(Math.ceil(Number(slashYear[1]) / 100));
+      const range = value.match(/(\d{3,4})\s*[\u2013\u2014\u2212-]\s*(\d{2,4})/);
+      if (range) return String(Math.ceil(Number(range[1]) / 100));
+      const cnCent = value.match(/(\d{1,2})\s*世纪/);
+      if (cnCent) return cnCent[1];
+      const year = value.match(/(1[0-9]{3}|20[0-9]{2}|[89][0-9]{2})/);
+      if (year) return String(Math.ceil(Number(year[1]) / 100));
+      const enCent = value.match(/\b(\d{1,2})\s*(?:th|st|nd|rd)?\s*(?:cent|c\.|century)\b/i);
+      if (enCent) return enCent[1];
+      return 'unknown';
+    }
+
+    function refreshDerived(feature) {
+      const p = feature.properties || {};
+      feature._latlng = mercatorToLatLng(feature.geometry.coordinates);
+      feature._city = cityOf(feature._latlng);
+      feature._century = p.CENTURY || inferCenturyFromText([p.ERA, p.NOTE, p.NOTE2, p.DESC, p.NAME].join(' '));
+      feature._sourceCentury = inferCenturyFromText([p.NOTE, p.NOTE2].join(' '));
+    }
+
+    const features = geoData.features.map((feature, index) => {
+      feature._id = feature.properties.ID || feature.properties.NAME || 'feature-' + index;
+      syncCollections(feature.properties);
+      refreshDerived(feature);
+      return feature;
+    });
+
+    function orderedCenturies() {
+      return Array.from(new Set(features.map(f => f._century))).sort((a, b) => {
+        if (a === 'pre1') return -1;
+        if (b === 'pre1') return 1;
+        if (a === 'unknown') return 99;
+        if (b === 'unknown') return -99;
+        return Number(a) - Number(b);
+      });
+    }
+
+    function saveData() {
+      console.warn('只读浏览版不会保存本地修改。');
+    }
+
+    function renderEraControls() {
+      const options = ['<option value="all">全部年代</option>'].concat(orderedCenturies().map(code => '<option value="' + escapeHTML(code) + '">' + escapeHTML(centuryLabel(code)) + '</option>'));
+      eraFilter.innerHTML = options.join('');
+      eraFilter.value = activeCentury;
+      legend.innerHTML = orderedCenturies().map(code =>
+        '<button class="legend-item' + (activeCentury === code ? ' active' : '') + '" type="button" data-century="' + escapeHTML(code) + '"><span class="swatch" style="background:' + (centuryColors[code] || centuryColors.unknown) + '"></span>' + escapeHTML(centuryLabel(code)) + '</button>'
+      ).join('');
+    }
+
+    function renderCenturyEditorOptions(selected) {
+      const current = selected || 'auto';
+      editPanel.elements.CENTURY.innerHTML = ['<option value="">自动推断</option>'].concat(
+        centuryOptions.map(code => '<option value="' + escapeHTML(code) + '">' + escapeHTML(centuryLabel(code)) + '</option>')
+      ).join('');
+      editPanel.elements.CENTURY.value = current === 'auto' ? '' : current;
+    }
+
+    function renderMarkers() {
+      if (!leafletReady) return;
+      features.forEach(feature => {
+        const color = centuryColors[feature._century] || centuryColors.unknown;
+        if (!feature._marker) {
+          feature._marker = L.circleMarker(feature._latlng, { radius:9, color:'#fff', weight:1.6, fillColor:color, fillOpacity:0.92 });
+          feature._marker.on('click', () => openDetail(feature));
+        }
+        feature._marker.setLatLng(feature._latlng);
+        feature._marker.setStyle({ fillColor:color });
+        feature._marker.bindTooltip(feature.properties.NOTE || feature.properties.NAME || '', { direction:'top', offset:[0,-8] });
+      });
+    }
+
+    function openDetail(feature) {
+      if (!canLeaveCurrentEdits()) return;
+      activeFeature = feature;
+      const p = feature.properties || {};
+      syncCollections(p);
+      const images = normalizeImages(p);
+      const imgSrc = images[0]?.url || p.IMAGE || '';
+      const title = p.NOTE || p.NAME || '';
+      const enName = p.NAME || '';
+      const desc = p.DESC || p.NOTE2 || p.NOTE || '';
+      detailEmpty.style.display = 'none';
+      detailHero.style.display = '';
+      detailBody.style.display = '';
+      detailTools.style.display = 'flex';
+      editPanel.classList.remove('open');
+
+      if (imgSrc) {
+        detailImg.src = imgSrc;
+        detailImg.alt = title;
+        detailImg.style.display = 'block';
+        detailHero.classList.remove('no-img');
+      } else {
+        detailImg.style.display = 'none';
+        detailHero.dataset.text = '暂无图片';
+        detailHero.classList.add('no-img');
+      }
+
+      detailTitle.textContent = title;
+      detailSub.textContent = enName;
+      let chipsHTML = '<span class="detail-chip chip-city">' + escapeHTML(cityLabel(feature._city)) + '</span>';
+      chipsHTML += '<span class="detail-chip chip-century">' + escapeHTML(centuryLabel(feature._century)) + '</span>';
+      if (p.ERA) chipsHTML += '<span class="detail-chip chip-era">' + escapeHTML(p.ERA) + '</span>';
+      if (p.STYLE) chipsHTML += '<span class="detail-chip chip-style">' + escapeHTML(p.STYLE) + '</span>';
+      detailChips.innerHTML = chipsHTML;
+      detailDesc.textContent = desc;
+      detailNote2.textContent = p.NOTE2 || '';
+      detailNote2Section.style.display = p.NOTE2 ? '' : 'none';
+      detailLinks.innerHTML = '<button class="link-wiki" id="openReferenceModal" type="button">参考链接</button><button class="link-commons" id="openImageModal" type="button">更多图片</button>';
+      fillEditForm(feature);
+    }
+
+    function serializeEditPanel() {
+      return ['NOTE','NAME','ERA','CENTURY','STYLE','NOTE2','DESC','IMAGE']
+        .map(key => key + ':' + (editPanel.elements[key]?.value || ''))
+        .join('\n');
+    }
+
+    function resetEditPanelSnapshot() {
+      editPanelSnapshot = serializeEditPanel();
+    }
+
+    function isEditPanelDirty() {
+      return editPanel.classList.contains('open') && serializeEditPanel() !== editPanelSnapshot;
+    }
+
+    function canLeaveEditPanel() {
+      return !isEditPanelDirty() || window.confirm('资料编辑尚未保存，确定要关闭并放弃这些修改吗？');
+    }
+
+    function readImageRowsForState() {
+      return Array.from(imageRows.querySelectorAll('[data-row]')).map((row, index) => {
+        const url = row.querySelector('[name="imageUrl"]')?.value.trim() || '';
+        const name = row.querySelector('[name="imageName"]')?.value.trim() || defaultImageName(index);
+        return { name, url };
+      });
+    }
+
+    function readReferenceRowsForState() {
+      return Array.from(referenceRows.querySelectorAll('[data-row]')).map((row, index) => {
+        const url = row.querySelector('[name="linkUrl"]')?.value.trim() || '';
+        const name = row.querySelector('[name="linkName"]')?.value.trim() || ('参考链接 ' + (index + 1));
+        return { name, url };
+      });
+    }
+
+    function imageModalState() {
+      return JSON.stringify(readImageRowsForState());
+    }
+
+    function referenceModalState() {
+      return JSON.stringify(readReferenceRowsForState());
+    }
+
+    function isImageModalDirty() {
+      return !imageModal.hidden && imageEditMode && imageModalState() !== imageModalSnapshot;
+    }
+
+    function isReferenceModalDirty() {
+      return !referenceModal.hidden && referenceEditMode && referenceModalState() !== referenceModalSnapshot;
+    }
+
+    function canCloseModals() {
+      if (isImageModalDirty()) return window.confirm('图片集编辑尚未保存，确定要关闭并放弃这些修改吗？');
+      if (isReferenceModalDirty()) return window.confirm('参考链接编辑尚未保存，确定要关闭并放弃这些修改吗？');
+      return true;
+    }
+
+    function canLeaveCurrentEdits() {
+      return canLeaveEditPanel() && canCloseModals();
+    }
+
+    function fillEditForm(feature) {
+      const p = feature.properties || {};
+      editPanel.elements.NOTE.value = p.NOTE || '';
+      editPanel.elements.NAME.value = p.NAME || '';
+      editPanel.elements.ERA.value = p.ERA || '';
+      renderCenturyEditorOptions(p.CENTURY || '');
+      editPanel.elements.STYLE.value = p.STYLE || '';
+      editPanel.elements.NOTE2.value = p.NOTE2 || '';
+      editPanel.elements.DESC.value = p.DESC || '';
+      editPanel.elements.IMAGE.value = p.IMAGE || '';
+      imageUpload.value = '';
+      resetEditPanelSnapshot();
+    }
+
+    function closeModals(skipConfirm = false) {
+      if (!skipConfirm && !canCloseModals()) return false;
+      imageModal.hidden = true;
+      referenceModal.hidden = true;
+      imageEditMode = false;
+      referenceEditMode = false;
+      imageModalSnapshot = '';
+      referenceModalSnapshot = '';
+      return true;
+    }
+
+    function setImageModalMode(editing) {
+      imageEditMode = false;
+      editImageCollection.hidden = true;
+      addImageRow.hidden = true;
+      imageCollectionForm.querySelector('[type="submit"]').hidden = true;
+      imageModalSnapshot = '';
+    }
+
+    function setReferenceModalMode(editing) {
+      referenceEditMode = false;
+      editReferenceLinks.hidden = true;
+      addReferenceRow.hidden = true;
+      referenceForm.querySelector('[type="submit"]').hidden = true;
+      referenceModalSnapshot = '';
+    }
+
+    function imageViewHTML(item, index) {
+      const name = item?.name || defaultImageName(index);
+      const url = item?.url || '';
+      return '<article class="gallery-card">' +
+        '<a href="' + escapeHTML(url) + '" target="_blank" rel="noreferrer"><img src="' + escapeHTML(url) + '" alt="' + escapeHTML(name) + '"></a>' +
+        '<strong>' + escapeHTML(name) + '</strong>' +
+        '</article>';
+    }
+
+    function imageRowHTML(item, index) {
+      const url = item?.url || '';
+      const preview = url ? '<img src="' + escapeHTML(url) + '" alt="">' : '<div class="thumb-empty">暂无预览</div>';
+      return '<div class="collection-row" data-row>' +
+        preview +
+        '<label>图片名称<input name="imageName" value="' + escapeHTML(item?.name || defaultImageName(index)) + '" placeholder="' + escapeHTML(defaultImageName(index)) + '"></label>' +
+        '<label>图片 URL<input name="imageUrl" value="' + escapeHTML(url) + '" placeholder="https://..."></label>' +
+        '<button class="row-remove" type="button" data-remove-row aria-label="删除图片">&times;</button>' +
+        '</div>';
+    }
+
+    function referenceViewHTML(item) {
+      return '<a href="' + escapeHTML(item.url) + '" target="_blank" rel="noreferrer"><span>' + escapeHTML(item.name) + '</span><span>打开</span></a>';
+    }
+
+    function referenceRowHTML(item, index) {
+      return '<div class="collection-row" data-row>' +
+        '<div class="thumb-empty">链接</div>' +
+        '<label>链接名称<input name="linkName" value="' + escapeHTML(item?.name || ('参考链接 ' + (index + 1))) + '" placeholder="参考链接 ' + (index + 1) + '"></label>' +
+        '<label>网址 URL<input name="linkUrl" value="' + escapeHTML(item?.url || '') + '" placeholder="https://..."></label>' +
+        '<button class="row-remove" type="button" data-remove-row aria-label="删除链接">&times;</button>' +
+        '</div>';
+    }
+
+    function renderImageRows(items) {
+      if (imageEditMode) {
+        const rows = items.length ? items : [{ name:defaultImageName(0), url:'' }];
+        imageRows.className = 'modal-list';
+        imageRows.innerHTML = rows.map(imageRowHTML).join('');
+        return;
+      }
+      imageRows.className = 'gallery-list';
+      imageRows.innerHTML = items.length ? items.map(imageViewHTML).join('') : '<div class="empty-state">暂无图片</div>';
+    }
+
+    function renderReferenceRows(items) {
+      if (referenceEditMode) {
+        const rows = items.length ? items : [{ name:'参考链接 1', url:'' }];
+        referenceRows.className = 'modal-list';
+        referenceRows.innerHTML = rows.map(referenceRowHTML).join('');
+        return;
+      }
+      referenceRows.className = 'reference-list';
+      referenceRows.innerHTML = items.length ? items.map(referenceViewHTML).join('') : '<div class="empty-state">暂无参考链接</div>';
+    }
+
+    function openImageCollection() {
+      if (!activeFeature) return;
+      const p = activeFeature.properties || {};
+      imageModalTitle.textContent = (p.NOTE || p.NAME || '点位') + ' · 更多图片';
+      setImageModalMode(false);
+      renderImageRows(normalizeImages(p));
+      imageModal.hidden = false;
+    }
+
+    function openReferenceCollection() {
+      if (!activeFeature) return;
+      const p = activeFeature.properties || {};
+      referenceModalTitle.textContent = (p.NOTE || p.NAME || '点位') + ' · 参考链接';
+      setReferenceModalMode(false);
+      renderReferenceRows(normalizeLinks(p));
+      referenceModal.hidden = false;
+    }
+
+    function readImageRows() {
+      return Array.from(imageRows.querySelectorAll('[data-row]')).map((row, index) => {
+        const url = row.querySelector('[name="imageUrl"]').value.trim();
+        const name = row.querySelector('[name="imageName"]').value.trim() || defaultImageName(index);
+        return { name, url };
+      }).filter(item => item.url);
+    }
+
+    function readReferenceRows() {
+      return Array.from(referenceRows.querySelectorAll('[data-row]')).map((row, index) => {
+        const url = row.querySelector('[name="linkUrl"]').value.trim();
+        const name = row.querySelector('[name="linkName"]').value.trim() || ('参考链接 ' + (index + 1));
+        return { name, url };
+      }).filter(item => item.url);
+    }
+
+    function getVisibleFeatures() {
+      const q = searchInput.value.trim().toLowerCase();
+      return features.filter(f => {
+        const p = f.properties || {};
+        const cityOk = activeCity === 'all' || f._city === activeCity;
+        const centuryOk = activeCentury === 'all' || f._century === activeCentury;
+        const text = [p.NAME, p.NOTE, p.NOTE2, p.ERA, p.STYLE, p.DESC, centuryLabel(f._century)].join(' ').toLowerCase();
+        return cityOk && centuryOk && text.includes(q);
+      });
+    }
+
+    function redrawMarkers() {
+      const visible = getVisibleFeatures();
+      if (leafletReady) {
+        markerLayer.clearLayers();
+        visible.forEach(f => markerLayer.addLayer(f._marker));
+      }
+      countLabel.textContent = visible.length + ' / ' + features.length + ' 可见';
+      totalCount.textContent = features.length;
+    }
+
+    function openFirstVisible() {
+      const first = getVisibleFeatures()[0];
+      if (first) openDetail(first);
+    }
+
+    function zoomToUserLocation() {
+      if (!leafletReady || !lastUserLatLng) return;
+      const maxZoom = 14;
+      if (lastUserAccuracy && userAccuracyCircle) {
+        map.fitBounds(userAccuracyCircle.getBounds().pad(1.6), { maxZoom });
+      } else {
+        map.setView(lastUserLatLng, Math.min(Math.max(map.getZoom(), 12), maxZoom));
+      }
+    }
+
+    function updateUserLocation(position) {
+      if (!leafletReady) return;
+      const coords = position.coords;
+      lastUserLatLng = [coords.latitude, coords.longitude];
+      lastUserAccuracy = coords.accuracy || 0;
+      const icon = L.divIcon({
+        className: '',
+        html: '<span class="user-location-marker"></span>',
+        iconSize: [18, 18],
+        iconAnchor: [9, 9]
+      });
+      if (!userLocationMarker) {
+        userLocationMarker = L.marker(lastUserLatLng, { icon, zIndexOffset:1000 }).addTo(map);
+        userLocationMarker.bindTooltip('我的位置', { direction:'top', offset:[0,-12] });
+      } else {
+        userLocationMarker.setLatLng(lastUserLatLng);
+      }
+      if (!userAccuracyCircle) {
+        userAccuracyCircle = L.circle(lastUserLatLng, {
+          radius:lastUserAccuracy,
+          color:'#0ea5e9',
+          weight:1,
+          fillColor:'#38bdf8',
+          fillOpacity:.16
+        }).addTo(map);
+      } else {
+        userAccuracyCircle.setLatLng(lastUserLatLng);
+        userAccuracyCircle.setRadius(lastUserAccuracy);
+      }
+      locateUser.textContent = '缩放到我的位置';
+      if (pendingUserZoom) {
+        pendingUserZoom = false;
+        zoomToUserLocation();
+      }
+    }
+
+    function handleLocationError(error) {
+      const message = error?.code === 1 ? '定位权限被拒绝' : '暂时无法获取位置';
+      locateUser.textContent = message;
+      window.setTimeout(() => { locateUser.textContent = lastUserLatLng ? '缩放到我的位置' : '显示我的位置'; }, 2200);
+    }
+
+    function startUserLocation() {
+      if (!leafletReady) {
+        document.getElementById('map').scrollIntoView({ behavior:'smooth', block:'center' });
+        return;
+      }
+      if (!navigator.geolocation) {
+        locateUser.textContent = '浏览器不支持定位';
+        window.setTimeout(() => { locateUser.textContent = '显示我的位置'; }, 2200);
+        return;
+      }
+      if (lastUserLatLng) {
+        zoomToUserLocation();
+        return;
+      }
+      pendingUserZoom = true;
+      locateUser.textContent = '正在定位...';
+      if (userWatchId !== null) return;
+      userWatchId = navigator.geolocation.watchPosition(updateUserLocation, handleLocationError, {
+        enableHighAccuracy:true,
+        maximumAge:10000,
+        timeout:12000
+      });
+    }
+
+    if (leafletReady) {
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:19, attribution:'&copy; OpenStreetMap contributors' }).addTo(map);
+      markerLayer.addTo(map);
+    } else {
+      document.getElementById('map').innerHTML = '<div class="map-error">地图组件 Leaflet 未能加载。请联网后刷新页面，或将 Leaflet 资源下载到本地后替换 CDN 链接。</div>';
+    }
+    renderMarkers();
+    renderEraControls();
+    redrawMarkers();
+    if (leafletReady) map.fitBounds(L.latLngBounds(features.map(f => f._latlng)).pad(0.2));
+
+    filters.forEach(button => button.addEventListener('click', () => {
+      filters.forEach(item => item.classList.remove('active'));
+      button.classList.add('active');
+      activeCity = button.dataset.city;
+      redrawMarkers();
+    }));
+
+    eraFilter.addEventListener('change', () => {
+      activeCentury = eraFilter.value;
+      renderEraControls();
+      redrawMarkers();
+      openFirstVisible();
+    });
+    legend.addEventListener('click', event => {
+      const button = event.target.closest('[data-century]');
+      if (!button) return;
+      activeCentury = activeCentury === button.dataset.century ? 'all' : button.dataset.century;
+      eraFilter.value = activeCentury;
+      renderEraControls();
+      redrawMarkers();
+      openFirstVisible();
+    });
+    searchInput.addEventListener('input', redrawMarkers);
+    countLabel.addEventListener('click', openFirstVisible);
+    countLabel.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') openFirstVisible();
+    });
+    locateUser.addEventListener('click', startUserLocation);
+    focusPoint.addEventListener('click', () => {
+      if (!activeFeature) return;
+      if (!leafletReady) {
+        document.getElementById('map').scrollIntoView({ behavior:'smooth', block:'center' });
+        return;
+      }
+      map.flyTo(activeFeature._latlng, Math.max(map.getZoom(), 16), { duration:.7 });
+      activeFeature._marker.openTooltip();
+    });
+    detailLinks.addEventListener('click', event => {
+      if (event.target.closest('#openImageModal')) openImageCollection();
+      if (event.target.closest('#openReferenceModal')) openReferenceCollection();
+    });
+    document.addEventListener('click', event => {
+      if (event.target.matches('[data-close-modal]') || event.target === imageModal || event.target === referenceModal) {
+        closeModals();
+      }
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeModals();
+    });
+    editImageCollection.addEventListener('click', () => {
+      if (!activeFeature) return;
+      setImageModalMode(true);
+      renderImageRows(normalizeImages(activeFeature.properties || {}));
+      imageModalSnapshot = imageModalState();
+    });
+    editReferenceLinks.addEventListener('click', () => {
+      if (!activeFeature) return;
+      setReferenceModalMode(true);
+      renderReferenceRows(normalizeLinks(activeFeature.properties || {}));
+      referenceModalSnapshot = referenceModalState();
+    });
+    addImageRow.addEventListener('click', () => {
+      const items = readImageRows();
+      items.push({ name:defaultImageName(items.length), url:'' });
+      renderImageRows(items);
+    });
+    addReferenceRow.addEventListener('click', () => {
+      const items = readReferenceRows();
+      items.push({ name:'参考链接 ' + (items.length + 1), url:'' });
+      renderReferenceRows(items);
+    });
+    imageRows.addEventListener('click', event => {
+      if (!event.target.closest('[data-remove-row]')) return;
+      if (!window.confirm('确定删除这张图片吗？')) return;
+      event.target.closest('[data-row]').remove();
+      if (!imageRows.querySelector('[data-row]')) renderImageRows([]);
+    });
+    referenceRows.addEventListener('click', event => {
+      if (!event.target.closest('[data-remove-row]')) return;
+      if (!window.confirm('确定删除这条参考链接吗？')) return;
+      event.target.closest('[data-row]').remove();
+      if (!referenceRows.querySelector('[data-row]')) renderReferenceRows([]);
+    });
+    imageRows.addEventListener('input', event => {
+      if (!event.target.matches('[name="imageUrl"]')) return;
+      const row = event.target.closest('[data-row]');
+      const preview = row.querySelector('img,.thumb-empty');
+      const url = event.target.value.trim();
+      if (preview.tagName === 'IMG') {
+        preview.src = url;
+      } else if (url) {
+        preview.outerHTML = '<img src="' + escapeHTML(url) + '" alt="">';
+      }
+    });
+    imageCollectionForm.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!activeFeature) return;
+      if (!window.confirm('确定保存图片集修改吗？')) return;
+      const p = activeFeature.properties || {};
+      const images = readImageRows();
+      p.IMAGES = images;
+      p.IMAGE = images[0]?.url || '';
+      saveData();
+      closeModals(true);
+      openDetail(activeFeature);
+    });
+    referenceForm.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!activeFeature) return;
+      if (!window.confirm('确定保存参考链接修改吗？')) return;
+      activeFeature.properties.LINKS = readReferenceRows();
+      saveData();
+      closeModals(true);
+      openDetail(activeFeature);
+    });
+    editToggle.addEventListener('click', () => {
+      if (editPanel.classList.contains('open')) {
+        if (!canLeaveEditPanel()) return;
+        if (activeFeature) fillEditForm(activeFeature);
+        editPanel.classList.remove('open');
+        return;
+      }
+      editPanel.classList.add('open');
+      resetEditPanelSnapshot();
+    });
+    document.getElementById('cancelEdit').addEventListener('click', () => {
+      if (!canLeaveEditPanel()) return;
+      if (activeFeature) fillEditForm(activeFeature);
+      editPanel.classList.remove('open');
+    });
+    imageUpload.addEventListener('change', event => {
+      const file = event.target.files && event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => { editPanel.elements.IMAGE.value = reader.result; };
+      reader.readAsDataURL(file);
+    });
+    editPanel.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!activeFeature) return;
+      if (!window.confirm('确定保存资料修改吗？')) return;
+      ['NOTE','NAME','ERA','CENTURY','STYLE','NOTE2','DESC','IMAGE'].forEach(key => {
+        activeFeature.properties[key] = editPanel.elements[key].value.trim();
+      });
+      syncCollections(activeFeature.properties);
+      refreshDerived(activeFeature);
+      renderMarkers();
+      renderEraControls();
+      redrawMarkers();
+      saveData();
+      resetEditPanelSnapshot();
+      editPanel.classList.remove('open');
+      openDetail(activeFeature);
+    });
+    window.addEventListener('beforeunload', event => {
+      if (!isEditPanelDirty() && !isImageModalDirty() && !isReferenceModalDirty()) return;
+      event.preventDefault();
+      event.returnValue = '';
+    });
+    detailImg.addEventListener('error', () => {
+      detailImg.style.display = 'none';
+      detailHero.dataset.text = '图片加载失败';
+      detailHero.classList.add('no-img');
+    });
+  </script>
+</body>
+</html>
+
+
