@@ -621,22 +621,42 @@
       },
       "properties": {
         "NAME": "Sayf ad-Din Bakharzi Mausoleum",
-        "NOTE": "赛义夫丁·巴哈尔兹陵墓，建于14世纪末",
+        "NOTE": "赛义夫丁·巴哈尔兹陵墓",
         "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara%20Saif%20ed-Din%20Bokharzi%20mausoleum%201.jpg?width=1200",
-        "ERA": "14世纪末（帖木儿时期）",
-        "STYLE": "帖木儿时期苏菲圣墓",
-        "DESC": "紧邻不颜忽里汗陵的另一座重要圣墓，安葬着著名的苏菲派谢赫赛义夫丁·巴哈尔兹（Sayf ad-Din Bakharzi），他是13世纪中亚最具影响力的库布拉维教团苏菲大师。陵墓建筑群包含圣墓、哈纳卡（修道院）和清真寺，是布哈拉苏菲派信仰体系的重要圣地。两座相邻的陵墓——一为蒙古汗王、一为苏菲圣人——共同构成了布哈拉“圣王并祀”的独特文化景观。",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133651164.png",
+        "ERA": "13世纪圣墓传统，14世纪末现存建筑（察合台时期）",
+        "STYLE": "中亚苏菲圣墓建筑",
+        "DESC": "赛义夫丁·巴哈尔兹陵墓位于布哈拉东部法塔巴德（Fathabad）地区，是中亚库布拉维苏菲教团的重要圣地。陵墓纪念13世纪著名呼罗珊苏菲大师赛义夫丁·巴哈尔兹（Sayf ad-Din Bakharzi，卒于1261年），其弟子和信徒曾围绕圣墓建立哈纳卡（khanqah）及宗教活动空间，使该地区逐渐发展为布哈拉重要的苏菲修行中心。现存陵墓建筑可能形成于14世纪末，反映了察合台时期圣墓建筑的发展。赛义夫丁·巴哈尔兹陵墓与东侧的不颜忽里汗陵（Bayan-Quli Khan Mausoleum）相邻，后者为察合台汗国统治者不颜忽里汗于1358年建造，体现了蒙古贵族与苏菲圣人的共同纪念传统。与装饰华丽的不颜忽里汗陵不同，赛义夫丁陵墓外部较为朴素，但其内部穹顶空间具有独特艺术价值：穹顶坐落于低矮采光鼓座之上，大量自然光进入室内，结合白色墙面形成庄严而明亮的礼拜与朝圣空间。陵墓前室作为ziyārat-khāna（朝拜厅），供信徒瞻仰和举行纪念仪式，后室则保存圣人的真正墓穴。该建筑群不仅体现了布哈拉苏菲传统与地方宗教网络的发展，也见证了13—14世纪中亚伊斯兰圣墓建筑由宗教纪念空间向综合性朝圣中心演变的过程。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara%20Saif%20ed-Din%20Bokharzi%20mausoleum%201.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133711085.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133720948.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804133925704.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804134039268.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804134053077.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Sayf%20ad-Din%20Bakharzi%20Mausoleum"
+            "url": "https://en.wikipedia.org/wiki/Saif_ed-Din_Bokharzi_%26_Bayan-Quli_Khan_Mausoleums"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1382/uzbekistan/bukhara/saif-ed-din-bokharzi-&-bayan-quli-khan-tombs"
           }
         ]
       }
