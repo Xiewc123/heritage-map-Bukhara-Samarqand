@@ -1,0 +1,1509 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170197.332600001,
+          4833698.706500001
+        ]
+      },
+      "properties": {
+        "NAME": "Ark of Bukhara",
+        "NOTE": "雅克城堡",
+        "NOTE2": "始建于公元前1世纪。中世纪布哈拉各代统治者宫殿与城堡核心。",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804091746245.png",
+        "ERA": "公元前1世纪–20世纪",
+        "STYLE": "城堡/宫殿建筑群",
+        "DESC": "布哈拉阿尔克城堡（Ark of Bukhara）是一座占地约3公顷的庞大要塞，位于城墙环绕的布哈拉城西北角。始建于公元一千纪中叶，此后一直是布哈拉历代统治者的主要居所，直至1920年俄军空袭将其部分摧毁——大火烧去了昔日大部分辉煌，但残存部分仍可窥见末代主人曼吉特（Manghit）埃米尔们的奢靡生活。\"Ark\"一词源自波斯语arg（要塞、城堡），与英语中意为\"方舟/柜子\"的Ark（源自拉丁语arca）无关。考古发掘（Nekrasova主持）表明城堡建基于天然冲积层上，是理想的战略驻地；原丘高约6米，后加高至16–20米，21米深的发掘显示最早的文化层可溯至公元前4–2世纪。据纳尔沙希（Narshakhi，899–960）所著《布哈拉史》，城堡的缔造者已湮没于历史，传说归于传奇波斯王子西亚武什（Siyavusha）或其岳父阿夫拉西亚布：西亚武什自波斯出逃渡阿姆河后娶其女、任地方总督并建堡纪念，后遭岳父杀害；纳尔沙希时代，其殒命之地（城堡东门古里扬门）仍是祆教信徒聚集凭吊的圣地，每年诺鲁孜节以公鸡献祭。另一传说称，穆斯林征服前布哈拉胡达（城主）比敦在位时城堡屡建屡塌，后按谋臣建议以七块石标按大熊星座形状划定界址方告成功。\n\n公元712/713年，倭马亚王朝征服者屈底波·伊本·穆斯林攻占布哈拉，摧毁堡内祆教火庙改建清真寺，为吸引信众允许以粟特语诵读《古兰经》并赏两枚迪拉姆，但富户不屑一顾，双方冲突中穆斯林拆下庄园大门充作扩建清真寺之材，门上神祇轮廓日久仍依稀可辨。屈底波清真寺服役至770/771年被城墙外新寺取代，后者成为今卡良清真寺的前身，原寺最终沦为税务署（divan al-kharadj）并湮没。早期穆斯林时代城堡对市民相当开放，此后公共职能渐迁入内城（Shahristan）与雷吉斯坦广场。据12世纪增补的编年史，城堡城墙屡毁屡建：花剌子模沙赫阿尔斯兰（Arsiz）1139/40年攻占布哈拉、杀死塞尔柱总督并夷平堡垒；帖克什苏丹（1172–1200）再度修复，旋于1219年被成吉思汗大军攻陷。尽管历经循环毁建，要塞关键部位位置大体不变——今日西侧雷吉斯坦门很可能与纳尔沙希所载同名之门同址，或因地基与天然地形难以更改。\n\n城堡现貌定型于16世纪昔班尼王朝的复兴时期，延续至17世纪中叶札尼德—阿斯特拉罕尼德治下；1680年起约百年间权柄分散、国势衰微，1740年波斯纳迪尔沙入侵，1740年代波斯人营建了今存雷吉斯坦门，至曼吉特王朝（1788–1920）统治下城堡重获军事与艺术上的重视。\n\n曼吉特时代资料最为丰富：幸存的西侧建筑群——雷吉斯坦门、堡内清真寺、库什贝吉办公厅（elchi khanah）与正式接见庭（kurinesh khana）——均位于院落西中部而幸免于火；其余约2公顷空地现为禁止公众进入的考古遗址，北侧残存18世纪的巴托尔·戈齐哈纳卡（Battol-Gozi Khanaka）及为纪念被纳斯鲁拉汗处死的四十名少女而建的奇尔杜赫塔龙清真寺，南侧存19世纪哈纳卡与埃米尔浴室废墟。城堡鼎盛时约有3000人居住，包括统治者及其家族、后宫、官僚贵族、军队与仆役，囚犯亦关押于此——自雷吉斯坦门通往内庭的曲折甬道两侧十二间黑暗牢房（ob khana）曾用于关押示众。近代亲历记述罕见，俄国军官布捷涅夫1841–42年奉沙皇之命赴布哈拉侦察时随行的汉尼科夫（Nikolay Khanykov）留下宝贵记录：主蓄水池（ab-khana）兼作监狱，另有更为阴森的\"虱子房\"（kana-khana）。与城堡构成\"科什\"（kosh）对置布局的是广场对面的博洛豪兹清真寺（1712年建，1917年增建），它担任全城主麻清真寺。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804091746245.png"
+          },
+          {
+            "name": "2",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ark%20of%20Bukhara%20%28%D0%A6%D0%B8%D1%82%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%20%D0%90%D1%80%D0%BA.%20Buxoro%20arki%29.jpg?width=1200"
+          },
+          {
+            "name": "宫廷清真寺",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804091834429.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804092037527.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ark_of_Bukhara"
+          },
+          {
+            "name": "参考链接 2",
+            "url": "https://www.orientalarchitecture.com/sid/1626/uzbekistan/bukhara/bukhara-ark-fortress"
+          }
+        ],
+        "CENTURY": "16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7161609.841699999,
+          4833220.058899999
+        ]
+      },
+      "properties": {
+        "NAME": "Historical complex Chor Bakr",
+        "NOTE": "乔尔·巴克尔历史建筑群",
+        "NOTE2": "主要形成于16世纪（昔班尼王朝时期），16–19世纪不断扩建。由清真寺、经学院、墓塔、家族陵墓组成。",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-Чор-Бакр.jpg",
+        "ERA": "16–19世纪（昔班尼王朝至布哈拉汗国）",
+        "STYLE": "伊斯兰陵墓建筑群",
+        "DESC": "位于布哈拉以西约5公里的苏米坦村，是中亚最重要的苏菲派圣地之一。\n（1）早期：圣墓形成（10世纪）。墓主Abu Bakr Sa‘d（卒于970/971年），\n（2）1559年由昔班尼王朝统治者 Abdullah Khan II 创立。内有陵墓、清真寺、伊斯兰学校和被高墙环绕的大庭院。在接下来的几个世纪里，建筑群不断扩建\n（3）该建筑群包括25座建筑：宿舍（khonaqo）、清真寺、带有库吉拉斯（学习室）的艾万（Ayvan）、门楼（darvazahana）、宣礼塔，以及20个小型建筑——庭院——带有圆顶覆盖的墓地，以及独立的立式门廊。\n\n\n参考资料：\nhttps://whc.unesco.org/en/tentativelists/5305/?utm_source=chatgpt.com\nhttps://en.wikipedia.org/wiki/Chor-Bakr",
+        "CENTURY": "16",
+        "AUDIT_HIDDEN": "",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-Чор-Бакр.jpg"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-Tombs_at_Chor-Bakr_Mausoleum_02.jpg"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260803145617773.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260803145711338.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/Chor-Bakr-Necropolis-14-1-1024x768.jpg"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Chor-Bakr"
+          },
+          {
+            "name": "UNESCO",
+            "url": "https://whc.unesco.org/en/tentativelists/5305/?utm_source=chatgpt.com"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7454963.506999999,
+          4815018.363399997
+        ]
+      },
+      "properties": {
+        "NAME": "Gur-e-Amir Mausoleum",
+        "NOTE": "帖木儿陵墓",
+        "NOTE2": "最具代表性的帖木儿王朝建筑之一，始建于15世纪初。1405年帖木儿远征途中去世后安葬于此。",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Timurid%20minaret%20Gur-e-Emir%20%28%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9%20%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80%2C%20Go%CA%BBri%20Amir%29%2C%20Samarkand.jpg?width=1200",
+        "ERA": "1403–1405年（帖木儿帝国）",
+        "STYLE": "帖木儿王朝建筑 / 波斯-伊斯兰融合",
+        "DESC": "中亚最具标志性的建筑之一，也是帖木儿王朝建筑美学的巅峰之作。陵墓最初为帖木儿的爱孙穆罕默德·苏丹而建，1405年帖木儿在远征明朝途中病逝于讹答剌（今哈萨克斯坦），遗体运回撒马尔罕安葬于此。其标志性的深蓝色凹槽穹顶（肋拱穹顶）高达32米，覆盖着华丽的釉面砖几何纹饰。内部墙面装饰着金箔壁画、缟玛瑙和精美瓷砖。陵墓建筑铭文“我若在世，世人将颤抖”为这座圣殿增添了无尽的神秘色彩。1941年苏联考古学家格拉西莫夫曾开棺研究帖木儿遗骸，验证了其跛足的历史记载。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Timurid%20minaret%20Gur-e-Emir%20%28%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9%20%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80%2C%20Go%CA%BBri%20Amir%29%2C%20Samarkand.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Gur-e-Amir%20Mausoleum"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7455706.051100001,
+          4815880.576899998
+        ]
+      },
+      "properties": {
+        "NAME": "Registan Square",
+        "NOTE": "雷吉斯坦广场，撒马尔罕最著名城市空间",
+        "NOTE2": "主要形成于15–17世纪。三座经学院：Ulugh Beg Madrasa（兀鲁伯经学院）、Sher-Dor Madrasa（狮子经学院）、Tilya-Kori Madrasa（金色经学院）。",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4.%20%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D0%B0%D0%BD.jpg?width=1200",
+        "ERA": "15–17世纪",
+        "STYLE": "帖木儿至布哈拉汗国时期经学院建筑群",
+        "DESC": "中亚最壮丽的城市广场，也是帖木儿帝国与后续汗国时期的建筑精华荟萃之地。“雷吉斯坦”意为“沙地”，历史上是公共集会、处决和王室公告的场所。广场三面由三座宏伟的经学院围合：左侧为兀鲁伯经学院（1417–1420），中央为金色经学院（Tilya-Kori，1646–1660），右侧为狮子经学院（Sher-Dor，1619–1636）。三座建筑的门廊（iwan）朝向广场中心，形成极具视觉冲击力的空间对话。夕阳下，釉面砖折射出金蓝交织的光芒，被誉为“东方最华贵的广场”。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4.%20%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D0%B0%D0%BD.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Registan%20Square"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7455607.463799998,
+          4815881.596199997
+        ]
+      },
+      "properties": {
+        "NAME": "Ulugh Beg Madrasa",
+        "NOTE": "兀鲁伯经学院，1417–1420，帖木儿帝国时期",
+        "NOTE2": "帖木儿孙 Ulugh Beg 创建，天文学中心",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulugh%20Beg%20Madrasa.jpg?width=1200",
+        "ERA": "1417–1420年（帖木儿帝国）",
+        "STYLE": "帖木儿王朝经学院",
+        "DESC": "雷吉斯坦广场上最早建成的经学院，由帖木儿的孙子——著名的天文学家-君主兀鲁伯（Ulugh Beg）亲自创建。建筑正面以巨大的门廊（pishtaq）为主导，两侧各有一座高耸的宣礼塔，外墙装饰着精美的几何纹和库法体铭文瓷砖。此处不仅是伊斯兰神学教育中心，更是当时世界上最先进的天文研究机构之一。兀鲁伯本人常在此讲学，教授数学与天文学。入口上方镌刻着先知圣训“追求知识是每个穆斯林男女的义务”。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulugh%20Beg%20Madrasa.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Ulugh%20Beg%20Madrasa"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7455796.495000001,
+          4815918.816
+        ]
+      },
+      "properties": {
+        "NAME": "Sher-Dor Madrasa",
+        "NOTE": "狮子经学院，1619–1636，布哈拉汗国时期",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail%20of%20Sher-Dor%20Madrasa%2C%20Samarkand.jpg?width=1200",
+        "ERA": "1619–1636年（布哈拉汗国）",
+        "STYLE": "布哈拉汗国经学院 / 帖木儿复兴风格",
+        "DESC": "雷吉斯坦广场上最具争议也最引人注目的经学院，由撒马尔罕统治者亚兰图什·巴哈杜尔下令建造。建筑正面门廊上方的马赛克壁画描绘了两只猎狮的虎（或狮），以及人面太阳——在伊斯兰教禁止描绘活物的传统下，这一设计极为罕见且大胆。经学院采用与对面的兀鲁伯经学院基本对称的布局，但在装饰上更富巴洛克式的繁复感。其名称“Sher-Dor”即意为“拥有狮子”，正是得名于那幅著名的虎猎羚羊壁画。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail%20of%20Sher-Dor%20Madrasa%2C%20Samarkand.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Sher-Dor%20Madrasa"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7455679.578200001,
+          4816015.732500002
+        ]
+      },
+      "properties": {
+        "NAME": "Tilya-Kori Madrasa",
+        "NOTE": "金色经学院，1646–1660",
+        "NOTE2": "兼具经学院与聚礼清真寺双重功能",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Tilya-Kori%20Madrasa%2002.jpg?width=1200",
+        "ERA": "1646–1660年（布哈拉汗国）",
+        "STYLE": "布哈拉汗国经学院+清真寺复合体",
+        "DESC": "雷吉斯坦广场三座建筑中最后建成、也最华丽的一座。“Tilya-Kori”意为“镶金者”，得名于其内部清真寺大厅极其奢华的金箔装饰——天花板和壁龛（mihrab）上覆盖着大片金叶（kundal技法），在烛光下熠熠生辉。建筑兼具经学院与城市主聚礼清真寺的双重功能，主祈祷大厅的穹顶内部以丰富的植物纹和几何图案装饰，是布哈拉汗国装饰艺术的巅峰之作。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tilya-Kori%20Madrasa%2002.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Tilya-Kori%20Madrasa"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7456175.3467999995,
+          4816755.7885000035
+        ]
+      },
+      "properties": {
+        "NAME": "Bibi Khanum Complex",
+        "NOTE": "比比哈内姆清真寺，帖木儿创建，1399–1404，20世纪修复",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibi%20Khonym%20complex.jpg?width=1200",
+        "ERA": "1399–1404年（帖木儿帝国）",
+        "STYLE": "帖木儿帝国巨型聚礼清真寺",
+        "DESC": "帖木儿帝国时期规模最宏大的清真寺建筑，据传为帖木儿的中国妻子比比·哈内姆（Saray Mulk Khanum）下令建造。建筑原本的穹顶高达41米，门廊高达38米，可容纳上万名信徒同时礼拜。然而由于工程技术过于激进，穹顶在建成后不久即出现结构问题并部分坍塌。1897年大地震使建筑进一步损毁，20世纪苏联时期进行了大规模修复。庭院中央的巨大大理石《古兰经》经台（lauh）是著名的朝圣之物——相传妇女从下方穿过可祈求生育。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibi%20Khonym%20complex.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Bibi%20Khanum%20Complex"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7457056.930199999,
+          4817010.022200003
+        ]
+      },
+      "properties": {
+        "NAME": "Shah-i-Zinda complex",
+        "NOTE": "夏伊·辛达陵墓群，以14–15世纪帖木儿时期为主",
+        "NOTE2": "11–19世纪持续形成",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Shah-i-Zinda%2005.jpg?width=1200",
+        "ERA": "11–19世纪（帖木儿时期为核心）",
+        "STYLE": "帖木儿王朝陵墓群 / 圣陵大道",
+        "DESC": "中亚最神圣的伊斯兰朝圣遗址之一，位于撒马尔罕阿夫拉西亚卜古城遗址南坡的狭长山脊上。“Shah-i-Zinda”意为“活着的君王”，传说先知穆罕默德的堂弟库萨姆·伊本·阿巴斯在此传教时遇害，但其头颅仍活着并在此长眠。陵墓群沿一条狭窄的阶梯式甬道两侧排列，形成“圣陵大道”的空间序列。最精美的建筑集中在14–15世纪帖木儿时期，包括帖木儿家族女性成员的陵墓，以极其精致的釉面砖（瓷砖马赛克、雕刻陶砖）和蓝色穹顶著称。每一座陵墓都是一件独立的建筑艺术品。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shah-i-Zinda%2005.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Shah-i-Zinda%20complex"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7169035.9802,
+          4833548.698200002
+        ]
+      },
+      "properties": {
+        "NAME": "Ismail Samani Mausoleum",
+        "NOTE": "萨曼王陵",
+        "NOTE2": "中亚地区最古老的伊斯兰建筑",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid%20Mausoleum%20and%20surroundings.jpg?width=1200",
+        "ERA": "约892–943年（萨曼王朝）",
+        "STYLE": "萨曼王朝砖砌陵墓 / 前塞尔柱中亚风格",
+        "DESC": "萨曼王陵（Ismail Samani Mausoleum）是布哈拉现存最古老的建筑，矗立于城西一座苏联时期辟建的公园内，被认为是萨曼王朝（819–1005）的家族墓葬——萨曼家族是奉巴格达阿拔斯哈里发之命治理河中地区的波斯贵族世家。陵墓以王朝最受尊崇的统治者伊斯梅尔·萨马尼（892–907年在位）命名，11世纪塞尔柱宰相尼扎姆·穆尔克在《治国策》（Book of Government）中更推举他为贤君典范。\n\n从艺术史角度看，该墓意义重大，因为它是中亚现存最早的伊斯兰陵墓。传统上，伊斯兰教不鼓励建造耐久陵墓，格拉巴尔（Grabar）指出其强调\"坟墓（与周围地面）拉平\"的理念，以死亡作为强者与弱者平等的终极裁判；这一禁忌之强，以至迟至12世纪布哈拉附近的恰什马·阿尤布陵墓仍需刻上先知语录\"我曾禁止你们朝谒坟墓，如今去朝谒吧\"来为建墓正名——萨曼时代的禁忌只会更严，尽管当时巴格达的阿拔斯哈里发们已开始营造耐久陵墓，只是无一存世。由于伊斯兰框架内缺乏陵墓设计的先例，建造者大量借鉴了萨珊火庙\"恰哈尔塔克\"（chahar taq，意为\"四拱\"，指方形平面四开拱门、上覆穹顶的形制）；希尔伦布兰德（Hillenbrand）因此称其为\"披着伊斯兰外衣的火庙\"，但同时指出其装饰处理截然不同：萨珊恰哈尔塔克以厚重石构、不加装饰，而萨曼陵墓以烧制砖建成、除穹顶外遍饰纹样，砖砌图案在现代人眼中宛如柳编篮筐，四角立有四根坚实的砖柱；檐口饰以拱廊，既投下浓重阴影又将光线与空气引入室内；主穹顶居中，四周环绕四座小圆顶。尽管如此，陵墓仍保留着恰哈尔塔克特有的均衡感与无方向性。其建造质量与设计自信表明，烧砖陵墓在当时或已是成熟传统，只是仍重度依赖恰哈尔塔克等前伊斯兰形制。\n\n从技术角度看，该墓是中亚首座采用突角拱（squinch）实现圆穹顶向方形基座过渡的建筑，开创了此后数百年广泛运用的设计手法，并预示了后来在伊斯兰建筑中大行其道、兼具结构替代与装饰功能的钟乳状穹窿“穆卡纳斯”（muqarnas）之先声。\n\n陵墓的存世纯属偶然——它被泥沙掩埋数百年而安然无恙，直至1930年代才被苏联考古学家希什金（V. A. Shishkin）重新发现。格拉巴尔指出，除古朴外观外还有若干线索佐证其年代久远：东入口门楣上的木质匾额残存库法体铭文，载有943年去世的纳斯尔·伊本·艾哈迈德·伊本·伊斯梅尔之名；布哈拉一座图书馆中发现的1568–69年收据（本身为10世纪文书的抄本）表明伊斯梅尔为亡父艾哈迈德（864/865年卒）捐献了墓地，并提及多名家族成员葬于此——墓中确曾发现三具遗骸。尽管如今此墓被称作伊斯梅尔·萨马尼之墓，但它或许更应被视为萨曼家族若干王朝陵墓中仅存的一座，其余诸墓皆已无存。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid%20Mausoleum%20and%20surroundings.jpg?width=1200"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804085747901.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804085813621.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-Samanid_Mausoleum_inside_detail_1.jpg"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804085852463.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Samanid_Mausoleum"
+          },
+          {
+            "name": "参考链接 2",
+            "url": "https://www.orientalarchitecture.com/sid/1315/uzbekistan/bukhara/ismail-samani-mausoleum"
+          }
+        ],
+        "CENTURY": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170742.319800001,
+          4832649.484899998
+        ]
+      },
+      "properties": {
+        "NAME": "Mq./Mz. Khoja Turk-i Jandi",
+        "NOTE": "霍贾·图尔克·金迪清真寺/麻扎，萨曼时期或稍晚",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Chor%20Minor%20mosque%2C%20Bukhara%20%28%D0%A7%D0%BE%D1%80-%D0%9C%D0%B8%D0%BD%D0%BE%D1%80%2C%20%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B0%29.jpg?width=1200",
+        "ERA": "萨曼时期或稍晚",
+        "STYLE": "早期伊斯兰宗教建筑",
+        "DESC": "布哈拉古城中较为隐秘的早期伊斯兰圣地，纪念一位名为霍贾·图尔克·金迪的苏菲圣人。建筑群包含清真寺与麻扎（圣墓），年代可追溯至萨曼王朝时期或喀喇汗王朝初期，体现了中亚伊斯兰化初期的宗教建筑风貌。规模虽不宏大，但因其古老历史而在布哈拉的苏菲信仰体系中占有特殊地位。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chor%20Minor%20mosque%2C%20Bukhara%20%28%D0%A7%D0%BE%D1%80-%D0%9C%D0%B8%D0%BD%D0%BE%D1%80%2C%20%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B0%29.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Mq.%2FMz.%20Khoja%20Turk-i%20Jandi"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7171015.1864,
+          4833040.430200003
+        ]
+      },
+      "properties": {
+        "NAME": "Mq. Magak-i Attari",
+        "NOTE": "现存马戈基·阿塔里清真寺，主要12世纪重建",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari%20Mosque%20detail.jpg?width=1200",
+        "ERA": "12世纪重建（喀喇汗王朝）",
+        "STYLE": "喀喇汗王朝清真寺 / 前蒙古时期",
+        "DESC": "布哈拉最古老的清真寺之一，其历史可追溯至伊斯兰化之前的祆教（拜火教）神庙遗址——“Magak-i Attari”意为“香料商人之坑”，暗示此处曾是一处低于街面的洼地。现存建筑主要为12世纪喀喇汗王朝时期重建，其南立面（主入口门廊）为1930年代考古发掘后重见天日，展示了极其精美的砖砌几何纹饰和雕刻陶板，是前蒙古时期中亚装饰艺术的珍贵实例。内部仍保留着古老的穹顶和拱券结构。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari%20Mosque%20detail.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Mq.%20Magak-i%20Attari"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170648.3341999985,
+          4833394.5999
+        ]
+      },
+      "properties": {
+        "NAME": "Mt. Kalan",
+        "NOTE": "卡兰宣礼塔，建于1127年",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalyan%20Minaret%20%28%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82%20%D0%9A%D0%B0%D0%BB%D1%8F%D0%BD%2C%20Minorai%20Kalon%29%20-%20Bukhara.jpg?width=1200",
+        "ERA": "1127年（喀喇汗王朝）",
+        "STYLE": "喀喇汗王朝宣礼塔 / 砖砌塔楼",
+        "DESC": "布哈拉的天际线标志，也是中亚最壮丽的宣礼塔之一，高47.5米，底部直径9米。由喀喇汗王朝的阿尔斯兰汗于1127年建造，近900年来几乎未经重大修复而屹立不倒——据说连成吉思汗也被其宏伟所震慑而下令保留此塔。塔身由烤砖砌成，表面分布着14条不同纹样的装饰带（包括几何纹、铭文带），内设105级螺旋阶梯通往塔顶。塔顶曾设有灯笼形亭阁，用于召唤信徒礼拜。当地人昵称其为“死亡之塔”，因历史上曾用于将罪犯从塔顶抛下处决。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalyan%20Minaret%20%28%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82%20%D0%9A%D0%B0%D0%BB%D1%8F%D0%BD%2C%20Minorai%20Kalon%29%20-%20Bukhara.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Mt.%20Kalan"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170309.898200002,
+          4831368.875299998
+        ]
+      },
+      "properties": {
+        "NAME": "Namazgah Mosque",
+        "NOTE": "纳马兹加清真寺，建于1119年。郊外礼拜场所",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Namazgah.jpg?width=1200",
+        "ERA": "1119年（喀喇汗王朝）",
+        "STYLE": "喀喇汗王朝郊外聚礼清真寺",
+        "DESC": "布哈拉古城南郊的开放型聚礼清真寺，专为开斋节和古尔邦节等重大节日的集体礼拜而建。与传统围合式清真寺不同，纳马兹加清真寺的核心是一座巨大的独立祈祷墙（qibla wall），前方为开阔的露天广场，可容纳数千人同时礼拜。中央壁龛（mihrab）以砖雕装饰，两侧各有一座小型穹顶亭。1119年由喀喇汗王朝统治者下令建造，是中亚罕见的郊外节日清真寺实例。",
+        "AUDIT_HIDDEN": "1",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Namazgah.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Namazgah%20Mosque"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7173937.756099999,
+          4832109.2238000035
+        ]
+      },
+      "properties": {
+        "NAME": "Mausoleum of Buyan-Quli Khan",
+        "NOTE": "不颜忽里汗陵，建于1358/59年",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Piece%20of%20Buyan%20Kuli%20Khan%20Frieze%2C%20MKG1908.472%2B4.jpg?width=1200",
+        "ERA": "1358–1359年（察合台汗国）",
+        "STYLE": "察合台汗国陵墓 / 蒙古-伊斯兰融合",
+        "DESC": "布哈拉东部郊区的察合台汗国时期皇家陵墓，安葬着察合台汗国统治者不颜忽里汗（Buyan-Quli Khan）。陵墓以烧制砖块和彩色釉面砖建造，是蒙古统治时期中亚伊斯兰化过程中的代表性建筑。建筑内部装饰精美，体现了察合台汗国在吸收伊斯兰文化后形成的独特建筑语汇——蒙古式的空间感与波斯-伊斯兰装饰传统的融合。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piece%20of%20Buyan%20Kuli%20Khan%20Frieze%2C%20MKG1908.472%2B4.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Mausoleum%20of%20Buyan-Quli%20Khan"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7169231.186000001,
+          4833775.715300001
+        ]
+      },
+      "properties": {
+        "NAME": "Chashma-Ayub Mausoleum",
+        "NOTE": "查席馬-阿育伯陵墓",
+        "NOTE2": "",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804073800535.png",
+        "ERA": "1380年代（帖木儿时期）",
+        "STYLE": "帖木儿时期陵墓 / 锥形穹顶",
+        "DESC": "一、整体概况与历史背景\n查什玛-阿尤布陵墓位于乌兹别克斯坦布哈拉，紧邻萨马尼陵墓，其名称意为“约伯之井”，源于先知约伯（阿尤布）曾在此以棍击地、凿出清泉的传说。现存建筑主体建于帖木儿统治时期（14世纪），由花剌子模工匠建造，采用了当地罕见的圆锥形圆顶，属于花剌子模建筑风格。该遗址最初被视为先知陵墓，历经数百年增建，最古老的部分可追溯至12世纪，并保存有1380年和16世纪的铭文。如今，陵墓内设有历史博物馆，专门展示布哈拉的供水历史。\n\n二、总体布局与空间结构\n建筑群呈矩形平面，尺寸约为19米×26米，由四个东西向排列的房间组成，每个房间上方覆以独立的穹顶。最古老的房间为方形（4.5米×4.5米），被称为“井室”，据信建于阿尔斯隆松时期，与卡利安宣礼塔同期。该房间两侧附设辅助空间：左侧较小的方形房间作为前厅，右侧另有一附属建筑，并带有额外穹顶。中央主室为帐篷式尖顶穹窿覆盖，整体比例协调，空间层次分明。墙体在剖面呈梯形，基座较宽，显示出稳固的结构特征。\n\n三、门廊及外部装饰\n陵墓的入口门廊采用传统双柱式构图，两座塔柱围合成壁龛，上部由半拱顶覆盖。门廊正面呈现“II”形框架，内嵌山楣和铭文匾（ktoba），尖拱上方刻有题记。北侧山墙设有门洞，西端原有深砌砖墙延伸5.9米，但西段已缺失。装饰高度集中于门廊部分：外轮廓以“II”形带状区域界定，带内施以由陶土砖拼砌的八面体交织几何纹饰（girikh），中央八角形凹槽填充绿松石釉面嵌件，形成蓝绿相间的醒目效果。铭文匾以植物纹饰为背景，刻有阿拉伯文题记，边框饰以带状纹样，整体装饰工艺精湛，视觉效果突出。\n\n四、历史价值与现状\n该建筑最具历史意义的是铭文匾上精确的纪年题记，明确记载为公元1208—1209年（伊斯兰历605年），为研究该地区中世纪建筑提供了可靠断代依据。建筑内部还保留着古老的米哈拉布（礼拜凹室）以及据传为先知足迹的圣迹。尽管部分墙体已损毁，但现存门廊与西墙遗迹仍构成和谐的整体。如今，除作为宗教圣地外，陵墓还兼作博物馆，向公众展示布哈拉古代水利系统，成为融合信仰、历史与建筑艺术的重要文化遗产。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804073800535.png"
+          },
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chashma-Ayub%20Mausoleum%20outside%20view%202.JPG?width=1200"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804073340926.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804074226637.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Chashma-Ayub%20Mausoleum"
+          },
+          {
+            "name": "UNESCO",
+            "url": "https://whc.unesco.org/en/tentativelists/5304/"
+          }
+        ],
+        "CENTURY": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7173967.420000002,
+          4832082.463100001
+        ]
+      },
+      "properties": {
+        "NAME": "Sayf ad-Din Bakharzi Mausoleum",
+        "NOTE": "赛义夫丁·巴哈尔兹陵墓，建于14世纪末",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara%20Saif%20ed-Din%20Bokharzi%20mausoleum%201.jpg?width=1200",
+        "ERA": "14世纪末（帖木儿时期）",
+        "STYLE": "帖木儿时期苏菲圣墓",
+        "DESC": "紧邻不颜忽里汗陵的另一座重要圣墓，安葬着著名的苏菲派谢赫赛义夫丁·巴哈尔兹（Sayf ad-Din Bakharzi），他是13世纪中亚最具影响力的库布拉维教团苏菲大师。陵墓建筑群包含圣墓、哈纳卡（修道院）和清真寺，是布哈拉苏菲派信仰体系的重要圣地。两座相邻的陵墓——一为蒙古汗王、一为苏菲圣人——共同构成了布哈拉“圣王并祀”的独特文化景观。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara%20Saif%20ed-Din%20Bokharzi%20mausoleum%201.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Sayf%20ad-Din%20Bakharzi%20Mausoleum"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170729.387499999,
+          4833446.065200001
+        ]
+      },
+      "properties": {
+        "NAME": "Mir-i Arab Madrasa",
+        "NOTE": "布哈拉最著名经学院，建于1535/36年",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Mir-i-Arab%20madrasa.jpg?width=1200",
+        "ERA": "1535–1536年（昔班尼王朝）",
+        "STYLE": "昔班尼王朝经学院 / 中亚经典经学院",
+        "DESC": "布哈拉最负盛名的伊斯兰经学院，也是中亚少数在苏联时期仍获准运营的宗教教育机构。由昔班尼王朝统治者乌拜杜拉汗和著名的也门苏菲导师谢赫·阿卜杜拉·亚曼尼（Mir-i Arab）共同创建。建筑坐落在卡兰建筑群的核心位置，正对着卡兰清真寺，中央庭院被两层学生宿舍（hujra）环绕，教室和祈祷大厅装饰着精致的釉面砖和雕刻灰泥。蓝色穹顶与相邻的卡兰宣礼塔形成经典的布哈拉城市天际线。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Mir-i-Arab%20madrasa.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Mir-i%20Arab%20Madrasa"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170552.634599999,
+          4833424.793700002
+        ]
+      },
+      "properties": {
+        "NAME": "Kalan Mosque",
+        "NOTE": "卡兰清真寺",
+        "NOTE2": "",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804093205279.png",
+        "ERA": "1514年（昔班尼王朝）",
+        "STYLE": "昔班尼王朝聚礼清真寺",
+        "DESC": "卡兰清真寺（Kalyan Mosque）与对面的米尔·伊·阿拉布经学院隔广场相望，与两者之间的卡良宣礼塔共同构成波伊卡兰建筑群。它是布哈拉的主麻清真寺，规模仅次于撒马尔罕的比比哈努姆清真寺与阿富汗赫拉特主麻清真寺，居中亚第三；至1530年代完工，是布哈拉主要昔班尼建筑中最早的一座，也是该城16世纪地位上升的象征。\n\n布哈拉的主麻清真寺史可上溯至当地皈依伊斯兰之初：709年，倭马亚王朝呼罗珊总督屈底波·伊本·穆斯林（669–715/16）攻克该城；10世纪史家纳尔沙希记载，屈底波于712/13年在堡内原神庙旧址上建起一座大清真寺，为吸引新皈依者，向每位礼拜者发放两枚迪拉姆，并允许以粟特语而非阿拉伯语礼拜。至770年，信众日增，时任总督哈立德·巴尔马克在城堡与城区之间另建新寺，旧寺逐渐破败、终沦为税务署；这座新寺（或793/94年后重建者）于10世纪经伊斯梅尔·萨马尼扩建三分之一。纳斯尔二世在位初期（914–943），清真寺在一个主麻日轰然坍塌，压死大量信众，纳尔沙希哀叹\"全城死者无数，此后布哈拉城宛如空城\"；寺庙于一年内迅速重建，却又再度坍塌（此次无伤亡），五年后另建的替代建筑终于耐久，存续至1068年在争夺城市的內战中焚毁。据11–13世纪增补的编年史，1068年毁后寺宇旋即重建，此后一个世纪内又历数次更替，且每次逐次远离城堡，最终于1121–22年迁至现址——今寺很可能沿用卡拉汗王朝统治者阿尔斯兰汗二世（1102–29在位）所建12世纪建筑的基址。那座清真寺仅存数年，宣礼塔倒塌时压毁了寺体三分之二；随后的重建建筑矗立至1220年成吉思汗大军破城。可汗亲临视察，为其规模惊叹，竟误以为这是统治家族的宫殿，并对寺外宣礼塔啧啧称奇——他下令保全宣礼塔，其军队却纵火焚寺，只余残骸。此后数百年废墟露天而立，成为蒙古人险些扼杀这座古城的不堪见证。\n\n废墟迟至帖木儿时代方被清理，但在16世纪初昔班尼王朝接管城市之前已重建几何已不可考。日后成为昔班尼汗（1534–39在位）的乌拜杜拉汗早年任布哈拉总督时，于1514或1515年完成了清真寺正立面；此后装饰持续至1530年代，与毗邻的米尔·伊·阿拉布经学院的营建同时进行，而原宣礼塔得以保留，成为联系前蒙古时代的关键纽带。形制上，今寺约130×80米，沿用卡拉汗基址，但平面布局很可能取法帖木儿时代先例，如1399年建的撒马尔罕比比哈努姆清真寺：四伊万式平面、宽阔内院、米哈拉布上方高穹顶，以及以数百小穹顶覆盖的进深柱厅——卡兰清真寺共有288个小穹顶。东立面入口为半穹顶的纪念性伊万，外壁满覆精美昂贵的马赛克釉砖；建筑西端为朝向麦加的米哈拉布，四周釉砖饰带留有作者拜亚齐德·普拉尼（Bayazid Purani）的署名；米哈拉布前的穹顶厅室外覆蓝色釉砖穹顶，高鼓座周身环以库法体铭文，鼓座与穹顶之间以一圈微型穆卡纳斯拱饰过渡。与广场对面的米尔·伊·阿拉布经学院不同，此寺为内向型建筑、外墙不开窗，但内院并不逼仄——拱廊墙体低矮，邻建筑尽收眼底；因与经学院同轴布置，经学院穹顶自东侧拱廊之上升起，形成将视线引向远方高处的和谐纵深，近处高耸的卡良宣礼塔更强化了这一效果；与之相对，院内除西端一座八角小亭与东侧与之相望的一株孤树外空无一物。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804093205279.png"
+          },
+          {
+            "name": "2",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalan%20Mosque%2001.jpg?width=1200"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804093621342.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804093432978.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804093657285.png"
+          },
+          {
+            "name": "6",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804093732766.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kalan_Mosque"
+          },
+          {
+            "name": "参考链接 2",
+            "url": "https://www.orientalarchitecture.com/sid/1323/uzbekistan/bukhara/kalyan-mosque"
+          }
+        ],
+        "CENTURY": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7171303.5940999985,
+          4833132.789399996
+        ]
+      },
+      "properties": {
+        "NAME": "Kukeldash Madrasa",
+        "NOTE": "",
+        "NOTE2": "",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/kukeldash_madrasa_bukhara11.jpg",
+        "ERA": "1568–1569年（昔班尼王朝）",
+        "STYLE": "昔班尼王朝经学院",
+        "DESC": "库克尔达什经学院（Kukeldash Madrasa，1568–69年）是中亚规模最大的经学院之一，占地86×69米，由昔班尼统治者阿卜杜拉汗二世麾下的艾米尔库尔·巴巴·库克尔达什出资兴建。库克尔达什与可汗关系尤为亲密——其母曾为幼年可汗的乳母，故得名\"库克尔达什\"，意为\"奶兄弟\"。这座经学院是布哈拉16世纪下半叶经济扩张的产物：阿卜杜拉汗二世、朱巴里家族与库克尔达什三位强力赞助人分工协作，在26年间（1562–87）沿着自\"金匠穹顶\"（实为纺织品市场）向南经\"帽商穹顶\"至\"钱商穹顶\"的长街大兴土木——可汗与朱巴里家族在北段及西南方向营建，朱巴里家族更在昔日屠宰场区打造了霍贾·高库尚建筑群以带动街区士绅化；库克尔达什则在钱商穹顶东南250米处布点建设文化设施，经学院虽处偏隅，却为布哈拉此后百年的东扩奠定了基础。阿卜杜拉汗二世去世（1598年）后昔班尼王朝覆亡，札尼德（阿斯特拉罕尼德）王朝继起，在伊玛目·库里汗（1611–1641）治下城市继续发展：其重臣纳迪尔·迪万-贝吉在库克尔达什经学院以南凿建36×45.5米水池（hauz），西侧配同名哈纳卡、东侧配同名经学院，于1620–23年完成，形成今日所见的拉比豪兹建筑群（Lyau-i Hauz）。\n\n建筑形制呈长方形，主入口为纪念性门楼（pishtaq），原饰马赛克釉砖，大地震后改用较经济的马约里卡砖替代；内部160间双层的胡吉拉（僧房）可容纳300余名学生，教室、清真寺及附属用房设于角落与边缘，构成一处几乎足不出户即可满足精神、教育及生活所需的半自足空间；四角以坚固的塔楼（guldasta）锚定，今仅存两层，精美的上部早因地震等灾害坍塌；屋顶原配两座蓝釉穹顶，后被后世统治者拆卸充作建材。19世纪中叶，希瓦汗国的穆罕默德·阿明·巴哈杜尔汗（1846–55在位）艳羡其规模，遂在希瓦西侧卡塔·米诺尔宣礼塔之南建造了一座同名巨构。\n\n此外，库克尔达什在塔什干所建的另一座经学院至今尚存，是1966年毁灭性地震中少数幸存的前现代建筑之一",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/kukeldash_madrasa_bukhara11.jpg"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804095650411.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804095716125.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Kukeldash%20Madrasa"
+          }
+        ],
+        "CENTURY": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7171378.096299998,
+          4833028.720799997
+        ]
+      },
+      "properties": {
+        "NAME": "Nodir Devonbegi Madrasah",
+        "NOTE": "宗教学校，1622–1623年建造",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadir%20Divan-Beghi%20Madrassah.JPG?width=1200",
+        "ERA": "1622–1623年（布哈拉汗国）",
+        "STYLE": "布哈拉汗国经学院",
+        "DESC": "利亚比-豪兹建筑群中最引人注目的建筑，位于古老水池的东侧。由布哈拉汗国权臣纳迪尔·迪万贝吉（Nodir Devonbegi）建造。建筑正立面门廊上方的马赛克壁画描绘了两只凤凰（或神话鸟）朝向中央太阳的图案——在伊斯兰宗教建筑中描绘生物形象极为罕见，这一设计被视为前伊斯兰中亚艺术传统（尤其是祆教和粟特艺术）在伊斯兰时期的延续。建筑原计划作为商队客栈，后在开幕仪式上被汗王宣布改为经学院。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadir%20Divan-Beghi%20Madrassah.JPG?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Nodir%20Devonbegi%20Madrasah"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7456961.5253,
+          4817909.343800001
+        ]
+      },
+      "properties": {
+        "NAME": "Afrasiab遗址",
+        "NOTE": "撒马尔罕粟特文明时期城市遗址",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Samarkand%20Afrasiab%20%28Marakanda%29%20Citadel%20Hellenistic.jpg?width=1200",
+        "ERA": "公元前7世纪–13世纪（粟特至蒙古时期）",
+        "STYLE": "粟特城市遗址 / 考古遗址",
+        "DESC": "撒马尔罕古城遗址，位于现代城市北部的巨大土丘之上，是前伊斯兰时期粟特文明最重要的考古遗址之一。遗址占地约220公顷，文化层深度达10米以上，包含了从公元前7世纪到13世纪蒙古入侵前的连续城市堆积。最著名的发现是1965年出土的“大使厅”壁画（约公元660年），描绘了粟特国王瓦尔胡曼接见来自中国、朝鲜、突厥和波斯等各国使节的盛大场景，是丝绸之路上跨文化交流的珍贵视觉证据。遗址现为露天考古博物馆。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samarkand%20Afrasiab%20%28Marakanda%29%20Citadel%20Hellenistic.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Afrasiab%E9%81%97%E5%9D%80"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7456392.5473,
+          4816742.031099997
+        ]
+      },
+      "properties": {
+        "NAME": "Bibi Khanim mausoleum",
+        "NOTE": "比比·哈内姆陵墓，1399-1404年",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/20230613%20Samarkand158.jpg?width=1200",
+        "ERA": "1399–1404年（帖木儿帝国）",
+        "STYLE": "帖木儿王朝陵墓",
+        "DESC": "位于比比哈内姆清真寺对面的独立陵墓建筑，安葬着帖木儿王朝的女性成员——据传包括帖木儿的中国妻子萨莱·穆尔克·哈内姆（即比比·哈内姆）及其母亲和姐妹。建筑以八角形基座上的高耸穹顶为核心，内部装饰着精美的灰泥雕刻和釉面砖。与相邻的清真寺一样，陵墓也经过了20世纪的修复。穹顶的轮廓与清真寺大门形成轴线呼应，体现了帖木儿时期建筑群的空间规划意识。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20230613%20Samarkand158.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Bibi%20Khanim%20mausoleum"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7454864.8906,
+          4815322.344800003
+        ]
+      },
+      "properties": {
+        "NAME": "Ruhabad mausoleum",
+        "NOTE": "鲁哈巴德陵墓，约1404年",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Rukhabad.jpg?width=1200",
+        "ERA": "约1404年（帖木儿帝国）",
+        "STYLE": "帖木儿时期简约陵墓",
+        "DESC": "位于帖木儿陵墓（Gur-e-Amir）附近的朴素陵墓。“Ruhabad”意为“灵魂之居”，安葬着伊斯兰学者谢赫·布尔汉丁·萨加尔吉（Burhan al-Din Sagarji），据说帖木儿本人对其极为尊敬，路经此处必下马致敬。与帖木儿陵墓的华丽不同，鲁哈巴德陵墓以砖砌立方体和简单的穹顶构成，体现了苏菲派圣墓追求简朴的精神传统。传说墓中保存着先知穆罕默德的七根胡须。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rukhabad.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Ruhabad%20mausoleum"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170918.210099999,
+          4833542.302699998
+        ]
+      },
+      "properties": {
+        "NAME": "Ulugbek Madrasah",
+        "NOTE": "1417/18年建，中亚最古老宗教学校之一",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulugh%20Beg%20madrasa%20%28Bukhara%29.jpg?width=1200",
+        "ERA": "1417–1418年（帖木儿帝国）",
+        "STYLE": "帖木儿王朝经学院",
+        "DESC": "兀鲁伯在布哈拉建造的经学院，也是他在帝国境内建造的三座著名经学院之一（另外两座分别在撒马尔罕和吉杜万）。建筑正面门廊镌刻着著名的圣训“追求知识是每个穆斯林男女的义务”，体现了兀鲁伯对学术和教育的重视。庭院两侧排列着学生宿舍，主讲堂（darskhana）和祈祷大厅装饰着蓝色釉面砖。与撒马尔罕的兀鲁伯经学院相比，此建筑规模较小但同样精致，是帖木儿时期布哈拉建筑的重要代表。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulugh%20Beg%20madrasa%20%28Bukhara%29.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Ulugbek%20Madrasah"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170937.5315999985,
+          4833440.7399
+        ]
+      },
+      "properties": {
+        "NAME": "Abdulaziz Khan Madrassah",
+        "NOTE": "1652年建，宗教学校",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdullaziz%20Khan%20madrasa%20entrance%20detail.jpg?width=1200",
+        "ERA": "1652年（布哈拉汗国）",
+        "STYLE": "布哈拉汗国晚期经学院 / 巴洛克式装饰",
+        "DESC": "与兀鲁伯经学院面对面而立，两座建筑共同构成布哈拉最经典的“对经学院”（kosh madrasa）空间格局。由布哈拉汗国阿斯特拉罕王朝的阿卜杜勒阿齐兹汗建造，是布哈拉汗国经学院建筑的最后辉煌。内部装饰极尽奢华，尤其以主讲堂和冬季祈祷室的彩绘天花板最为著名——天花板上布满金箔点缀的花卉和几何图案（kundal技法）。壁龛和墙面装饰着精细的雕刻灰泥和彩色釉面砖，被一些学者称为“中亚伊斯兰建筑的巴洛克时期”。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdullaziz%20Khan%20madrasa%20entrance%20detail.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Abdulaziz%20Khan%20Madrassah"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170748.361499999,
+          4832893.034500003
+        ]
+      },
+      "properties": {
+        "NAME": "Govkushon Madrasah",
+        "NOTE": "戈夫库尚经学院",
+        "NOTE2": "霍贾·戈夫库尚建筑群的一部分",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaukushon%20madrasa%2001.jpg?width=1200",
+        "ERA": "1570–1571年（昔班尼王朝）",
+        "STYLE": "昔班尼王朝经学院",
+        "DESC": "戈夫库尚经学院（Govkushon madrasah）是乌兹别克斯坦布哈拉的一座16世纪建筑古迹，由朱巴里（Khojabor）霍贾家族出资营建，属霍贾·高库尚建筑群的组成部分。经学院主体于1562–1565年间建在布哈拉历史中心，时值昔班尼统治者阿卜杜拉汗二世在位，出资人为朱巴里教团谢赫霍贾·萨阿德——他以\"霍贾·卡隆\"（Khoja Kalon）的绰号闻名，这一名号亦体现在建筑群名称之中。其名\"戈夫库尚\"意为\"宰牛\"，因该址在16世纪以前一直用作屠宰场而得名。经学院建成后不久，布哈拉第二座主麻清真寺——即俗称的\"霍贾清真寺\"——围绕其侧兴建起来，配有一方水池与一座仿卡良宣礼塔的低矮宣礼塔；此后附近又陆续建起商队客栈。\n\n由于建造场地形状不规则，这座建筑呈非对称平面，与传统经学院格局迥异：两层主立面的两侧翼楼大小、形制各不相同——右侧为兼作清真寺与教室的长方形厅堂，左侧翼楼则由多穹顶屋宇与封闭房舍构成，庭院四周环绕单层房间。建筑左侧立有一座19.5米高的小塔，主楼对面则是一座优美的门廊；该建筑在苏联时期曾数次修缮，现受国家保护。经学院布局仍属传统形制：教室、带清真寺的厅堂与单层环院的庭院俱全。1993年，它作为\"布哈拉历史中心\"的组成部分列入联合国教科文组织世界遗产名录；1997年值布哈拉建城2500周年之际，戈夫库尚经学院与其他古迹一同得到翻修，如今兼作旅游服务与展陈设施，并设有手工作坊。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaukushon%20madrasa%2001.jpg?width=1200"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804094340411.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia 1",
+            "url": "https://en.wikipedia.org/wiki/Khoja_Gaukushan_Ensemble"
+          },
+          {
+            "name": "Wikipedia 2",
+            "url": "https://en.wikipedia.org/wiki/Govkushon_Madrasah"
+          },
+          {
+            "name": "参考链接 3",
+            "url": "https://www.orientalarchitecture.com/sid/1338/uzbekistan/bukhara/khoja-gaukushan-ensemble"
+          }
+        ],
+        "CENTURY": "16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170751.341200002,
+          4832964.4684000015
+        ]
+      },
+      "properties": {
+        "NAME": "Khoja Kalon Mosque",
+        "NOTE": "霍贾卡隆清真寺",
+        "NOTE2": "霍贾·戈夫库尚建筑群的一部分",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja%20Kalon%20mosque%2001.jpg?width=1200",
+        "ERA": "16世纪（昔班尼王朝）",
+        "STYLE": "昔班尼王朝聚礼清真寺",
+        "DESC": "*霍贾·戈夫库尚建筑群（Khoja Gaukushan Ensemble）由一组沿两条中世纪街道与沙赫鲁德运河交汇处排列的建筑组成，包括一座清真寺、一座宣礼塔、两座经学院与一座蓄水池（hauz）。其名\"戈夫库尚\"意为屠宰牲畜，暗示该址在改作他用之前曾是屠宰场。建筑群主体由势力庞大的朱巴里（Jubari）家族于1562至1579年间建成，位于水池东侧的米尔·海达尔·巴拉经学院则稍晚落成。朱巴里家族与1557年起执掌布哈拉、1583–98年任大汗的阿卜杜拉汗二世的崛起关系密切，其代表为霍贾·伊斯兰（1492/3–1563）及其子霍贾·萨阿德（1589年卒）——二人坐拥庞大商业帝国，同时是当地纳克什班迪苏菲教团德高望重的领袖。整个16世纪下半叶，朱巴里家族持续在内城购置土地，兴建圆顶集市、浴室、商队客栈等商业建筑；高库尚建筑群虽不能直接带来新的收入来源，却构成了\"城市新次级中心\"（Gangler等，第94页）的核心，吸引居民迁入该区。\n\n建造者顺应既有的街巷肌理，使夹在两条相交道路之间的经学院呈梯形平面；其北侧清真寺虽保持常见的长方形基址，却因与街道平行而致吉卜拉墙偏离麦加朝向——可惜寺的北半部（含礼拜殿）已毁，当年如何解决这一朝向问题（若曾解决）已无从知晓。\n\n清真寺以东是一座由沙赫鲁德运河供水的八边形蓄水池；清真寺紧邻蓄水池而建的做法始于乌拜杜拉汗统治时期（1534–39），此后蔚然成风。水池西南矗立着一座全城第二高的宣礼塔，以天桥与清真寺相连；东侧的米尔·海达尔·巴拉经学院于后期建成，为建筑群收尾。就单体而言，群中建筑均无特别出彩之处；但作为一个整体，让人得以一窥16世纪建筑与水利设施未经改动的原始布局——这片建筑群奇迹般地躲过了导致无数文化遗产湮灭的苏联时期\"再开发\"。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja%20Kalon%20mosque%2001.jpg?width=1200"
+          },
+          {
+            "name": "建筑群平面图",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804094340411.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804094653918.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804094720907.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804094738436.png"
+          },
+          {
+            "name": "6",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804094820897.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Khoja_Gaukushan_Ensemble"
+          },
+          {
+            "name": "参考链接 2",
+            "url": "https://www.orientalarchitecture.com/sid/1338/uzbekistan/bukhara/khoja-gaukushan-ensemble"
+          }
+        ],
+        "CENTURY": "16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170836.365499999,
+          4833103.745899998
+        ]
+      },
+      "properties": {
+        "NAME": "Magak-i Kurpa Mosque",
+        "NOTE": "马戈基·库尔帕清真寺，17世纪",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Kurpa%20mosque%2002.jpg?width=1200",
+        "ERA": "17世纪（布哈拉汗国）",
+        "STYLE": "布哈拉汗国社区清真寺",
+        "DESC": "布哈拉古城的小型社区清真寺（mahalla mosque），与更古老的马戈基·阿塔里清真寺同属“马戈基”（意为“坑中之物”）系列——因位于低于街面的洼地而得名。现存建筑主要为17世纪重建，屋顶由多根木柱支撑，天花板上绘有彩色几何和花卉图案。规模不大但氛围亲切，是布哈拉传统社区宗教生活的典型空间。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Kurpa%20mosque%2002.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Magak-i%20Kurpa%20Mosque"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170377.5024,
+          4833157.5119
+        ]
+      },
+      "properties": {
+        "NAME": "Mullo Tursunjon Madrasa",
+        "NOTE": "穆拉·图尔松琼经学院，19世纪初",
+        "NOTE2": "布哈拉晚期经学院",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/28%20D%20Tursunjan%20madrasah%20107.jpg?width=1200",
+        "ERA": "19世纪初（布哈拉汗国晚期）",
+        "STYLE": "布哈拉汗国晚期经学院",
+        "DESC": "布哈拉汗国晚期建造的小型经学院，属于布哈拉传统经学院建筑体系的末期作品。19世纪布哈拉的经学院数量激增，但规模普遍缩小，装饰趋于简化。穆拉·图尔松琼经学院是这一趋势的代表——简单的矩形庭院、砖砌立面、朴素的学生宿舍，但门廊上方仍保留了釉面砖装饰的传统。反映了布哈拉汗国晚期宗教教育的普及化和建筑的实用化转向。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/28%20D%20Tursunjan%20madrasah%20107.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Mullo%20Tursunjon%20Madrasa"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170006.933699999,
+          4832939.131399997
+        ]
+      },
+      "properties": {
+        "NAME": "Mirzo Hamdam",
+        "NOTE": "米尔佐·哈姆丹经学院",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20Kalon%20and%20the%20impressive%20Minaret%2C%20Buchara%2C%20Uzbekistan%20%286134351072%29.jpg?width=1200",
+        "ERA": "19世纪末布哈拉汗国晚期（19世纪末布哈拉埃米尔国时期）",
+        "STYLE": "布哈拉汗国晚期经学院",
+        "DESC": "19世纪末布哈拉建造的末代经学院之一，以资助者米尔佐·哈姆丹命名。建筑规模小巧，但装饰风格反映了19世纪布哈拉建筑的折中倾向——混合了传统釉面砖装饰与当时逐渐传入的俄罗斯影响。作为布哈拉汗国被俄罗斯帝国吞并前夕的建筑，它见证了中亚传统伊斯兰建筑体系的终结。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20Kalon%20and%20the%20impressive%20Minaret%2C%20Buchara%2C%20Uzbekistan%20%286134351072%29.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Mirzo%20Hamdam"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7169629.6226,
+          4833226.547700003
+        ]
+      },
+      "properties": {
+        "NAME": "Madar-i Khan Madrasa",
+        "NOTE": "莫达尔汗经学院",
+        "NOTE2": "汗之母经学院，Abdullah Khan II母亲名义下建造",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804101003681.png",
+        "ERA": "1566–1567年（昔班尼王朝）",
+        "STYLE": "昔班尼王朝经学院",
+        "DESC": "位于昔日雷吉斯坦广场西南侧，与较晚建成的阿卜杜拉汗经学院（1598–99）构成\"科什\"（kosh）式对置布局——两座建筑隔街相望。其名称直译为\"可汗之母的经学院\"，二者均由布哈拉末代昔班尼王朝统治者阿卜杜拉汗二世（1557–98年在位）兴建，并同样打破经学院须至少一轴朝向麦加的教法惯例，双双偏向西北、立面严格互垂，很可能是为了顺应两座建筑之间原有大道的走向。阿卜杜拉汗生于1533年，1557年在苏菲谢赫支持下夺取布哈拉后，表面上尊其父伊斯坎德尔为乌兹别克大汗，却因父亲醉心宗教、疏于治政而亲自掌权，在位长达41年直至世纪末去世；其治下布哈拉大兴土木，包括重建圆顶集市、营建霍贾·高库尚建筑群，以及在雷吉斯坦西南完成这对经学院。\n\n建筑史家爱德华·诺布劳赫（Edward Knoblauch）对这座经学院评价甚低，认为它\"只有在作为该时期艺术普遍衰落的例证时才有意义\"（诺布劳赫，第198–99页），并指出除门廊内壁的釉砖外几乎没有装饰。尽管经学院朝向奇特、立面偏斜，内部却近乎实用主义——规整排列的胡吉拉（僧房）与四角的教室几乎毫无修饰。又因规模较小，内院仅设两座伊万，而非布哈拉大型经学院（如阿卜杜拉汗、阿卜杜勒·阿齐兹汗、米尔·伊·阿拉布等经学院）常见的四伊万格局。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804101003681.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804101111163.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804101138055.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Modarikhan_madrasah"
+          },
+          {
+            "name": "参考链接 2",
+            "url": "https://www.orientalarchitecture.com/sid/1426/uzbekistan/bukhara/madari-khan-madrasa"
+          }
+        ],
+        "CENTURY": "16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7169520.818999998,
+          4833269.8386999965
+        ]
+      },
+      "properties": {
+        "NAME": "Abdullah Khan Madrasa",
+        "NOTE": "阿卜杜拉汗经学院",
+        "NOTE2": "",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804091147488.png",
+        "ERA": "1588–1590年（昔班尼王朝）",
+        "STYLE": "昔班尼王朝经学院",
+        "DESC": "阿卜杜拉汗经学院（Abdullah Khan Madrasa，1598–99年）位于布哈拉原雷吉斯坦广场西南侧，与更早建于1566年的马达里汗经学院（Madari Khan）构成\"科什\"（kosh）式对置布局——两座建筑隔街相望。二者均由布哈拉末代昔班尼王朝统治者阿卜杜拉汗二世（1557–98年在位）营建，并同样打破经学院须至少一轴朝向麦加的宗教惯例，双双向西北偏转、立面彼此严格垂直，很可能是为了顺应两座建筑之间原有大道的走向。阿卜杜拉汗生于1533年，1557年在苏菲教团谢赫支持下夺取布哈拉，先尊其父伊斯坎德尔为乌兹别克大汗，但因父亲醉心宗教、疏于政务而亲自摄政，在位长达41年直至世纪末去世。其治下布哈拉大兴土木，包括重建圆顶集市、营建霍贾·高库尚建筑群，以及完成雷吉斯坦西南的这对经学院。\n\n据建筑史家爱德华·诺布劳赫（Edward Knoblauch）评价，该建筑群工艺较为粗疏，反映出当时艺术水准的整体衰落；不过1990年以来政府进行的独立后修复工程已按原貌近似重贴了受损的正立面釉砖，使这一缺陷不再明显，仅在伊万拱形门洞顶端附近仍可见少量原砖。诺布劳赫还指出其一项创新：加大内部厅堂尺度要求更强的支撑结构，这套体系\"复杂到结构本身几乎成为装饰，赋予建筑独特个性\"。建筑的另一处异例是其东北角清真寺——它大致（而非精确地）朝向四个基本方位而非麦加；诺布劳赫推测该厅堂最初或为可汗本人的陵寝，后改建为清真寺而保留了原始朝向。\n\n2021年7月29日至30日夜间，阿卜杜拉汗伊斯兰学校后墙部分倒塌。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804091147488.png"
+          },
+          {
+            "name": "2",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara%20Abdullah%20khan%20madrasa%202.jpg?width=1200"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804091303907.png"
+          },
+          {
+            "name": "倒塌后后墙/来源Wikipedia",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804091501301.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804091606045.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Asia historical architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1424/uzbekistan/bukhara/abdullah-khan-madrasa"
+          },
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Abdullakhan_Madrasah_(Bukhara)"
+          }
+        ],
+        "CENTURY": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7169545.168200001,
+          4832784.313100003
+        ]
+      },
+      "properties": {
+        "NAME": "Baland Mosque",
+        "NOTE": "高处清真寺，16世纪初，社区清真寺",
+        "NOTE2": "方形主祈祷厅，外接夏季礼拜空间（iwan），木柱支撑",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A3%D0%B7%D0%BE%D1%80%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BA%D0%B5%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D0%B8%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D0%B4%206.jpg?width=1200",
+        "ERA": "16世纪初（昔班尼王朝）",
+        "STYLE": "昔班尼王朝社区清真寺 / 木雕装饰",
+        "DESC": "布哈拉最精美的社区清真寺之一，位于古城南部的居民区中。“Baland”意为“高处”，因其建于抬高的基座之上。建筑的核心是一座方形穹顶祈祷厅，内部装饰令人惊叹：壁龛（mihrab）周围覆盖着色彩鲜艳的镶嵌马赛克和灰泥浮雕，天花板由漆木梁构成，木柱雕刻着精美的植物纹和钟乳石（muqarnas）柱头。祈祷厅外接一座开敞的iwan（夏季礼拜廊），由精美的木雕柱支撑——木雕工艺是16世纪布哈拉建筑的亮点。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A3%D0%B7%D0%BE%D1%80%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BA%D0%B5%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D0%B8%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D0%B4%206.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Baland%20Mosque"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7171510.266899999,
+          4833230.279600002
+        ]
+      },
+      "properties": {
+        "NAME": "Khoja Muhammad Porso Madrasa",
+        "NOTE": "霍贾·穆罕默德·波尔索经学院，18世纪末",
+        "NOTE2": "西侧是麻扎/墓葬",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail%20of%20Reception%20and%20Coronation%20Court%20-%20The%20Ark%20%28Original%20Settlement%29%20-%20Old%20City%20-%20Bukhara%20-%20Uzbekistan%20%287515808320%29%20%282%29.jpg?width=1200",
+        "ERA": "18世纪末（布哈拉汗国）",
+        "STYLE": "布哈拉汗国经学院+麻扎复合体",
+        "DESC": "纪念霍贾·穆罕默德·波尔索——一位18世纪布哈拉的著名苏菲学者和圣人的宗教建筑群。经学院西侧毗邻着圣人的麻扎（陵墓），形成“学与祀”相结合的空间格局，是中亚苏菲传统中“经学院-圣墓”复合体的典型布局。18世纪布哈拉汗国的建筑虽不如黄金时代那般宏伟，但在细节处理上仍保持了布哈拉学派的高水准。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail%20of%20Reception%20and%20Coronation%20Court%20-%20The%20Ark%20%28Original%20Settlement%29%20-%20Old%20City%20-%20Bukhara%20-%20Uzbekistan%20%287515808320%29%20%282%29.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Khoja%20Muhammad%20Porso%20Madrasa"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170313.369899999,
+          4833262.760200001
+        ]
+      },
+      "properties": {
+        "NAME": "Khoja Zayniddin Mosque",
+        "NOTE": "霍贾·扎因丁清真寺—汗卡建筑群",
+        "NOTE2": "苏菲修道院+清真寺+麻扎",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804092644612.png",
+        "ERA": "16世纪（昔班尼王朝）(1540s-early 1550s)",
+        "STYLE": "昔班尼王朝苏菲建筑群",
+        "DESC": "霍贾·扎伊尼丁清真寺（Hoja Zayniddin Mosque）是16世纪中叶建于布哈拉\"内城\"（shahr-i-darun）的一座清真寺，位于波伊卡良广场西南300米两条小巷交汇处。尽管其内部穹顶为全布哈拉之最，建筑的出资人与建筑师却均湮没于历史；但营造质量、紧邻城心的位置与宏大的占地面积强烈暗示其出自统治精英之手，甚至可能为可汗本人所建。与所有中亚清真寺一样，建筑沿东西轴布局并略向南偏转朝向麦加，西墙为吉卜拉墙；但16世纪布哈拉密集的城市肌理迫使设计作出妥协——面向街道的南、西立面与主轴线并不完全吻合。礼拜殿为9.5×9.4米的宽大穹顶厅堂，穹顶高16米、直径8.2米；东侧主入口设有深凹的钟乳状穆卡纳斯（muqarnas）穹窿顶龛，西侧吉卜拉墙处理相似，中心嵌有更小巧含蓄的米哈拉布（壁龛）；南北两墙开有多扇门窗，部分覆以栅格（pandzhara）以柔化光线、防鸟入内。结构上，穹顶厅堂由\"恰哈尔塔克\"（chahar taq，四道相互垂直的拱券构成方形平面）支撑——该技术迟至15世纪末帖木儿治下才传入中亚，据此可断定建筑建于其后；过渡区以帆拱、斜角拱与拱券将方形殿身过渡为圆形穹顶，穹体外缘嵌四圈穆卡纳斯，其内三十二根肋条沿切线汇聚于穹顶顶点周围的内圆。\n\n殿外还有多间不向公众开放的小室，多为簇聚于西、南两侧的胡吉拉（hujra，僧房）；据贾斯敏·巴德尔与穆斯塔法·图佩夫研究，部分小室或为齐拉哈纳（chillakhana，冥想室），其余用作居所——起居室与冥想室并存表明整个建筑群可能如东面的纳迪尔·迪万-贝吉哈纳卡一样曾充作苏菲道堂（khanqah）。西北角一小室存有霍贾·扎伊尼丁本人的衣冠冢——此人生前身后同样神秘，其生平事迹一无所知。建筑北、东两侧环绕木柱石础柱廊，天花板饰以木质星形图案，工艺精湛，堪比布哈拉、希瓦等地一流古迹的同类天花。清真寺东北是一座37×26.5米的大型蓄水池（hauz），呈削角方形，七级石灰岩台阶供居民取水；蹊跷的是水池由两路水源供水——一路来自邻近的鲁迪·沙赫尔运河，另一路为一条私人暗渠（tazar），疑似直通布哈拉阿尔克城堡，因需穿行至少300米人口稠密区方能抵达城堡，既说明建造预算之奢华，也意味着官方许可与背书，强烈暗示整个工程得到当局赞助。断代方面，建筑无任何铭文或文献记载出资人、建筑师与建造年份，仅凭恰哈尔塔克技术可断其不早于15世纪末；巴德尔与图佩夫据邻近地契进一步收窄——1552年1月23日后的记录方提及该清真寺，且该街区以\"霍贾·扎伊尼丁水池\"为名，表明水池已归清真寺管辖。据此并结合风格分析，二人推断清真寺与水池最可能建于阿卜杜勒·阿齐兹汗时期或其后的亚尔·穆罕默德苏丹（1550–53在位）与博尔汗苏丹（1550–57在位）时期；街区居民中有一位颇具权势的艾米尔谢赫·纳扎尔·贝，是出资人的有力候选，但仅为推测。此后数百年历史模糊：殿内彩绘首期约在16世纪末，17世纪（可能为1641–1660年间）以昆达尔（kundal）技法重绘，风格与撒马尔罕希尔·多尔经学院及提拉卡里清真寺相近——巧的是这两处均出自富宦亚兰图什·比·阿尔钦之手，且他在两座建筑营建之间恰居布哈拉，因此（虽不能证实）他或与扎伊尼丁清真寺的此番重绘有关。此后至20世纪初情况不明，1913–15年进行了近代前的最后一次修缮，其记录刻于水池东侧一尊排水兽首石上。如今该寺仍在使用中，是布哈拉城市文化肌理的重要组成部分。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804092644612.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804092715020.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804092744495.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Khoja%20Zayniddin%20Mosque"
+          }
+        ],
+        "CENTURY": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7169798.587200001,
+          4833703.320900001
+        ]
+      },
+      "properties": {
+        "NAME": "Bala-Hawz Mosque/Bolo Haouz Mosque",
+        "NOTE": "池畔清真寺/博洛豪兹清真寺",
+        "NOTE2": "聚礼清真寺",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804090523629.png",
+        "ERA": "1712年（布哈拉汗国）",
+        "STYLE": "布哈拉汗国聚礼清真寺 / 木柱iwan",
+        "DESC": "位于乌兹别克斯坦布哈拉雷吉斯坦区，与阿尔克城堡（Ark）隔街相对，始建于1712年，与历史城区一同列入联合国教科文组织世界遗产名录。20世纪20年代布哈拉埃米尔臣服于苏俄统治期间，这里曾充当主麻清真寺（周五清真寺）。1917年，礼拜殿前部伊万（门廊）正面增建了漆绘细木柱，用以支撑夏季礼拜殿隆起的屋顶，柱身饰以彩色钟乳石状装饰（muqarnas）。\n\n建筑方面，清真寺呈长方形，冬季礼拜殿为四柱多入口的厅堂；夏季礼拜殿为一座高12米、由20根木柱支撑的42×10米柱廊大厅，木柱立于混凝土基座之上，与冬季厅堂三面相连，内部为典型的18世纪中亚风格。寺前有一座八边形人工水池（howz），应为建寺同期所凿、供居民取水之用；右侧矗立着一座1916–1917年建造的矮宣礼塔，塔身以砖带与蓝色釉面砖交替砌筑，拼成多种几何图案。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804090523629.png"
+          },
+          {
+            "name": "2",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bujar%C3%A1%2C%20Bolo%20Hauz%202.jpg?width=1200"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804091021382.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bolo_Haouz_Mosque"
+          }
+        ],
+        "CENTURY": "18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7170483.434099998,
+          4832591.503700003
+        ]
+      },
+      "properties": {
+        "NAME": "Ghaziyan Madrasa",
+        "NOTE": "加齐扬经学院，18世纪末",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Po-i-kalyan-complex.jpg?width=1200",
+        "ERA": "18世纪末（布哈拉汗国）",
+        "STYLE": "布哈拉汗国晚期经学院",
+        "DESC": "布哈拉古城南部的小型经学院，建于18世纪末布哈拉汗国曼吉特王朝时期。“Ghaziyan”意为“战士们”，可能得名于历史上此处曾为战士（ghazi）聚集的区域。建筑规模较小，布局紧凑，是布哈拉汗国晚期经学院建设的缩影——宗教教育日益社区化，经学院数量增多但单体规模缩小。砖砌立面和简单的釉面砖点缀展现了曼吉特时期的建筑风格。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Po-i-kalyan-complex.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Ghaziyan%20Madrasa"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7169354.8948,
+          4832114.8737
+        ]
+      },
+      "properties": {
+        "NAME": "Joybori Kalon Madrasa",
+        "NOTE": "乔伊博尔大经学院，建于1670/71年",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20city%20walls%20of%20Bukhara%20from%20outside.jpg?width=1200",
+        "ERA": "1670–1671年（布哈拉汗国）",
+        "STYLE": "布哈拉汗国经学院",
+        "DESC": "布哈拉汗国阿斯特拉罕王朝时期建造的重要经学院，也是17世纪布哈拉最大的经学院之一。“Joybori Kalon”意为“大乔伊博尔”，指其资助来源为势力强大的朱伊巴里（Joybori / Juybari）苏菲谢赫家族。建筑位于布哈拉古城南部，远离城市中心的主要建筑群，体现了朱伊巴里家族在其势力范围内的独立建筑活动。庭院宽阔，学生宿舍数量众多，反映了17世纪布哈拉宗教教育的繁荣。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20city%20walls%20of%20Bukhara%20from%20outside.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Joybori%20Kalon%20Madrasa"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7169389.2436,
+          4831983.681400001
+        ]
+      },
+      "properties": {
+        "NAME": "Validai Abdulazizkhan Mosque",
+        "NOTE": "阿卜杜勒阿齐兹汗母亲清真寺，17世纪",
+        "NOTE2": "社区清真寺",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara%20Volidai%20Abdulaziz%20Khan%20Mosque%202.jpg?width=1200",
+        "ERA": "17世纪（布哈拉汗国）",
+        "STYLE": "布哈拉汗国社区清真寺",
+        "DESC": "以阿卜杜勒阿齐兹汗（1645–1681年在位）母亲名义建造的社区清真寺。“Validai”意为“母亲”，与前述莫达尔汗经学院（“汗之母”）一样，反映了布哈拉汗国时期汗室女性在宗教建筑资助中的传统。清真寺规模不大，服务于邻近居民区的日常礼拜需求。木柱支撑的夏季祈祷廊（iwan）和釉面砖装饰的壁龛是其建筑特色。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara%20Volidai%20Abdulaziz%20Khan%20Mosque%202.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Validai%20Abdulazizkhan%20Mosque"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7168974.307799999,
+          4832395.7817
+        ]
+      },
+      "properties": {
+        "NAME": "Khalifa Khudoydod Mosque",
+        "NOTE": "哈利法·胡多伊达德聚礼清真寺，1777",
+        "NOTE2": "苏菲宗教空间",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20Portico%20and%20Dome%20of%20Kalon%20Mosque%20-%20Old%20City%20-%20Bukhara%20-%20Uzbekistan%20%287508796172%29%20%283%29.jpg?width=1200",
+        "ERA": "1777年（布哈拉汗国）",
+        "STYLE": "布哈拉汗国苏菲清真寺",
+        "DESC": "布哈拉古城西南部的苏菲派清真寺，以18世纪的一位苏菲导师“哈利法·胡多伊达德”命名。与大多数布哈拉清真寺不同，此建筑兼具聚礼清真寺和苏菲哈纳卡（修道院）的双重功能。建筑年代（1777年）的明确记载使其成为曼吉特王朝早期宗教建筑的重要年代标尺。祈祷大厅以木柱和木梁天花板为主要特征，装饰风格朴素但富有精神气息。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20Portico%20and%20Dome%20of%20Kalon%20Mosque%20-%20Old%20City%20-%20Bukhara%20-%20Uzbekistan%20%287508796172%29%20%283%29.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Khalifa%20Khudoydod%20Mosque"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7171161.441599999,
+          4833018.721600004
+        ]
+      },
+      "properties": {
+        "NAME": "Khanqah of Nadir Divanbegi",
+        "NOTE": "纳迪尔·迪万贝吉哈纳卡，1619/20年",
+        "NOTE2": "",
+        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadir%20Divan%20Begi%20Khanaqa.jpg?width=1200",
+        "ERA": "1619–1620年（布哈拉汗国）",
+        "STYLE": "布哈拉汗国苏菲修道院",
+        "DESC": "利亚比-豪兹建筑群四座建筑中最后建成的一座，位于水池西侧，与纳迪尔·迪万贝吉经学院隔水相望。哈纳卡（khanqah）是供苏菲修行者居住、冥想和举行齐克尔（dhikr）仪式的综合体。建筑以中央穹顶大厅为核心，周围环绕着修行室。正立面门廊装饰着釉面砖几何纹样。它与对面的经学院共同围合利亚比-豪兹水池，形成了布哈拉最具魅力的城市公共空间——水池、古桑树、经学院与哈纳卡构成的“精神之旅”景观。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadir%20Divan%20Begi%20Khanaqa.jpg?width=1200"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/w/index.php?search=Khanqah%20of%20Nadir%20Divanbegi"
+          }
+        ]
+      }
+    }
+  ]
+}
