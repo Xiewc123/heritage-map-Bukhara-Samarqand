@@ -1524,23 +1524,43 @@
         ]
       },
       "properties": {
-        "NAME": "Khanqah of Nadir Divanbegi",
-        "NOTE": "纳迪尔·迪万贝吉哈纳卡，1619/20年",
+        "NAME": "Nadir Divanbegi Khanqah",
+        "NOTE": "纳迪尔·迪万贝吉汗卡",
         "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadir%20Divan%20Begi%20Khanaqa.jpg?width=1200",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804121440879.png",
         "ERA": "1619–1620年（布哈拉汗国）",
         "STYLE": "布哈拉汗国苏菲修道院",
-        "DESC": "利亚比-豪兹建筑群四座建筑中最后建成的一座，位于水池西侧，与纳迪尔·迪万贝吉经学院隔水相望。哈纳卡（khanqah）是供苏菲修行者居住、冥想和举行齐克尔（dhikr）仪式的综合体。建筑以中央穹顶大厅为核心，周围环绕着修行室。正立面门廊装饰着釉面砖几何纹样。它与对面的经学院共同围合利亚比-豪兹水池，形成了布哈拉最具魅力的城市公共空间——水池、古桑树、经学院与哈纳卡构成的“精神之旅”景观。",
+        "DESC": "纳迪尔·迪万贝吉汗卡（Nodir Devonbegi xonaqohi，khanqah意为苏菲道堂）位于布哈拉市中心利亚比-豪兹建筑群西端，由布哈拉汗国维齐尔纳迪尔·迪万贝吉（Nodir Mirzo Togay ibn Sultan，伊玛目库利汗的舅父，一说兄弟）于1620—1621年间营建，与同时开凿的水池及隔水相望的同名经学院共同组成利亚比-豪兹建筑群，北侧另有更早的库克尔达什经学院（1568—1569年）；依照kosh对景布局，池畔三座纪念性建筑围合出布哈拉最具魅力的城市公共空间，池水由南侧沙赫鲁德运河供给。汗卡为苏菲修行者居住与礼拜之所：中央穹顶大厅（zikr-khana）兼作清真寺，西墙米哈拉布朝向麦加，饰以色彩绚丽的穆卡纳斯（muqarnas）钟乳状穹隅，堪称全建筑最精美之处；大厅两侧角落设有供住宿与静修的胡吉拉（hujra）小屋，屋顶覆28个小穹顶，入口两侧矗立一对带凹槽纹饰的塔楼。17世纪时，大厅亦是城市精英与苏菲导师聚会论道之所。建筑东立面巨大的皮什塔克（pishtaq）门廊饰有马赛克釉面砖几何与花卉纹样，门框三边环绕釉砖书法饰带，多为后期高水准修复；建筑平面约27.5×25米，穹顶冠部饰螺旋纹样。该建筑曾兼作经学院、驿站与清真寺，1914—1916年由末代埃米尔赛义德·阿里姆汗主持大修，1978年再度修缮，已被列入乌兹别克斯坦国家文化遗产名录，现辟为布哈拉国家博物馆保护区下属古城瓦拉赫沙与应用艺术历史博物馆（1991年设立，2017年更名）。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadir%20Divan%20Begi%20Khanaqa.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804121440879.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804121511543.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804121602401.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804121618416.png"
+          },
+          {
+            "name": "5",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804121638305.png"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Khanqah%20of%20Nadir%20Divanbegi"
+            "url": "https://en.wikipedia.org/wiki/Khanqah_of_Nodir_Devonbegi"
+          },
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1333/uzbekistan/bukhara/nadir-divan-begi-khanqah"
           }
         ]
       }
