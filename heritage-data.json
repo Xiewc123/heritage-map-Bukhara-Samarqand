@@ -500,7 +500,7 @@
       },
       "properties": {
         "NAME": "Mt. Kalan",
-        "NOTE": "卡兰宣礼塔，建于1127年",
+        "NOTE": "卡兰宣礼塔",
         "NOTE2": "",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalyan%20Minaret%20%28%D0%9C%D0%B8%D0%BD%D0%B0%D1%80%D0%B5%D1%82%20%D0%9A%D0%B0%D0%BB%D1%8F%D0%BD%2C%20Minorai%20Kalon%29%20-%20Bukhara.jpg?width=1200",
         "ERA": "1127年（喀喇汗王朝）",
@@ -835,7 +835,7 @@
       },
       "properties": {
         "NAME": "Kukeldash Madrasa",
-        "NOTE": "",
+        "NOTE": "库克尔达什经学院",
         "NOTE2": "",
         "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/kukeldash_madrasa_bukhara11.jpg",
         "ERA": "1568–1569年（昔班尼王朝）",
@@ -957,7 +957,7 @@
       },
       "properties": {
         "NAME": "Bibi Khanim mausoleum",
-        "NOTE": "比比·哈内姆陵墓，1399-1404年",
+        "NOTE": "比比·哈内姆陵墓",
         "NOTE2": "",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/20230613%20Samarkand158.jpg?width=1200",
         "ERA": "1399–1404年（帖木儿帝国）",
@@ -988,7 +988,7 @@
       },
       "properties": {
         "NAME": "Ruhabad mausoleum",
-        "NOTE": "鲁哈巴德陵墓，约1404年",
+        "NOTE": "鲁哈巴德陵墓",
         "NOTE2": "",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Rukhabad.jpg?width=1200",
         "ERA": "约1404年（帖木儿帝国）",
@@ -1013,44 +1013,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7170918.210099999,
-          4833542.302699998
-        ]
-      },
-      "properties": {
-        "NAME": "Ulugbek Madrasah",
-        "NOTE": "1417/18年建，中亚最古老宗教学校之一",
-        "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulugh%20Beg%20madrasa%20%28Bukhara%29.jpg?width=1200",
-        "ERA": "1417–1418年（帖木儿帝国）",
-        "STYLE": "帖木儿王朝经学院",
-        "DESC": "兀鲁伯在布哈拉建造的经学院，也是他在帝国境内建造的三座著名经学院之一（另外两座分别在撒马尔罕和吉杜万）。建筑正面门廊镌刻着著名的圣训“追求知识是每个穆斯林男女的义务”，体现了兀鲁伯对学术和教育的重视。庭院两侧排列着学生宿舍，主讲堂（darskhana）和祈祷大厅装饰着蓝色釉面砖。与撒马尔罕的兀鲁伯经学院相比，此建筑规模较小但同样精致，是帖木儿时期布哈拉建筑的重要代表。",
-        "IMAGES": [
-          {
-            "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulugh%20Beg%20madrasa%20%28Bukhara%29.jpg?width=1200"
-          }
-        ],
-        "LINKS": [
-          {
-            "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Ulugbek%20Madrasah"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           7170937.5315999985,
           4833440.7399
         ]
       },
       "properties": {
         "NAME": "Abdulaziz Khan Madrassah",
-        "NOTE": "1652年建，宗教学校",
+        "NOTE": "阿卜杜勒阿齐兹·汗经学院",
         "NOTE2": "",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdullaziz%20Khan%20madrasa%20entrance%20detail.jpg?width=1200",
         "ERA": "1652年（布哈拉汗国）",
@@ -1181,7 +1150,7 @@
       },
       "properties": {
         "NAME": "Magak-i Kurpa Mosque",
-        "NOTE": "马戈基·库尔帕清真寺，17世纪",
+        "NOTE": "马戈基·库尔帕清真寺",
         "NOTE2": "",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Kurpa%20mosque%2002.jpg?width=1200",
         "ERA": "17世纪（布哈拉汗国）",
@@ -1212,7 +1181,7 @@
       },
       "properties": {
         "NAME": "Mullo Tursunjon Madrasa",
-        "NOTE": "穆拉·图尔松琼经学院，19世纪初",
+        "NOTE": "穆拉·图尔松琼经学院",
         "NOTE2": "布哈拉晚期经学院",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/28%20D%20Tursunjan%20madrasah%20107.jpg?width=1200",
         "ERA": "19世纪初（布哈拉汗国晚期）",
@@ -1512,7 +1481,7 @@
       },
       "properties": {
         "NAME": "Ghaziyan Madrasa",
-        "NOTE": "加齐扬经学院，18世纪末",
+        "NOTE": "加齐扬经学院",
         "NOTE2": "",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Po-i-kalyan-complex.jpg?width=1200",
         "ERA": "18世纪末（布哈拉汗国）",
@@ -1543,7 +1512,7 @@
       },
       "properties": {
         "NAME": "Joybori Kalon Madrasa",
-        "NOTE": "乔伊博尔大经学院，建于1670/71年",
+        "NOTE": "乔伊博尔大经学院",
         "NOTE2": "",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20city%20walls%20of%20Bukhara%20from%20outside.jpg?width=1200",
         "ERA": "1670–1671年（布哈拉汗国）",
@@ -1574,7 +1543,7 @@
       },
       "properties": {
         "NAME": "Validai Abdulazizkhan Mosque",
-        "NOTE": "阿卜杜勒阿齐兹汗母亲清真寺，17世纪",
+        "NOTE": "阿卜杜勒阿齐兹汗母亲清真寺",
         "NOTE2": "社区清真寺",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara%20Volidai%20Abdulaziz%20Khan%20Mosque%202.jpg?width=1200",
         "ERA": "17世纪（布哈拉汗国）",
@@ -1605,7 +1574,7 @@
       },
       "properties": {
         "NAME": "Khalifa Khudoydod Mosque",
-        "NOTE": "哈利法·胡多伊达德聚礼清真寺，1777",
+        "NOTE": "哈利法·胡多伊达德聚礼清真寺",
         "NOTE2": "苏菲宗教空间",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20Portico%20and%20Dome%20of%20Kalon%20Mosque%20-%20Old%20City%20-%20Bukhara%20-%20Uzbekistan%20%287508796172%29%20%283%29.jpg?width=1200",
         "ERA": "1777年（布哈拉汗国）",
