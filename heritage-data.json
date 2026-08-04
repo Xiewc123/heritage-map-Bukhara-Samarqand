@@ -226,22 +226,22 @@
       },
       "properties": {
         "NAME": "Sher-Dor Madrasa",
-        "NOTE": "狮子经学院，1619–1636，布哈拉汗国时期",
+        "NOTE": "狮子经学院",
         "NOTE2": "",
-        "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail%20of%20Sher-Dor%20Madrasa%2C%20Samarkand.jpg?width=1200",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-The_Sher_Dor_(9330856335)-cropped.jpg",
         "ERA": "1619–1636年（布哈拉汗国）",
         "STYLE": "布哈拉汗国经学院 / 帖木儿复兴风格",
         "DESC": "雷吉斯坦广场上最具争议也最引人注目的经学院，由撒马尔罕统治者亚兰图什·巴哈杜尔下令建造。建筑正面门廊上方的马赛克壁画描绘了两只猎狮的虎（或狮），以及人面太阳——在伊斯兰教禁止描绘活物的传统下，这一设计极为罕见且大胆。经学院采用与对面的兀鲁伯经学院基本对称的布局，但在装饰上更富巴洛克式的繁复感。其名称“Sher-Dor”即意为“拥有狮子”，正是得名于那幅著名的虎猎羚羊壁画。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Detail%20of%20Sher-Dor%20Madrasa%2C%20Samarkand.jpg?width=1200"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/1280px-The_Sher_Dor_(9330856335)-cropped.jpg"
           }
         ],
         "LINKS": [
           {
             "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/w/index.php?search=Sher-Dor%20Madrasa"
+            "url": "https://en.wikipedia.org/wiki/Sherdar_Madrasa"
           }
         ]
       }
@@ -257,7 +257,7 @@
       },
       "properties": {
         "NAME": "Tilya-Kori Madrasa",
-        "NOTE": "金色经学院，1646–1660",
+        "NOTE": "金色经学院",
         "NOTE2": "兼具经学院与聚礼清真寺双重功能",
         "IMAGE": "https://commons.wikimedia.org/wiki/Special:FilePath/Tilya-Kori%20Madrasa%2002.jpg?width=1200",
         "ERA": "1646–1660年（布哈拉汗国）",
@@ -1696,6 +1696,49 @@
           {
             "name": "Oriental Architecture",
             "url": "https://www.orientalarchitecture.com/sid/1341/uzbekistan/bukhara/taq-i-sarrafan-dome"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7455065.596199999,
+          4814922.770799998
+        ]
+      },
+      "properties": {
+        "NAME": "Ak-Saray Mausoleum",
+        "NOTE": "阿克-萨拉伊陵墓（Ak-Saray Mausoleum）",
+        "NOTE2": "帖木儿王朝时期王室家族陵墓，建于1470年代，与伊什拉特哈纳陵墓同期",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804171149025.png",
+        "ERA": "1470年代（帖木儿帝国晚期，苏丹艾哈迈德·米尔扎时期）",
+        "STYLE": "帖木儿王朝陵墓建筑",
+        "DESC": "阿克-萨拉伊陵墓（Ak-Saray Mausoleum）建于1470年代，是帖木儿帝国晚期撒马尔罕的一座王室家族陵墓。建筑始建于帖木儿后裔苏丹艾哈迈德·米尔扎（Sultan Ahmed Mirza，1469–1494年在位）统治初期，与同时期修建于撒马尔罕东南部的伊什拉特哈纳陵墓（Ishrat Khana）具有密切关系。由于帖木儿帝国后期内部继承斗争频繁，国力衰退，原本宏大的建筑传统逐渐受到限制，因此阿克-萨拉伊陵墓最终未能完全按照最初计划完成。\n\n该陵墓位于古尔埃米尔陵墓（Gur-e Amir）附近，其修建背景与帖木儿王朝皇家墓葬空间不足有关。自帖木儿之子穆罕默德·苏丹（Muhammad Sultan）安葬于古尔埃米尔陵墓后，该建筑逐渐成为帖木儿男性王室成员的主要安葬地，并容纳了包括帖木儿本人、王室后裔以及精神导师赛义德·巴拉卡（Sayyid Baraka）在内的重要人物。由于古尔埃米尔已经无法继续安置新的王室成员，而伊什拉特哈纳主要用于王室女性成员，因此艾哈迈德·米尔扎决定在附近修建规模较小的新陵墓。\n\n阿克-萨拉伊陵墓的建筑设计受到伊什拉特哈纳陵墓明显影响。建筑由地下墓室和上部穹顶大厅组成，其核心空间几乎复制了伊什拉特哈纳陵墓的穹顶结构。由于两座建筑建造时间相隔不足十年，学者普加琴科娃（Pugachenkova）认为两者很可能由相同的建筑师和工匠团队完成。内部空间装饰极为精美，中央大厅采用金色昆达尔（kundal）浮雕绘画技术，以层叠颜料与金箔形成具有立体效果的华丽装饰，下部墙面则覆盖精细的马赛克装饰，体现了帖木儿建筑装饰艺术的高峰。\n\n然而，由于帝国财政衰退，建筑外部装饰工程未能完成，原计划覆盖中央大厅的青绿色大型穹顶最终没有建成，使建筑呈现出未完成状态。南侧附属房间以及角部小室仍部分完成，其中一些小室采用复杂的星形拱顶结构，可能用于古兰经诵读或宗教修行。这些穹顶与拱券形式体现了帖木儿晚期建筑技术的发展，并对16世纪布哈拉等地区更加复杂的拱顶体系产生影响。\n\n尽管艾哈迈德·米尔扎主持修建了该陵墓，但他本人最终葬于帖木儿帝国另一都城赫拉特。后来，多位帖木儿王室成员被安葬于阿克-萨拉伊，其中最著名的是阿卜杜勒-拉蒂夫·米尔扎（Abdal-Latif Mirza，1449–1450年在位），即杀害其父亲、著名天文学家兀鲁伯（Ulugh Beg）的帖木儿统治者。16世纪昔班尼王朝崛起后，帖木儿王室陵墓逐渐被忽视，阿克-萨拉伊也遭受自然侵蚀、地震和人为破坏。20世纪以来，该建筑经历多次修复，并于2007年前后进行了较为完整的保护修缮。",
+        "IMAGES": [
+          {
+            "name": "1",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804171213746.png"
+          },
+          {
+            "name": "2",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804171239524.png"
+          },
+          {
+            "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804171305204.png"
+          },
+          {
+            "name": "4",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804171322244.png"
+          }
+        ],
+        "LINKS": [
+          {
+            "name": "Oriental Architecture",
+            "url": "https://www.orientalarchitecture.com/sid/1410/uzbekistan/samarkand/ak-saray-mausoleum"
           }
         ]
       }
