@@ -1071,20 +1071,25 @@
         "NAME": "Saray Mulk Khanum Mausoleum",
         "NOTE": "萨莱·穆尔克·哈内姆陵墓（比比·哈内姆陵墓）",
         "NOTE2": "1399–1404年，为帖木儿正妻萨莱·穆尔克·哈内姆建造",
+        "IMAGE": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260807164253884.png",
         "ERA": "1399–1404年（帖木儿帝国）",
         "STYLE": "帖木儿王朝陵墓 / 波斯-伊斯兰建筑传统",
         "DESC": "萨莱·穆尔克·哈内姆陵墓（Saray Mulk Khanum Mausoleum）位于撒马尔罕比比哈内姆清真寺对面，是帖木儿帝国时期为帖木儿（Amir Timur）正妻萨莱·穆尔克·哈内姆（Saray Mulk Khanum，又称Bibi Khanum）修建的陵墓，建于1399–1404年。萨莱·穆尔克·哈内姆出身察合台汗后裔，是帖木儿合法统治身份的重要象征，其与帖木儿的联姻使帖木儿获得“古尔干（Gurgan，成吉思汗女婿）”称号，从而强化了其继承蒙古汗统传统的政治合法性。陵墓原本被一座经学院环绕，形成类似古尔·埃米尔陵墓的宗教建筑群布局。建筑采用典型的晚期帖木儿陵墓形式，高耸的蓝色釉砖穹顶建立于高鼓座之上，外部设有宏大的门廊（pishtaq），内部则以石膏灰泥（ganch）雕刻、钟乳石（muqarnas）以及彩绘装饰展现帖木儿时期精致的室内艺术。19世纪拍摄时，陵墓已严重残损，外部釉砖几乎完全脱落，穹顶也部分坍塌。20世纪末乌兹别克斯坦时期进行了大规模修复，使其重新成为撒马尔罕帖木儿建筑遗产的重要组成部分。",
         "IMAGES": [
           {
             "name": "1",
-            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804220509116.png"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260807164338566.png"
           },
           {
             "name": "2",
-            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804221234142.png"
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804220509116.png"
           },
           {
             "name": "3",
+            "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804221234142.png"
+          },
+          {
+            "name": "4",
             "url": "https://raw.githubusercontent.com/Xiewc123/heritageimage_picgo/main/images/20260804221309003.png"
           }
         ],
