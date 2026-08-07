@@ -386,6 +386,10 @@
       if (slashYear) return String(Math.ceil(Number(slashYear[1]) / 100));
       const range = value.match(/(\d{3,4})\s*[\u2013\u2014\u2212-]\s*(\d{2,4})/);
       if (range) return String(Math.ceil(Number(range[1]) / 100));
+      const primaryCnCentRange = value.match(/主要(?:形成|建成|建造|修建|营建|始建|兴建)[于在]?\s*(\d{1,2})\s*[\u2013\u2014\u2212-]\s*\d{1,2}\s*世纪/);
+      if (primaryCnCentRange) return primaryCnCentRange[1];
+      const cnCentRange = value.match(/(\d{1,2})\s*[\u2013\u2014\u2212-]\s*\d{1,2}\s*世纪/);
+      if (cnCentRange) return cnCentRange[1];
       const cnCent = value.match(/(\d{1,2})\s*世纪/);
       if (cnCent) return cnCent[1];
       const year = value.match(/(1[0-9]{3}|20[0-9]{2}|[89][0-9]{2})/);
@@ -395,12 +399,20 @@
       return 'unknown';
     }
 
+    function inferCenturyFromFields(fields) {
+      for (const field of fields) {
+        const century = inferCenturyFromText(field);
+        if (century !== 'unknown') return century;
+      }
+      return 'unknown';
+    }
+
     function refreshDerived(feature) {
       const p = feature.properties || {};
       feature._latlng = mercatorToLatLng(feature.geometry.coordinates);
       feature._city = cityOf(feature._latlng);
-      feature._century = p.CENTURY || inferCenturyFromText([p.ERA, p.NOTE, p.NOTE2, p.DESC, p.NAME].join(' '));
-      feature._sourceCentury = inferCenturyFromText([p.NOTE, p.NOTE2].join(' '));
+      feature._century = p.CENTURY || inferCenturyFromFields([p.ERA, p.NOTE2, p.NOTE, p.DESC, p.NAME]);
+      feature._sourceCentury = inferCenturyFromFields([p.NOTE, p.NOTE2]);
     }
 
     const features = geoData.features.map((feature, index) => {
